@@ -1,0 +1,97 @@
+AnswerId	PromptId	Score1	AnswerText
+FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbj3-l1.qa179	VOLTAGE_AND_GAP_DISCUSS_Q	2.0	that the bulb between those terminals is damaged
+FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbj7-l1.qa170	VOLTAGE_AND_GAP_DISCUSS_Q	0.0	the terminals go from not being connected to being connected to each other.
+FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbj7-l1.qa171	VOLTAGE_AND_GAP_DISCUSS_Q	0.0	it means the bulb terminal is connected to the battery terminal
+FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbj7-l1.qa172	VOLTAGE_AND_GAP_DISCUSS_Q	0.0	i do not know
+FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbj10-l1.qa193	VOLTAGE_AND_GAP_DISCUSS_Q	2.0	the terminals are not connected to eachother
+FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbj11-l1.qa200	VOLTAGE_AND_GAP_DISCUSS_Q	2.0	it means that the bulb terminal is not connected to the battery terminal.
+FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbj12-l1.qa170	VOLTAGE_AND_GAP_DISCUSS_Q	2.0	There is a gap between the two bulb terminals
+FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbj13-l1.qa204	VOLTAGE_AND_GAP_DISCUSS_Q	0.0	it is receiving voltage from the battery terminal.
+FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbj13-l1.qa205	VOLTAGE_AND_GAP_DISCUSS_Q	0.0	there is no gap between the battery terminal and the bulb terminal.
+FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbj13-l1.qa206	VOLTAGE_AND_GAP_DISCUSS_Q	0.0	"i don""t know."
+FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbj14-l1.qa194	VOLTAGE_AND_GAP_DISCUSS_Q	0.0	There is no connection between the bulb terminal and the battery terminal.
+FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbj14-l1.qa196	VOLTAGE_AND_GAP_DISCUSS_Q	0.0	jdkjgkfjg
+FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbj15-l1.qa211	VOLTAGE_AND_GAP_DISCUSS_Q	2.0	the terminals went from being connected to not being connected to eachother
+FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbj15-l1.qa212	VOLTAGE_AND_GAP_DISCUSS_Q	0.0	leave me alone i got it right
+FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbj15-l1.qa213	VOLTAGE_AND_GAP_DISCUSS_Q	0.0	the difference is damged
+FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbj15-l1.qa214	VOLTAGE_AND_GAP_DISCUSS_Q	0.0	the difference is damaged
+FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbj18-l1.qa169	VOLTAGE_AND_GAP_DISCUSS_Q	2.0	There is a gap in the circuit.
+FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbj19-l1.qa225	VOLTAGE_AND_GAP_DISCUSS_Q	0.0	it is connected to the battery
+FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbj19-l1.qa226	VOLTAGE_AND_GAP_DISCUSS_Q	0.0	the bulb is connected to the battery
+FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbj22-l1.qa194	VOLTAGE_AND_GAP_DISCUSS_Q	2.0	the terminals are not connected
+FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbj23-l1.qa172	VOLTAGE_AND_GAP_DISCUSS_Q	2.0	That is where the bulb is damaged.
+FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbj24-l1.qa201	VOLTAGE_AND_GAP_DISCUSS_Q	0.0	the terminal is connected to a closed path
+FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbj24-l1.qa202	VOLTAGE_AND_GAP_DISCUSS_Q	0.0	terminal is connected to battery and bulb will light
+FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbj24-l1.qa203	VOLTAGE_AND_GAP_DISCUSS_Q	0.0	Bulb was damanged when reading was zero, if the reading moves to 1.5, it means you are now at a point in the circuit or path in which there is no gap and the voltage reading is giving the difference in electrical state of the battery
+FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbj24-l1.qa205	VOLTAGE_AND_GAP_DISCUSS_Q	0.0	wow
+FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbj26-l1.qa208	VOLTAGE_AND_GAP_DISCUSS_Q	0.0	ut
+FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbj26-l1.qa209	VOLTAGE_AND_GAP_DISCUSS_Q	0.0	the terminal is damaged
+FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbj26-l1.qa210	VOLTAGE_AND_GAP_DISCUSS_Q	2.0	bulb is damaged
+FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbj27-l1.qa191	VOLTAGE_AND_GAP_DISCUSS_Q	0.0	the terminals are connected
+FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbj27-l1.qa192	VOLTAGE_AND_GAP_DISCUSS_Q	0.0	"i don""t know"
+FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbj28-l1.qa188	VOLTAGE_AND_GAP_DISCUSS_Q	1.0	the the bulb terminal disconnected from the battery terminal
+FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbj28-l1.qa189	VOLTAGE_AND_GAP_DISCUSS_Q	1.0	the terminal is not connected to the battery terminal
+FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbj28-l1.qa190	VOLTAGE_AND_GAP_DISCUSS_Q	1.0	the terminal is separated from the battery terminal
+FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbj33-l1.qa182	VOLTAGE_AND_GAP_DISCUSS_Q	0.0	you are moving from negative to positive
+FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbj33-l1.qa183	VOLTAGE_AND_GAP_DISCUSS_Q	0.0	tell me the answer
+FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbj35-l1.qa188	VOLTAGE_AND_GAP_DISCUSS_Q	0.0	There was a positive battery terminal.
+FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbj35-l1.qa189	VOLTAGE_AND_GAP_DISCUSS_Q	0.0	The bulb terminal and battery terminal are connected.
+FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbj35-l1.qa190	VOLTAGE_AND_GAP_DISCUSS_Q	0.0	The bulb terminal and battery positive or negativeterminal are connected.
+FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbj35-l1.qa191	VOLTAGE_AND_GAP_DISCUSS_Q	0.0	The bulb terminal is connected to a positive or negative battery terminal.
+FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbj36-l1.qa197	VOLTAGE_AND_GAP_DISCUSS_Q	0.0	the terminals are connected to each other
+FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbj37-l1.qa169	VOLTAGE_AND_GAP_DISCUSS_Q	2.0	that bulb is damaged
+FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbj38-l1.qa172	VOLTAGE_AND_GAP_DISCUSS_Q	0.0	It means that the terminal that you moved to is not connected to the terminal of the battery you are connected to
+FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbj38-l1.qa173	VOLTAGE_AND_GAP_DISCUSS_Q	0.0	it means that the terminal is not connected to the battery terminal
+FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbj39-l1.qa210	VOLTAGE_AND_GAP_DISCUSS_Q	2.0	The terminals are not connected anymore
+FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbj40-l1.qa200	VOLTAGE_AND_GAP_DISCUSS_Q	2.0	The terminals are disconnected.
+FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbj40-l1.qa202	VOLTAGE_AND_GAP_DISCUSS_Q	2.0	there terminals are separated by a gap when the voltage jumps from 0 to 1.5.
+FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbj42-l1.qa187	VOLTAGE_AND_GAP_DISCUSS_Q	2.0	The terminals are not connected to each other.
+FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbj43-l1.qa185	VOLTAGE_AND_GAP_DISCUSS_Q	2.0	that you have found where the connection stops
+FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbj43-l1.qa186	VOLTAGE_AND_GAP_DISCUSS_Q	2.0	that you have found the bulb that is damaged
+FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbj45-l1.qa179	VOLTAGE_AND_GAP_DISCUSS_Q	2.0	you have found the gap
+FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbj46-l1.qa192	VOLTAGE_AND_GAP_DISCUSS_Q	2.0	gap in between
+FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbj47-l1.qa203	VOLTAGE_AND_GAP_DISCUSS_Q	0.0	negative to positive terminals
+FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbj47-l1.qa204	VOLTAGE_AND_GAP_DISCUSS_Q	0.0	the bulb is connected from a negative terminal to a positive terminal
+FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbj47-l1.qa205	VOLTAGE_AND_GAP_DISCUSS_Q	0.0	the gap jumps from negative to positive
+FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbj47-l1.qa206	VOLTAGE_AND_GAP_DISCUSS_Q	0.0	the gap inbetween the terminals tells whether the bulb is connected to a positive or negative terminal
+FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbj48-l1.qa175	VOLTAGE_AND_GAP_DISCUSS_Q	2.0	that the bulb is damaged
+FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbjb2-l1.qa157	VOLTAGE_AND_GAP_DISCUSS_Q	0.0	That there is a closed circuit.
+FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbjb3-l1.qa168	VOLTAGE_AND_GAP_DISCUSS_Q	2.0	that they are no longer connected
+FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbjb4-l1.qa147	VOLTAGE_AND_GAP_DISCUSS_Q	2.0	the terminals have gone from being connected to each other to not being connected to each other - there is a gap
+FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbjb5-l1.qa156	VOLTAGE_AND_GAP_DISCUSS_Q	0.0	the terminals are no longer separated by a gap
+FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbjb6-l1.qa149	VOLTAGE_AND_GAP_DISCUSS_Q	2.0	The bulbs were connected and now they are not.
+FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbjb7-l1.qa146	VOLTAGE_AND_GAP_DISCUSS_Q	2.0	"There""s a gap"
+FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbjb9-l1.qa162	VOLTAGE_AND_GAP_DISCUSS_Q	2.0	You have reached a point where the terminals are not connected to each other.
+FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbjb10-l1.qa146	VOLTAGE_AND_GAP_DISCUSS_Q	2.0	that there is a gap and you found the nonfunctional light bulb
+FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbjb12-l1.qa152	VOLTAGE_AND_GAP_DISCUSS_Q	2.0	The is a gap between those two terminals
+FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbjb13-l1.qa148	VOLTAGE_AND_GAP_DISCUSS_Q	0.0	I do not know.
+FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbjb16-l1.qa148	VOLTAGE_AND_GAP_DISCUSS_Q	0.0	it is not the bulb that is damaged
+FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbjb17-l1.qa150	VOLTAGE_AND_GAP_DISCUSS_Q	2.0	There is a gap in between the terminals.
+FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbjb18-l1.qa158	VOLTAGE_AND_GAP_DISCUSS_Q	0.0	they are connected
+FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbjb20-l1.qa158	VOLTAGE_AND_GAP_DISCUSS_Q	0.0	The terminals are connected.
+FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbjb21-l1.qa146	VOLTAGE_AND_GAP_DISCUSS_Q	0.0	an electrical surge
+FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbjb22-l1.qa157	VOLTAGE_AND_GAP_DISCUSS_Q	0.0	its connected to both the positive and negative terminals
+FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbjb24-l1.qa154	VOLTAGE_AND_GAP_DISCUSS_Q	0.0	current is present
+FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbjb25-l1.qa151	VOLTAGE_AND_GAP_DISCUSS_Q	0.0	You have crossed into opposing terminal territory.
+FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbjb26-l1.qa147	VOLTAGE_AND_GAP_DISCUSS_Q	2.0	You found the broken bulb.
+FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbjb27-l1.qa146	VOLTAGE_AND_GAP_DISCUSS_Q	2.0	that is where the gap is in the circuit
+FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbjb28-l1.qa151	VOLTAGE_AND_GAP_DISCUSS_Q	0.0	the terminals have gone from being connected to not being connected
+FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbjb29-l1.qa150	VOLTAGE_AND_GAP_DISCUSS_Q	2.0	there is a gap between them
+FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbjb30-l1.qa151	VOLTAGE_AND_GAP_DISCUSS_Q	2.0	there is a gap at that terminal, and the terminals are not connected at that point.
+FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbjb31-l1.qa146	VOLTAGE_AND_GAP_DISCUSS_Q	0.0	the latest bulb terminal is connected to the battery terminal, while the other is not
+FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbjb34-l1.qa146	VOLTAGE_AND_GAP_DISCUSS_Q	1.0	There is a difference in electrical states.
+FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbjb35-l1.qa147	VOLTAGE_AND_GAP_DISCUSS_Q	0.0	You are closing the circuit.
+FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbjb36-l1.qa146	VOLTAGE_AND_GAP_DISCUSS_Q	0.0	that is where the gab is or the short circuit
+FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbjb37-l1.qa146	VOLTAGE_AND_GAP_DISCUSS_Q	1.0	The terminals are connected to the opposite side of the battery
+FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbjb38-l1.qa147	VOLTAGE_AND_GAP_DISCUSS_Q	0.0	i dont know
+FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbjb39-l1.qa148	VOLTAGE_AND_GAP_DISCUSS_Q	2.0	That there is a gap in the terminals.
+FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbjb40-l1.qa147	VOLTAGE_AND_GAP_DISCUSS_Q	2.0	That means they are now unconnected.There is a gap.
+FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbjb41-l1.qa149	VOLTAGE_AND_GAP_DISCUSS_Q	2.0	That when the voltage reading is zero, the terminals are connected, when the voltage reading is 1.5, the terminals are not connected. It jumps from connected to not connected.
+FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbjb42-l1.qa149	VOLTAGE_AND_GAP_DISCUSS_Q	2.0	the bulb is damaged
+FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbj8-l1.qa210	VOLTAGE_AND_GAP_DISCUSS_Q	2.0	there is a gap
+FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbj14-l1.qa195	VOLTAGE_AND_GAP_DISCUSS_Q	0.0	kjflkgjg
+FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbj24-l1.qa204	VOLTAGE_AND_GAP_DISCUSS_Q	2.0	the bulb prior to when the reading jumps to 1.5 is damanged
+FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbj26-l1.qa207	VOLTAGE_AND_GAP_DISCUSS_Q	0.0	that the terminals are connected to a battery
+FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbj30-l1.qa178	VOLTAGE_AND_GAP_DISCUSS_Q	2.0	There is a gap.
+FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbjb1-l1.qa153	VOLTAGE_AND_GAP_DISCUSS_Q	0.0	The terminal is connected to a different terminal.
+FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbjb19-l1.qa151	VOLTAGE_AND_GAP_DISCUSS_Q	0.0	that the terminal on one side is connected and the other is not connected

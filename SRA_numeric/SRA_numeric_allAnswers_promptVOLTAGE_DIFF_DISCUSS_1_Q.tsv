@@ -1,0 +1,115 @@
+AnswerId	PromptId	Score1	AnswerText
+FaultFinding-VOLTAGE_DIFF_DISCUSS_1_Q.sbj3-l1.qa175	VOLTAGE_DIFF_DISCUSS_1_Q	0.0	there is no difference in electrical states
+FaultFinding-VOLTAGE_DIFF_DISCUSS_1_Q.sbj3-l1.qa176	VOLTAGE_DIFF_DISCUSS_1_Q	0.0	the terminals are the same
+FaultFinding-VOLTAGE_DIFF_DISCUSS_1_Q.sbj7-l1.qa168	VOLTAGE_DIFF_DISCUSS_1_Q	0.0	i do not know
+FaultFinding-VOLTAGE_DIFF_DISCUSS_1_Q.sbj8-l1.qa204	VOLTAGE_DIFF_DISCUSS_1_Q	0.0	the terminal are seperated by a gap when the bulb goes out
+FaultFinding-VOLTAGE_DIFF_DISCUSS_1_Q.sbj9-l1.qa171	VOLTAGE_DIFF_DISCUSS_1_Q	1.0	There is no difference between the two terminals.
+FaultFinding-VOLTAGE_DIFF_DISCUSS_1_Q.sbj9-l1.qa172	VOLTAGE_DIFF_DISCUSS_1_Q	0.0	The bulb is off.
+FaultFinding-VOLTAGE_DIFF_DISCUSS_1_Q.sbj10-l1.qa190	VOLTAGE_DIFF_DISCUSS_1_Q	2.0	they are connnected to the negative terminal of the battery
+FaultFinding-VOLTAGE_DIFF_DISCUSS_1_Q.sbj11-l1.qa197	VOLTAGE_DIFF_DISCUSS_1_Q	2.0	the bulb terminal and the battery terminal have the same electrical state.
+FaultFinding-VOLTAGE_DIFF_DISCUSS_1_Q.sbj11-l1.qa198	VOLTAGE_DIFF_DISCUSS_1_Q	2.0	the bulb terminal is connected to the battery terminal.
+FaultFinding-VOLTAGE_DIFF_DISCUSS_1_Q.sbj12-l1.qa167	VOLTAGE_DIFF_DISCUSS_1_Q	1.0	There is no gap so there is no difference in voltage
+FaultFinding-VOLTAGE_DIFF_DISCUSS_1_Q.sbj12-l1.qa168	VOLTAGE_DIFF_DISCUSS_1_Q	1.0	The positive battery terminal is seperated from the negative battery terminal
+FaultFinding-VOLTAGE_DIFF_DISCUSS_1_Q.sbj13-l1.qa196	VOLTAGE_DIFF_DISCUSS_1_Q	0.0	there is a gap.
+FaultFinding-VOLTAGE_DIFF_DISCUSS_1_Q.sbj13-l1.qa197	VOLTAGE_DIFF_DISCUSS_1_Q	0.0	there is a gap between the positive battery connection and the bulb terminal.
+FaultFinding-VOLTAGE_DIFF_DISCUSS_1_Q.sbj13-l1.qa198	VOLTAGE_DIFF_DISCUSS_1_Q	0.0	there is a gap between the battery terminal and the bulb terminal.
+FaultFinding-VOLTAGE_DIFF_DISCUSS_1_Q.sbj13-l1.qa199	VOLTAGE_DIFF_DISCUSS_1_Q	0.0	there is a gap between the positive battery terminal and the bulb terminal.
+FaultFinding-VOLTAGE_DIFF_DISCUSS_1_Q.sbj14-l1.qa191	VOLTAGE_DIFF_DISCUSS_1_Q	0.0	there is a gap between the bul and battery terminal.
+FaultFinding-VOLTAGE_DIFF_DISCUSS_1_Q.sbj14-l1.qa192	VOLTAGE_DIFF_DISCUSS_1_Q	0.0	There is a gap between the bulb and the battery terminal.
+FaultFinding-VOLTAGE_DIFF_DISCUSS_1_Q.sbj15-l1.qa207	VOLTAGE_DIFF_DISCUSS_1_Q	1.0	there is not a gap in the connection
+FaultFinding-VOLTAGE_DIFF_DISCUSS_1_Q.sbj15-l1.qa208	VOLTAGE_DIFF_DISCUSS_1_Q	0.0	the terminal is connected to the difference of the battery terminal
+FaultFinding-VOLTAGE_DIFF_DISCUSS_1_Q.sbj18-l1.qa166	VOLTAGE_DIFF_DISCUSS_1_Q	2.0	The electrical states of the bulb terminal and the battery terminal are the same.
+FaultFinding-VOLTAGE_DIFF_DISCUSS_1_Q.sbj19-l1.qa220	VOLTAGE_DIFF_DISCUSS_1_Q	0.0	its not working
+FaultFinding-VOLTAGE_DIFF_DISCUSS_1_Q.sbj19-l1.qa221	VOLTAGE_DIFF_DISCUSS_1_Q	0.0	the terminal it is connected to is not working
+FaultFinding-VOLTAGE_DIFF_DISCUSS_1_Q.sbj19-l1.qa222	VOLTAGE_DIFF_DISCUSS_1_Q	0.0	the two terminals will both be 0
+FaultFinding-VOLTAGE_DIFF_DISCUSS_1_Q.sbj22-l1.qa192	VOLTAGE_DIFF_DISCUSS_1_Q	0.0	a terminal is connected to differenet states
+FaultFinding-VOLTAGE_DIFF_DISCUSS_1_Q.sbj23-l1.qa169	VOLTAGE_DIFF_DISCUSS_1_Q	2.0	There is no difference in electrical states.
+FaultFinding-VOLTAGE_DIFF_DISCUSS_1_Q.sbj23-l1.qa170	VOLTAGE_DIFF_DISCUSS_1_Q	2.0	A terminal is connected to the battery.
+FaultFinding-VOLTAGE_DIFF_DISCUSS_1_Q.sbj24-l1.qa197	VOLTAGE_DIFF_DISCUSS_1_Q	0.0	the bulb will not light
+FaultFinding-VOLTAGE_DIFF_DISCUSS_1_Q.sbj24-l1.qa198	VOLTAGE_DIFF_DISCUSS_1_Q	0.0	the terminal is connected to postive end of battery
+FaultFinding-VOLTAGE_DIFF_DISCUSS_1_Q.sbj26-l1.qa202	VOLTAGE_DIFF_DISCUSS_1_Q	0.0	that there is no electrical connection
+FaultFinding-VOLTAGE_DIFF_DISCUSS_1_Q.sbj26-l1.qa203	VOLTAGE_DIFF_DISCUSS_1_Q	0.0	no electricity
+FaultFinding-VOLTAGE_DIFF_DISCUSS_1_Q.sbj26-l1.qa204	VOLTAGE_DIFF_DISCUSS_1_Q	0.0	to a battery
+FaultFinding-VOLTAGE_DIFF_DISCUSS_1_Q.sbj27-l1.qa185	VOLTAGE_DIFF_DISCUSS_1_Q	0.0	there is none
+FaultFinding-VOLTAGE_DIFF_DISCUSS_1_Q.sbj27-l1.qa187	VOLTAGE_DIFF_DISCUSS_1_Q	0.0	there is a separation
+FaultFinding-VOLTAGE_DIFF_DISCUSS_1_Q.sbj28-l1.qa185	VOLTAGE_DIFF_DISCUSS_1_Q	2.0	the bulb is connected to the battery terminal
+FaultFinding-VOLTAGE_DIFF_DISCUSS_1_Q.sbj28-l1.qa186	VOLTAGE_DIFF_DISCUSS_1_Q	2.0	the bulb terminals are connected to the battery terminal
+FaultFinding-VOLTAGE_DIFF_DISCUSS_1_Q.sbj30-l1.qa173	VOLTAGE_DIFF_DISCUSS_1_Q	0.0	It tells you that it is connected to a positive battery terminal.
+FaultFinding-VOLTAGE_DIFF_DISCUSS_1_Q.sbj31-l1.qa184	VOLTAGE_DIFF_DISCUSS_1_Q	2.0	that buld and the battery terminals are connected
+FaultFinding-VOLTAGE_DIFF_DISCUSS_1_Q.sbj31-l1.qa185	VOLTAGE_DIFF_DISCUSS_1_Q	1.0	bulb
+FaultFinding-VOLTAGE_DIFF_DISCUSS_1_Q.sbj33-l1.qa175	VOLTAGE_DIFF_DISCUSS_1_Q	0.0	it is negative
+FaultFinding-VOLTAGE_DIFF_DISCUSS_1_Q.sbj34-l1.qa166	VOLTAGE_DIFF_DISCUSS_1_Q	0.0	The connection is closed
+FaultFinding-VOLTAGE_DIFF_DISCUSS_1_Q.sbj34-l1.qa167	VOLTAGE_DIFF_DISCUSS_1_Q	0.0	it is closed
+FaultFinding-VOLTAGE_DIFF_DISCUSS_1_Q.sbj34-l1.qa168	VOLTAGE_DIFF_DISCUSS_1_Q	0.0	The terminal is connected to the bulb
+FaultFinding-VOLTAGE_DIFF_DISCUSS_1_Q.sbj35-l1.qa183	VOLTAGE_DIFF_DISCUSS_1_Q	0.0	That it is a negative terminal.
+FaultFinding-VOLTAGE_DIFF_DISCUSS_1_Q.sbj35-l1.qa184	VOLTAGE_DIFF_DISCUSS_1_Q	0.0	The terminal is connected to a negative terminal.
+FaultFinding-VOLTAGE_DIFF_DISCUSS_1_Q.sbj36-l1.qa190	VOLTAGE_DIFF_DISCUSS_1_Q	0.0	there is no connectivity
+FaultFinding-VOLTAGE_DIFF_DISCUSS_1_Q.sbj36-l1.qa191	VOLTAGE_DIFF_DISCUSS_1_Q	0.0	no connection
+FaultFinding-VOLTAGE_DIFF_DISCUSS_1_Q.sbj36-l1.qa192	VOLTAGE_DIFF_DISCUSS_1_Q	0.0	a terminal is connected to the positive battery terminal
+FaultFinding-VOLTAGE_DIFF_DISCUSS_1_Q.sbj37-l1.qa165	VOLTAGE_DIFF_DISCUSS_1_Q	2.0	they are the same state
+FaultFinding-VOLTAGE_DIFF_DISCUSS_1_Q.sbj37-l1.qa166	VOLTAGE_DIFF_DISCUSS_1_Q	0.0	the terminal is connected to the battery terminal
+FaultFinding-VOLTAGE_DIFF_DISCUSS_1_Q.sbj38-l1.qa166	VOLTAGE_DIFF_DISCUSS_1_Q	2.0	that there is no difference between the electrical states of the bulb terminal and the battery terminal
+FaultFinding-VOLTAGE_DIFF_DISCUSS_1_Q.sbj38-l1.qa168	VOLTAGE_DIFF_DISCUSS_1_Q	0.0	the terminals are separated by a gap
+FaultFinding-VOLTAGE_DIFF_DISCUSS_1_Q.sbj38-l1.qa170	VOLTAGE_DIFF_DISCUSS_1_Q	2.0	the terminals are sepatated by a gap and the battery terminal and bulb terminal are connected
+FaultFinding-VOLTAGE_DIFF_DISCUSS_1_Q.sbj39-l1.qa203	VOLTAGE_DIFF_DISCUSS_1_Q	0.0	Tells you that there is a gap
+FaultFinding-VOLTAGE_DIFF_DISCUSS_1_Q.sbj39-l1.qa204	VOLTAGE_DIFF_DISCUSS_1_Q	0.0	A voltage reading of 0 means there is a gap
+FaultFinding-VOLTAGE_DIFF_DISCUSS_1_Q.sbj40-l1.qa195	VOLTAGE_DIFF_DISCUSS_1_Q	0.0	there is a gap in the connection.
+FaultFinding-VOLTAGE_DIFF_DISCUSS_1_Q.sbj40-l1.qa196	VOLTAGE_DIFF_DISCUSS_1_Q	0.0	a voltage reading of 0 volts indicates a gap in the circuit.
+FaultFinding-VOLTAGE_DIFF_DISCUSS_1_Q.sbj40-l1.qa197	VOLTAGE_DIFF_DISCUSS_1_Q	0.0	i dont know!!!!
+FaultFinding-VOLTAGE_DIFF_DISCUSS_1_Q.sbj42-l1.qa180	VOLTAGE_DIFF_DISCUSS_1_Q	0.0	There is no connection.
+FaultFinding-VOLTAGE_DIFF_DISCUSS_1_Q.sbj42-l1.qa181	VOLTAGE_DIFF_DISCUSS_1_Q	0.0	There is not a connection between a bulb terminal and a battery terminal.
+FaultFinding-VOLTAGE_DIFF_DISCUSS_1_Q.sbj42-l1.qa182	VOLTAGE_DIFF_DISCUSS_1_Q	0.0	There is a bad connection between a bulb terminal and a battery terminal.
+FaultFinding-VOLTAGE_DIFF_DISCUSS_1_Q.sbj43-l1.qa181	VOLTAGE_DIFF_DISCUSS_1_Q	0.0	the bulb terminal and battery terminal are not connected to one another
+FaultFinding-VOLTAGE_DIFF_DISCUSS_1_Q.sbj43-l1.qa182	VOLTAGE_DIFF_DISCUSS_1_Q	1.0	that the bulb terminal and battery terminal are on the same side of a disconnected circut
+FaultFinding-VOLTAGE_DIFF_DISCUSS_1_Q.sbj43-l1.qa183	VOLTAGE_DIFF_DISCUSS_1_Q	0.0	they do not create a circut
+FaultFinding-VOLTAGE_DIFF_DISCUSS_1_Q.sbj45-l1.qa175	VOLTAGE_DIFF_DISCUSS_1_Q	0.0	the bulb terminal and the battery terminal are separated by a gap
+FaultFinding-VOLTAGE_DIFF_DISCUSS_1_Q.sbj45-l1.qa176	VOLTAGE_DIFF_DISCUSS_1_Q	0.0	the bulb terminal and the negative battery terminal are separated by a gap
+FaultFinding-VOLTAGE_DIFF_DISCUSS_1_Q.sbj45-l1.qa177	VOLTAGE_DIFF_DISCUSS_1_Q	0.0	i dont know the rest
+FaultFinding-VOLTAGE_DIFF_DISCUSS_1_Q.sbj46-l1.qa189	VOLTAGE_DIFF_DISCUSS_1_Q	0.0	seperate
+FaultFinding-VOLTAGE_DIFF_DISCUSS_1_Q.sbj46-l1.qa190	VOLTAGE_DIFF_DISCUSS_1_Q	1.0	connected to battery
+FaultFinding-VOLTAGE_DIFF_DISCUSS_1_Q.sbj47-l1.qa199	VOLTAGE_DIFF_DISCUSS_1_Q	0.0	that it is connected to the negative terminal
+FaultFinding-VOLTAGE_DIFF_DISCUSS_1_Q.sbj48-l1.qa170	VOLTAGE_DIFF_DISCUSS_1_Q	0.0	they are the same
+FaultFinding-VOLTAGE_DIFF_DISCUSS_1_Q.sbj48-l1.qa171	VOLTAGE_DIFF_DISCUSS_1_Q	2.0	the two terminals are connected
+FaultFinding-VOLTAGE_DIFF_DISCUSS_1_Q.sbjb4-l1.qa145	VOLTAGE_DIFF_DISCUSS_1_Q	2.0	that  there is no difference in electrical states of the two terminals
+FaultFinding-VOLTAGE_DIFF_DISCUSS_1_Q.sbjb5-l1.qa154	VOLTAGE_DIFF_DISCUSS_1_Q	2.0	the electrical states between the terminals is the same, resulting in 0
+FaultFinding-VOLTAGE_DIFF_DISCUSS_1_Q.sbjb6-l1.qa147	VOLTAGE_DIFF_DISCUSS_1_Q	0.0	It is a bad connection.
+FaultFinding-VOLTAGE_DIFF_DISCUSS_1_Q.sbjb7-l1.qa144	VOLTAGE_DIFF_DISCUSS_1_Q	2.0	They have the same electrical state.
+FaultFinding-VOLTAGE_DIFF_DISCUSS_1_Q.sbjb9-l1.qa160	VOLTAGE_DIFF_DISCUSS_1_Q	0.0	The bulb is dead pr not connected to the battery terminal
+FaultFinding-VOLTAGE_DIFF_DISCUSS_1_Q.sbjb10-l1.qa144	VOLTAGE_DIFF_DISCUSS_1_Q	0.0	that there is two positive or two negative connections
+FaultFinding-VOLTAGE_DIFF_DISCUSS_1_Q.sbjb12-l1.qa150	VOLTAGE_DIFF_DISCUSS_1_Q	2.0	The have the same electrical states
+FaultFinding-VOLTAGE_DIFF_DISCUSS_1_Q.sbjb16-l1.qa146	VOLTAGE_DIFF_DISCUSS_1_Q	0.0	the bulb may be damaged
+FaultFinding-VOLTAGE_DIFF_DISCUSS_1_Q.sbjb17-l1.qa148	VOLTAGE_DIFF_DISCUSS_1_Q	2.0	they are in the same electrical state
+FaultFinding-VOLTAGE_DIFF_DISCUSS_1_Q.sbjb18-l1.qa156	VOLTAGE_DIFF_DISCUSS_1_Q	0.0	there is no electrical states
+FaultFinding-VOLTAGE_DIFF_DISCUSS_1_Q.sbjb19-l1.qa149	VOLTAGE_DIFF_DISCUSS_1_Q	0.0	that there is a gap in the circuit.
+FaultFinding-VOLTAGE_DIFF_DISCUSS_1_Q.sbjb20-l1.qa156	VOLTAGE_DIFF_DISCUSS_1_Q	0.0	There is no voltage.
+FaultFinding-VOLTAGE_DIFF_DISCUSS_1_Q.sbjb22-l1.qa155	VOLTAGE_DIFF_DISCUSS_1_Q	0.0	its not recieving from either the negative or positive terminal
+FaultFinding-VOLTAGE_DIFF_DISCUSS_1_Q.sbjb25-l1.qa149	VOLTAGE_DIFF_DISCUSS_1_Q	0.0	It is being attatched to the wrong side.
+FaultFinding-VOLTAGE_DIFF_DISCUSS_1_Q.sbjb27-l1.qa144	VOLTAGE_DIFF_DISCUSS_1_Q	0.0	that the bulb terminal is only connected to one of the battery terminals
+FaultFinding-VOLTAGE_DIFF_DISCUSS_1_Q.sbjb28-l1.qa149	VOLTAGE_DIFF_DISCUSS_1_Q	0.0	there is a gap somewhere in the circuit
+FaultFinding-VOLTAGE_DIFF_DISCUSS_1_Q.sbjb29-l1.qa148	VOLTAGE_DIFF_DISCUSS_1_Q	2.0	they are connected
+FaultFinding-VOLTAGE_DIFF_DISCUSS_1_Q.sbjb30-l1.qa149	VOLTAGE_DIFF_DISCUSS_1_Q	0.0	there is a gap between the bulb terminal and the battery terminal.
+FaultFinding-VOLTAGE_DIFF_DISCUSS_1_Q.sbjb31-l1.qa144	VOLTAGE_DIFF_DISCUSS_1_Q	2.0	there is no electrical state difference.
+FaultFinding-VOLTAGE_DIFF_DISCUSS_1_Q.sbjb34-l1.qa144	VOLTAGE_DIFF_DISCUSS_1_Q	0.0	There is a gap in the circuit.
+FaultFinding-VOLTAGE_DIFF_DISCUSS_1_Q.sbjb36-l1.qa144	VOLTAGE_DIFF_DISCUSS_1_Q	0.0	that it is not connected to both sides of the battery
+FaultFinding-VOLTAGE_DIFF_DISCUSS_1_Q.sbjb38-l1.qa145	VOLTAGE_DIFF_DISCUSS_1_Q	0.0	The bulb is only connected to that side of the battery terminal.
+FaultFinding-VOLTAGE_DIFF_DISCUSS_1_Q.sbjb39-l1.qa146	VOLTAGE_DIFF_DISCUSS_1_Q	0.0	That the bulb terminal is connected to the negative battery terminal.
+FaultFinding-VOLTAGE_DIFF_DISCUSS_1_Q.sbjb40-l1.qa145	VOLTAGE_DIFF_DISCUSS_1_Q	0.0	That it is damaged.
+FaultFinding-VOLTAGE_DIFF_DISCUSS_1_Q.sbjb41-l1.qa147	VOLTAGE_DIFF_DISCUSS_1_Q	0.0	That there is a gap
+FaultFinding-VOLTAGE_DIFF_DISCUSS_1_Q.sbj8-l1.qa201	VOLTAGE_DIFF_DISCUSS_1_Q	0.0	there is a gap
+FaultFinding-VOLTAGE_DIFF_DISCUSS_1_Q.sbj8-l1.qa202	VOLTAGE_DIFF_DISCUSS_1_Q	0.0	A bulb creates a gap between itself and the battery terminal
+FaultFinding-VOLTAGE_DIFF_DISCUSS_1_Q.sbj8-l1.qa203	VOLTAGE_DIFF_DISCUSS_1_Q	0.0	give me a hint
+FaultFinding-VOLTAGE_DIFF_DISCUSS_1_Q.sbj12-l1.qa166	VOLTAGE_DIFF_DISCUSS_1_Q	0.0	There is no voltage between the two terminals
+FaultFinding-VOLTAGE_DIFF_DISCUSS_1_Q.sbj22-l1.qa191	VOLTAGE_DIFF_DISCUSS_1_Q	0.0	they are in different states
+FaultFinding-VOLTAGE_DIFF_DISCUSS_1_Q.sbj29-l1.qa184	VOLTAGE_DIFF_DISCUSS_1_Q	0.0	they are not connected
+FaultFinding-VOLTAGE_DIFF_DISCUSS_1_Q.sbj29-l1.qa185	VOLTAGE_DIFF_DISCUSS_1_Q	2.0	they are connected.
+FaultFinding-VOLTAGE_DIFF_DISCUSS_1_Q.sbj31-l1.qa186	VOLTAGE_DIFF_DISCUSS_1_Q	2.0	the bulb terminal and the battery terminal are connected
+FaultFinding-VOLTAGE_DIFF_DISCUSS_1_Q.sbj33-l1.qa176	VOLTAGE_DIFF_DISCUSS_1_Q	0.0	the terminal is connected to the negative voltage terminal
+FaultFinding-VOLTAGE_DIFF_DISCUSS_1_Q.sbj33-l1.qa177	VOLTAGE_DIFF_DISCUSS_1_Q	0.0	tell me the answer
+FaultFinding-VOLTAGE_DIFF_DISCUSS_1_Q.sbj38-l1.qa167	VOLTAGE_DIFF_DISCUSS_1_Q	0.0	there is no difference between the elactrical states and also that there is a gap in the curcuit
+FaultFinding-VOLTAGE_DIFF_DISCUSS_1_Q.sbj38-l1.qa169	VOLTAGE_DIFF_DISCUSS_1_Q	0.0	the terminals are separated by a gap and the battery terminal and bulb terminal are on the same side of the gap
+FaultFinding-VOLTAGE_DIFF_DISCUSS_1_Q.sbj45-l1.qa174	VOLTAGE_DIFF_DISCUSS_1_Q	0.0	there is a damaged bulb
+FaultFinding-VOLTAGE_DIFF_DISCUSS_1_Q.sbjb1-l1.qa150	VOLTAGE_DIFF_DISCUSS_1_Q	0.0	There is a short circuit between the connection of the bulb terminal and a battery terminal.
+FaultFinding-VOLTAGE_DIFF_DISCUSS_1_Q.sbjb11-l1.qa147	VOLTAGE_DIFF_DISCUSS_1_Q	0.0	That the bulb is connected to the positive end of the terminal
+FaultFinding-VOLTAGE_DIFF_DISCUSS_1_Q.sbjb15-l1.qa146	VOLTAGE_DIFF_DISCUSS_1_Q	2.0	that they are connected; no gap
+FaultFinding-VOLTAGE_DIFF_DISCUSS_1_Q.sbjb26-l1.qa145	VOLTAGE_DIFF_DISCUSS_1_Q	2.0	They share an electrical state.
+FaultFinding-VOLTAGE_DIFF_DISCUSS_1_Q.sbjb42-l1.qa147	VOLTAGE_DIFF_DISCUSS_1_Q	2.0	The two terminals are in the same electrical state.

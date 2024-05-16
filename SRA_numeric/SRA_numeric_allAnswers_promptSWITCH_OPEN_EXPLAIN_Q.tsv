@@ -1,0 +1,111 @@
+AnswerId	PromptId	Score1	AnswerText
+SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbj3-l1.qa79	SWITCH_OPEN_EXPLAIN_Q	1.0	it causes an open circuit
+SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbj3-l1.qa80	SWITCH_OPEN_EXPLAIN_Q	2.0	it causes the path to be open
+SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbj7-l1.qa77	SWITCH_OPEN_EXPLAIN_Q	2.0	it opens the path
+SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbj8-l1.qa96	SWITCH_OPEN_EXPLAIN_Q	2.0	Because the electricity will not flow through the wires if the circuit path is incomplete.
+SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbj8-l1.qa97	SWITCH_OPEN_EXPLAIN_Q	2.0	The bulbs will not be powered if the circuit path is incomplete.
+SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbj9-l1.qa75	SWITCH_OPEN_EXPLAIN_Q	2.0	The open switch makes the circuit incomplete.
+SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbj10-l1.qa96	SWITCH_OPEN_EXPLAIN_Q	2.0	it creates an open path
+SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbj11-l1.qa97	SWITCH_OPEN_EXPLAIN_Q	0.0	because it causes a short circuit.
+SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbj11-l1.qa99	SWITCH_OPEN_EXPLAIN_Q	1.0	because it blocks the charge of the circuit.
+SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbj11-l1.qa100	SWITCH_OPEN_EXPLAIN_Q	0.0	because the the circuit is complete.
+SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbj13-l1.qa90	SWITCH_OPEN_EXPLAIN_Q	1.0	it creates a gap in the current.
+SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbj13-l1.qa91	SWITCH_OPEN_EXPLAIN_Q	2.0	it creates a gap int he circuit.
+SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbj13-l1.qa92	SWITCH_OPEN_EXPLAIN_Q	2.0	it creates a gap in the circuit.
+SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbj14-l1.qa89	SWITCH_OPEN_EXPLAIN_Q	2.0	Because it creates a gap, which opens a path.
+SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbj15-l1.qa107	SWITCH_OPEN_EXPLAIN_Q	0.0	i have no idea
+SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbj15-l1.qa108	SWITCH_OPEN_EXPLAIN_Q	0.0	a switch creates power
+SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbj15-l1.qa109	SWITCH_OPEN_EXPLAIN_Q	0.0	a switch creates a closed circuit
+SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbj15-l1.qa110	SWITCH_OPEN_EXPLAIN_Q	0.0	a switch creates a closed path
+SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbj18-l1.qa76	SWITCH_OPEN_EXPLAIN_Q	1.0	It breaks the closed path.
+SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbj18-l1.qa78	SWITCH_OPEN_EXPLAIN_Q	1.0	A switch creates a break in the closed path.
+SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbj18-l1.qa79	SWITCH_OPEN_EXPLAIN_Q	2.0	A switch creates a gap in the path.
+SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbj19-l1.qa99	SWITCH_OPEN_EXPLAIN_Q	0.0	because the path is short
+SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbj19-l1.qa101	SWITCH_OPEN_EXPLAIN_Q	0.0	makes  a short circuit
+SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbj22-l1.qa93	SWITCH_OPEN_EXPLAIN_Q	1.0	because there is no closed path to the battery
+SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbj22-l1.qa94	SWITCH_OPEN_EXPLAIN_Q	1.0	because there is no closed path
+SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbj23-l1.qa77	SWITCH_OPEN_EXPLAIN_Q	2.0	It prevents the path from being closed.
+SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbj23-l1.qa78	SWITCH_OPEN_EXPLAIN_Q	1.0	It is not a closed path.
+SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbj23-l1.qa80	SWITCH_OPEN_EXPLAIN_Q	2.0	There is a gap in the circuit.
+SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbj24-l1.qa86	SWITCH_OPEN_EXPLAIN_Q	2.0	makes it an open path rather then closed
+SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbj26-l1.qa98	SWITCH_OPEN_EXPLAIN_Q	0.0	it closes the pathway
+SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbj26-l1.qa99	SWITCH_OPEN_EXPLAIN_Q	0.0	effects the connection from battery to bulb
+SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbj26-l1.qa100	SWITCH_OPEN_EXPLAIN_Q	0.0	creates a connection
+SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbj26-l1.qa101	SWITCH_OPEN_EXPLAIN_Q	0.0	creates a circuit?
+SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbj27-l1.qa86	SWITCH_OPEN_EXPLAIN_Q	0.0	"Because the electricity can""t pass through"
+SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbj27-l1.qa87	SWITCH_OPEN_EXPLAIN_Q	2.0	there is a gap
+SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbj29-l1.qa91	SWITCH_OPEN_EXPLAIN_Q	1.0	because all the terminals are connected to other terminals, an open switch disrupts that.
+SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbj29-l1.qa92	SWITCH_OPEN_EXPLAIN_Q	2.0	because an open switch creates a gap.
+SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbj30-l1.qa78	SWITCH_OPEN_EXPLAIN_Q	1.0	It turns off all the bulbs.
+SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbj30-l1.qa79	SWITCH_OPEN_EXPLAIN_Q	2.0	It creates a gap in the circut.
+SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbj31-l1.qa82	SWITCH_OPEN_EXPLAIN_Q	2.0	the path is not closed anymore
+SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbj33-l1.qa77	SWITCH_OPEN_EXPLAIN_Q	2.0	"it does""nt make the circuit complete anymore"
+SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbj33-l1.qa78	SWITCH_OPEN_EXPLAIN_Q	0.0	the paths of the circuit are no longer complete
+SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbj33-l1.qa79	SWITCH_OPEN_EXPLAIN_Q	0.0	the path is complete
+SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbj34-l1.qa73	SWITCH_OPEN_EXPLAIN_Q	2.0	The open switch makes the path open
+SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbj35-l1.qa80	SWITCH_OPEN_EXPLAIN_Q	1.0	It stops the flow of electricity.
+SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbj35-l1.qa81	SWITCH_OPEN_EXPLAIN_Q	2.0	It makes the circuit incomplete.
+SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbj36-l1.qa83	SWITCH_OPEN_EXPLAIN_Q	0.0	the switch opens the closed circuit
+SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbj36-l1.qa84	SWITCH_OPEN_EXPLAIN_Q	2.0	the switch opens the closed path
+SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbj37-l1.qa71	SWITCH_OPEN_EXPLAIN_Q	1.0	the voltage does not reach all the components
+SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbj37-l1.qa72	SWITCH_OPEN_EXPLAIN_Q	0.0	the gap in the circuit causes the circuit to be an open circuit
+SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbj38-l1.qa74	SWITCH_OPEN_EXPLAIN_Q	0.0	It makes the circuit an incomplete path
+SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbj38-l1.qa75	SWITCH_OPEN_EXPLAIN_Q	2.0	the circuit is no longer complete when the switches are open
+SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbj39-l1.qa92	SWITCH_OPEN_EXPLAIN_Q	1.0	Because it opens the connection
+SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbj39-l1.qa93	SWITCH_OPEN_EXPLAIN_Q	1.0	Because it stops the battery from being connected.
+SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbj39-l1.qa94	SWITCH_OPEN_EXPLAIN_Q	0.0	It creates a short circuit.
+SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbj40-l1.qa90	SWITCH_OPEN_EXPLAIN_Q	2.0	an open switch causes a gap.
+SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbj42-l1.qa89	SWITCH_OPEN_EXPLAIN_Q	2.0	The path is not closed.
+SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbj43-l1.qa85	SWITCH_OPEN_EXPLAIN_Q	2.0	an open switch incompletes the circut
+SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbj43-l1.qa86	SWITCH_OPEN_EXPLAIN_Q	2.0	an open switch creates an incomplete circut
+SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbj45-l1.qa73	SWITCH_OPEN_EXPLAIN_Q	2.0	because it creates a gap which in turn created an open path
+SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbj45-l1.qa74	SWITCH_OPEN_EXPLAIN_Q	2.0	open switch creates a gap in the path
+SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbj46-l1.qa86	SWITCH_OPEN_EXPLAIN_Q	0.0	brings he flow of electricity
+SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbj46-l1.qa87	SWITCH_OPEN_EXPLAIN_Q	0.0	charges the bulb
+SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbj46-l1.qa88	SWITCH_OPEN_EXPLAIN_Q	0.0	switch creates circuit
+SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbj47-l1.qa93	SWITCH_OPEN_EXPLAIN_Q	0.0	Because it decides whether the bulb will be lit or not
+SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbj47-l1.qa94	SWITCH_OPEN_EXPLAIN_Q	0.0	Because if the gap is open the bulb will not go on
+SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbj48-l1.qa76	SWITCH_OPEN_EXPLAIN_Q	2.0	because it creates a gap, thus the circuit becomes incomplete
+SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbjb1-l1.qa63	SWITCH_OPEN_EXPLAIN_Q	0.0	The are connected to the same closed path.
+SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbjb2-l1.qa70	SWITCH_OPEN_EXPLAIN_Q	0.0	Because the voltage does not reach the bulbs.
+SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbjb3-l1.qa70	SWITCH_OPEN_EXPLAIN_Q	0.0	It cuts the current from the battery
+SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbjb5-l1.qa73	SWITCH_OPEN_EXPLAIN_Q	0.0	the current cannot pass an open switch
+SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbjb6-l1.qa63	SWITCH_OPEN_EXPLAIN_Q	0.0	Because the bulb is not longer in a closed circuit
+SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbjb7-l1.qa63	SWITCH_OPEN_EXPLAIN_Q	2.0	There must be a closed path, and an open switch makes it not closed.
+SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbjb9-l1.qa66	SWITCH_OPEN_EXPLAIN_Q	2.0	Because the path between the battery and the light bulb is not closed
+SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbjb10-l1.qa63	SWITCH_OPEN_EXPLAIN_Q	0.0	because it opens the circuit, therefore the circuit is not closed
+SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbjb11-l1.qa65	SWITCH_OPEN_EXPLAIN_Q	2.0	And open switch breaks the closed path, which is essential to function properly
+SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbjb12-l1.qa64	SWITCH_OPEN_EXPLAIN_Q	0.0	it breaks the closed circuit
+SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbjb13-l1.qa64	SWITCH_OPEN_EXPLAIN_Q	2.0	An open switch means the circuit is not a closed path.
+SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbjb15-l1.qa65	SWITCH_OPEN_EXPLAIN_Q	0.0	it cuts the flow of electricity
+SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbjb17-l1.qa65	SWITCH_OPEN_EXPLAIN_Q	2.0	it opens the closed path of the battery
+SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbjb18-l1.qa72	SWITCH_OPEN_EXPLAIN_Q	0.0	Because the battery runs in a closed circuit.
+SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbjb19-l1.qa68	SWITCH_OPEN_EXPLAIN_Q	0.0	because it opens the circuit
+SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbjb21-l1.qa63	SWITCH_OPEN_EXPLAIN_Q	1.0	any open swith does no allow the bulbs to turn on
+SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbjb22-l1.qa74	SWITCH_OPEN_EXPLAIN_Q	0.0	the currunt is blocked off
+SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbjb25-l1.qa65	SWITCH_OPEN_EXPLAIN_Q	2.0	It creates a gap.
+SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbjb26-l1.qa63	SWITCH_OPEN_EXPLAIN_Q	0.0	If a switch is open, the circut is no longer closed.
+SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbjb27-l1.qa63	SWITCH_OPEN_EXPLAIN_Q	2.0	it creates a gap in the circuit
+SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbjb28-l1.qa67	SWITCH_OPEN_EXPLAIN_Q	0.0	An open switch stops the energy flow
+SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbjb29-l1.qa66	SWITCH_OPEN_EXPLAIN_Q	2.0	When a switch is open the circuit is no longer complete
+SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbjb31-l1.qa63	SWITCH_OPEN_EXPLAIN_Q	0.0	because they are in a series, because a closed circuit acts together.
+SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbjb32-l1.qa65	SWITCH_OPEN_EXPLAIN_Q	0.0	Because it stops the flow of one side of a battery from reaching the other light bulbs.
+SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbjb34-l1.qa63	SWITCH_OPEN_EXPLAIN_Q	0.0	An open switch interrupts the flow of the current.
+SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbjb35-l1.qa63	SWITCH_OPEN_EXPLAIN_Q	2.0	It breaks the closed pathway that the bulbs require to work.
+SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbjb37-l1.qa63	SWITCH_OPEN_EXPLAIN_Q	2.0	There is no closed path
+SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbjb39-l1.qa63	SWITCH_OPEN_EXPLAIN_Q	0.0	Because the current can not reach the bulb if the circuit is open.
+SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbjb40-l1.qa63	SWITCH_OPEN_EXPLAIN_Q	0.0	Then the bulb and battery will not be in a contained circuit.
+SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbjb41-l1.qa64	SWITCH_OPEN_EXPLAIN_Q	0.0	An open switch impacts a circuit because it causes the path to be closed, therefore the connection cannot be made.
+SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbjb42-l1.qa64	SWITCH_OPEN_EXPLAIN_Q	2.0	because it changes the path from closed to open
+SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbj8-l1.qa98	SWITCH_OPEN_EXPLAIN_Q	0.0	A switch creates electricity
+SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbj8-l1.qa99	SWITCH_OPEN_EXPLAIN_Q	0.0	"I don""t know."
+SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbj18-l1.qa77	SWITCH_OPEN_EXPLAIN_Q	0.0	It causes the path to be incomplete.
+SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbj19-l1.qa100	SWITCH_OPEN_EXPLAIN_Q	1.0	the path is open instead of closed
+SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbj24-l1.qa87	SWITCH_OPEN_EXPLAIN_Q	2.0	it makes the path open
+SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbj29-l1.qa90	SWITCH_OPEN_EXPLAIN_Q	0.0	because everything is connected
+SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbjb4-l1.qa63	SWITCH_OPEN_EXPLAIN_Q	2.0	it opens up the closed path
+SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbjb16-l1.qa65	SWITCH_OPEN_EXPLAIN_Q	0.0	"The electrical current can""t get to the battery"
+SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbjb20-l1.qa74	SWITCH_OPEN_EXPLAIN_Q	2.0	An open switch makes a gap in the path.
+SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbjb24-l1.qa65	SWITCH_OPEN_EXPLAIN_Q	0.0	prevents the circuit from being closed and current from traveling through it
+SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbjb30-l1.qa63	SWITCH_OPEN_EXPLAIN_Q	2.0	An open switch creates a gap in the path.
+SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbjb36-l1.qa63	SWITCH_OPEN_EXPLAIN_Q	0.0	"it cuts the electrical current that is needed to light up the light bulb. It needs to be connected on both sides and if one is disconnected then the bulb won""t light up."

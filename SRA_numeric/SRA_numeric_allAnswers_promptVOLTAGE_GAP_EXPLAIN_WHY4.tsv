@@ -1,0 +1,96 @@
+AnswerId	PromptId	Score1	AnswerText
+FaultFinding-VOLTAGE_GAP_EXPLAIN_WHY4.sbj3-l1.qa167	VOLTAGE_GAP_EXPLAIN_WHY4	2.0	positive battery terminal is not separated by a gap from terminal 4
+FaultFinding-VOLTAGE_GAP_EXPLAIN_WHY4.sbj8-l1.qa188	VOLTAGE_GAP_EXPLAIN_WHY4	0.0	Because terminal 4 is connected to the negative terminal
+FaultFinding-VOLTAGE_GAP_EXPLAIN_WHY4.sbj8-l1.qa189	VOLTAGE_GAP_EXPLAIN_WHY4	0.0	Because there is a gap between terminal 4 and the positive terminal
+FaultFinding-VOLTAGE_GAP_EXPLAIN_WHY4.sbj8-l1.qa190	VOLTAGE_GAP_EXPLAIN_WHY4	0.0	I do not know
+FaultFinding-VOLTAGE_GAP_EXPLAIN_WHY4.sbj8-l1.qa191	VOLTAGE_GAP_EXPLAIN_WHY4	0.0	Terminal 4 is connected to bulb B
+FaultFinding-VOLTAGE_GAP_EXPLAIN_WHY4.sbj8-l1.qa192	VOLTAGE_GAP_EXPLAIN_WHY4	0.0	terminal 4 is connected to a gap created by bulb B
+FaultFinding-VOLTAGE_GAP_EXPLAIN_WHY4.sbj9-l1.qa160	VOLTAGE_GAP_EXPLAIN_WHY4	1.0	the positive battery is connected to the terminal 4.
+FaultFinding-VOLTAGE_GAP_EXPLAIN_WHY4.sbj9-l1.qa161	VOLTAGE_GAP_EXPLAIN_WHY4	2.0	the positive battery terminal is connected to terminal 4.
+FaultFinding-VOLTAGE_GAP_EXPLAIN_WHY4.sbj10-l1.qa181	VOLTAGE_GAP_EXPLAIN_WHY4	2.0	the positive battery terminal is not seperated by a gap from terminal 4
+FaultFinding-VOLTAGE_GAP_EXPLAIN_WHY4.sbj11-l1.qa188	VOLTAGE_GAP_EXPLAIN_WHY4	2.0	the positive battery terminal is not separated from terminal 4.
+FaultFinding-VOLTAGE_GAP_EXPLAIN_WHY4.sbj11-l1.qa189	VOLTAGE_GAP_EXPLAIN_WHY4	2.0	terminal 4 is connected to the positive battery terminal
+FaultFinding-VOLTAGE_GAP_EXPLAIN_WHY4.sbj12-l1.qa157	VOLTAGE_GAP_EXPLAIN_WHY4	2.0	The positive battery terminal is not separated by a gap from terminal 4
+FaultFinding-VOLTAGE_GAP_EXPLAIN_WHY4.sbj13-l1.qa186	VOLTAGE_GAP_EXPLAIN_WHY4	0.0	there is a gap between teh positive battery terminal and terminal 4.
+FaultFinding-VOLTAGE_GAP_EXPLAIN_WHY4.sbj13-l1.qa187	VOLTAGE_GAP_EXPLAIN_WHY4	2.0	there is a gap between the negative battery terminal and terminal 4.
+FaultFinding-VOLTAGE_GAP_EXPLAIN_WHY4.sbj13-l1.qa189	VOLTAGE_GAP_EXPLAIN_WHY4	2.0	the negative battery terminal is separated by a gap from terminal 4.
+FaultFinding-VOLTAGE_GAP_EXPLAIN_WHY4.sbj14-l1.qa182	VOLTAGE_GAP_EXPLAIN_WHY4	2.0	The positive battery terminal is not seperated by a gap from terminal 4.
+FaultFinding-VOLTAGE_GAP_EXPLAIN_WHY4.sbj15-l1.qa198	VOLTAGE_GAP_EXPLAIN_WHY4	2.0	because the positive battery terminal is not seperated by a gap from terminal 4
+FaultFinding-VOLTAGE_GAP_EXPLAIN_WHY4.sbj18-l1.qa160	VOLTAGE_GAP_EXPLAIN_WHY4	2.0	Terminal 4 is only connected to the positive battery terminal.
+FaultFinding-VOLTAGE_GAP_EXPLAIN_WHY4.sbj19-l1.qa208	VOLTAGE_GAP_EXPLAIN_WHY4	0.0	the positive battery terminal is seperated by a gap from terminal 4
+FaultFinding-VOLTAGE_GAP_EXPLAIN_WHY4.sbj19-l1.qa209	VOLTAGE_GAP_EXPLAIN_WHY4	2.0	the  negative batter terminal is seperated by a gap from terminal 4
+FaultFinding-VOLTAGE_GAP_EXPLAIN_WHY4.sbj19-l1.qa210	VOLTAGE_GAP_EXPLAIN_WHY4	0.0	the negative battery terminal is connected to terminal 4
+FaultFinding-VOLTAGE_GAP_EXPLAIN_WHY4.sbj19-l1.qa211	VOLTAGE_GAP_EXPLAIN_WHY4	0.0	terminal batter is connected to 4
+FaultFinding-VOLTAGE_GAP_EXPLAIN_WHY4.sbj19-l1.qa212	VOLTAGE_GAP_EXPLAIN_WHY4	2.0	terminal 4 is connected to the positive battery
+FaultFinding-VOLTAGE_GAP_EXPLAIN_WHY4.sbj22-l1.qa182	VOLTAGE_GAP_EXPLAIN_WHY4	2.0	the positive battery  terminal has no gaps from terminal 4
+FaultFinding-VOLTAGE_GAP_EXPLAIN_WHY4.sbj22-l1.qa183	VOLTAGE_GAP_EXPLAIN_WHY4	2.0	the positive batter terminal does not have a gap from terminal 4
+FaultFinding-VOLTAGE_GAP_EXPLAIN_WHY4.sbj22-l1.qa184	VOLTAGE_GAP_EXPLAIN_WHY4	1.0	a terminal is connected to the positive terminal of the battery
+FaultFinding-VOLTAGE_GAP_EXPLAIN_WHY4.sbj24-l1.qa180	VOLTAGE_GAP_EXPLAIN_WHY4	0.0	it is a open circuit
+FaultFinding-VOLTAGE_GAP_EXPLAIN_WHY4.sbj24-l1.qa181	VOLTAGE_GAP_EXPLAIN_WHY4	1.0	gap in circuit at bulb B causes the voltage reading to be 0
+FaultFinding-VOLTAGE_GAP_EXPLAIN_WHY4.sbj24-l1.qa183	VOLTAGE_GAP_EXPLAIN_WHY4	2.0	terminal 4 is connected to postive battery
+FaultFinding-VOLTAGE_GAP_EXPLAIN_WHY4.sbj26-l1.qa193	VOLTAGE_GAP_EXPLAIN_WHY4	0.0	the positive terminal is seperated by a gap from terminal 4
+FaultFinding-VOLTAGE_GAP_EXPLAIN_WHY4.sbj26-l1.qa194	VOLTAGE_GAP_EXPLAIN_WHY4	2.0	the positive terminal is not seperated by a gap from terminal 4
+FaultFinding-VOLTAGE_GAP_EXPLAIN_WHY4.sbj27-l1.qa176	VOLTAGE_GAP_EXPLAIN_WHY4	0.0	the positive battery terminal is separated by a gap from terminal 4
+FaultFinding-VOLTAGE_GAP_EXPLAIN_WHY4.sbj28-l1.qa176	VOLTAGE_GAP_EXPLAIN_WHY4	2.0	there is no gap between the positive battery terminal and terminal 4
+FaultFinding-VOLTAGE_GAP_EXPLAIN_WHY4.sbj29-l1.qa176	VOLTAGE_GAP_EXPLAIN_WHY4	2.0	there is no gap between terminal 4 and the positve battery terminal
+FaultFinding-VOLTAGE_GAP_EXPLAIN_WHY4.sbj30-l1.qa164	VOLTAGE_GAP_EXPLAIN_WHY4	2.0	Because the batter termnal was not separted by a gap from terminal .
+FaultFinding-VOLTAGE_GAP_EXPLAIN_WHY4.sbj30-l1.qa165	VOLTAGE_GAP_EXPLAIN_WHY4	2.0	Because the battery terminal was not seperated by a gap from terminal 4.
+FaultFinding-VOLTAGE_GAP_EXPLAIN_WHY4.sbj31-l1.qa172	VOLTAGE_GAP_EXPLAIN_WHY4	2.0	Terminal 4 is connected to the positve battery terminal and it is not seperated by a gap
+FaultFinding-VOLTAGE_GAP_EXPLAIN_WHY4.sbj31-l1.qa173	VOLTAGE_GAP_EXPLAIN_WHY4	2.0	Terminal 4 is connected to the positve battery terminal and terminal 4 is not seperated by a gap
+FaultFinding-VOLTAGE_GAP_EXPLAIN_WHY4.sbj31-l1.qa174	VOLTAGE_GAP_EXPLAIN_WHY4	2.0	terminal 4 is connected to the positive terminal of the battery
+FaultFinding-VOLTAGE_GAP_EXPLAIN_WHY4.sbj33-l1.qa167	VOLTAGE_GAP_EXPLAIN_WHY4	2.0	the negative battery terminal is seperated by a gap from terminal 4
+FaultFinding-VOLTAGE_GAP_EXPLAIN_WHY4.sbj33-l1.qa168	VOLTAGE_GAP_EXPLAIN_WHY4	0.0	tell me the answer
+FaultFinding-VOLTAGE_GAP_EXPLAIN_WHY4.sbj34-l1.qa158	VOLTAGE_GAP_EXPLAIN_WHY4	2.0	There is no gap between the positive terminal and terminal 4
+FaultFinding-VOLTAGE_GAP_EXPLAIN_WHY4.sbj35-l1.qa175	VOLTAGE_GAP_EXPLAIN_WHY4	2.0	There was no gap between terminal 4 and the positive terminal.
+FaultFinding-VOLTAGE_GAP_EXPLAIN_WHY4.sbj36-l1.qa180	VOLTAGE_GAP_EXPLAIN_WHY4	0.0	the positive battery terminal s separated by a gap from terminal 4
+FaultFinding-VOLTAGE_GAP_EXPLAIN_WHY4.sbj37-l1.qa157	VOLTAGE_GAP_EXPLAIN_WHY4	2.0	terminal 4 is connected to the positive batterty terminal
+FaultFinding-VOLTAGE_GAP_EXPLAIN_WHY4.sbj38-l1.qa159	VOLTAGE_GAP_EXPLAIN_WHY4	2.0	the positive terminal is connected to terminal 4
+FaultFinding-VOLTAGE_GAP_EXPLAIN_WHY4.sbj39-l1.qa188	VOLTAGE_GAP_EXPLAIN_WHY4	2.0	the negative battery terminal is separated by a gap from terminal 4
+FaultFinding-VOLTAGE_GAP_EXPLAIN_WHY4.sbj39-l1.qa189	VOLTAGE_GAP_EXPLAIN_WHY4	0.0	the positive battery terminak is separated ba a gap from terminal 4
+FaultFinding-VOLTAGE_GAP_EXPLAIN_WHY4.sbj39-l1.qa191	VOLTAGE_GAP_EXPLAIN_WHY4	0.0	?
+FaultFinding-VOLTAGE_GAP_EXPLAIN_WHY4.sbj40-l1.qa187	VOLTAGE_GAP_EXPLAIN_WHY4	2.0	terminal 4 and the negative ternimal are not connected.
+FaultFinding-VOLTAGE_GAP_EXPLAIN_WHY4.sbj43-l1.qa170	VOLTAGE_GAP_EXPLAIN_WHY4	1.0	the positive battery terminal and terminal 4 are on the same side of the damaged bulb
+FaultFinding-VOLTAGE_GAP_EXPLAIN_WHY4.sbj43-l1.qa171	VOLTAGE_GAP_EXPLAIN_WHY4	2.0	the positive battery terminal and terminal 4 do not have a gap between them
+FaultFinding-VOLTAGE_GAP_EXPLAIN_WHY4.sbj43-l1.qa172	VOLTAGE_GAP_EXPLAIN_WHY4	2.0	the positive battery terminal and terminal 4 are connected
+FaultFinding-VOLTAGE_GAP_EXPLAIN_WHY4.sbj46-l1.qa180	VOLTAGE_GAP_EXPLAIN_WHY4	0.0	after gap
+FaultFinding-VOLTAGE_GAP_EXPLAIN_WHY4.sbj46-l1.qa181	VOLTAGE_GAP_EXPLAIN_WHY4	0.0	positive after gap
+FaultFinding-VOLTAGE_GAP_EXPLAIN_WHY4.sbj46-l1.qa182	VOLTAGE_GAP_EXPLAIN_WHY4	1.0	terminal positive after gap
+FaultFinding-VOLTAGE_GAP_EXPLAIN_WHY4.sbj47-l1.qa191	VOLTAGE_GAP_EXPLAIN_WHY4	2.0	terminal 4 is connected to the positive terminal
+FaultFinding-VOLTAGE_GAP_EXPLAIN_WHY4.sbj48-l1.qa160	VOLTAGE_GAP_EXPLAIN_WHY4	2.0	because terminal 4 is connected to the positive terminal but not the negative terminal
+FaultFinding-VOLTAGE_GAP_EXPLAIN_WHY4.sbj48-l1.qa161	VOLTAGE_GAP_EXPLAIN_WHY4	2.0	terminal 4 is separated by a gap from the negative terminal
+FaultFinding-VOLTAGE_GAP_EXPLAIN_WHY4.sbj48-l1.qa162	VOLTAGE_GAP_EXPLAIN_WHY4	2.0	because the negative terminal is separated by a gap from terminal 4.
+FaultFinding-VOLTAGE_GAP_EXPLAIN_WHY4.sbjb2-l1.qa149	VOLTAGE_GAP_EXPLAIN_WHY4	1.0	There was a gap.
+FaultFinding-VOLTAGE_GAP_EXPLAIN_WHY4.sbjb3-l1.qa159	VOLTAGE_GAP_EXPLAIN_WHY4	0.0	there was a negavtive gap
+FaultFinding-VOLTAGE_GAP_EXPLAIN_WHY4.sbjb6-l1.qa141	VOLTAGE_GAP_EXPLAIN_WHY4	0.0	"I don""t know."
+FaultFinding-VOLTAGE_GAP_EXPLAIN_WHY4.sbjb7-l1.qa138	VOLTAGE_GAP_EXPLAIN_WHY4	1.0	There is no gap, same electrical state.
+FaultFinding-VOLTAGE_GAP_EXPLAIN_WHY4.sbjb10-l1.qa138	VOLTAGE_GAP_EXPLAIN_WHY4	0.0	becuase the negative end of the votlage meter was connected to a positive circuit
+FaultFinding-VOLTAGE_GAP_EXPLAIN_WHY4.sbjb12-l1.qa144	VOLTAGE_GAP_EXPLAIN_WHY4	2.0	There was no gap between the positive battery and terminal 4
+FaultFinding-VOLTAGE_GAP_EXPLAIN_WHY4.sbjb13-l1.qa140	VOLTAGE_GAP_EXPLAIN_WHY4	0.0	I do not know.
+FaultFinding-VOLTAGE_GAP_EXPLAIN_WHY4.sbjb15-l1.qa140	VOLTAGE_GAP_EXPLAIN_WHY4	2.0	no gap between 4 and positive battery
+FaultFinding-VOLTAGE_GAP_EXPLAIN_WHY4.sbjb16-l1.qa140	VOLTAGE_GAP_EXPLAIN_WHY4	0.0	bulb b created a gap
+FaultFinding-VOLTAGE_GAP_EXPLAIN_WHY4.sbjb19-l1.qa143	VOLTAGE_GAP_EXPLAIN_WHY4	0.0	The positive battery terminal is separated by a gap from terminal 4.
+FaultFinding-VOLTAGE_GAP_EXPLAIN_WHY4.sbjb20-l1.qa150	VOLTAGE_GAP_EXPLAIN_WHY4	0.0	Terminal 4 has a gap.
+FaultFinding-VOLTAGE_GAP_EXPLAIN_WHY4.sbjb22-l1.qa149	VOLTAGE_GAP_EXPLAIN_WHY4	2.0	there is a gap between teh negative battery terminal and terminal 4
+FaultFinding-VOLTAGE_GAP_EXPLAIN_WHY4.sbjb24-l1.qa146	VOLTAGE_GAP_EXPLAIN_WHY4	0.0	no clue
+FaultFinding-VOLTAGE_GAP_EXPLAIN_WHY4.sbjb26-l1.qa139	VOLTAGE_GAP_EXPLAIN_WHY4	2.0	The positive terminal is connected to terminal 4.
+FaultFinding-VOLTAGE_GAP_EXPLAIN_WHY4.sbjb31-l1.qa138	VOLTAGE_GAP_EXPLAIN_WHY4	2.0	Because there is no gap between terminal 4 and the positive terminal
+FaultFinding-VOLTAGE_GAP_EXPLAIN_WHY4.sbjb32-l1.qa142	VOLTAGE_GAP_EXPLAIN_WHY4	0.0	The positive battery terminal is a closed path from terminal 4.
+FaultFinding-VOLTAGE_GAP_EXPLAIN_WHY4.sbjb34-l1.qa138	VOLTAGE_GAP_EXPLAIN_WHY4	1.0	Terminal 4 and the positive battery terminal are in the same state.
+FaultFinding-VOLTAGE_GAP_EXPLAIN_WHY4.sbjb35-l1.qa139	VOLTAGE_GAP_EXPLAIN_WHY4	1.0	Because there  is a gap in the system where componenet B is shorted out.
+FaultFinding-VOLTAGE_GAP_EXPLAIN_WHY4.sbjb37-l1.qa138	VOLTAGE_GAP_EXPLAIN_WHY4	1.0	The positive terminal is not seperated from the gap
+FaultFinding-VOLTAGE_GAP_EXPLAIN_WHY4.sbjb38-l1.qa139	VOLTAGE_GAP_EXPLAIN_WHY4	2.0	Terminal 4 was only connected to the positive terminal
+FaultFinding-VOLTAGE_GAP_EXPLAIN_WHY4.sbjb40-l1.qa139	VOLTAGE_GAP_EXPLAIN_WHY4	2.0	The positve battery terminal is connected to 4.
+FaultFinding-VOLTAGE_GAP_EXPLAIN_WHY4.sbjb41-l1.qa141	VOLTAGE_GAP_EXPLAIN_WHY4	2.0	The positive battery terminal was not seperated by a gap from terminal 4.
+FaultFinding-VOLTAGE_GAP_EXPLAIN_WHY4.sbjb42-l1.qa141	VOLTAGE_GAP_EXPLAIN_WHY4	2.0	Terminal 4 is connected to the positive battery terminal.
+FaultFinding-VOLTAGE_GAP_EXPLAIN_WHY4.sbj7-l1.qa159	VOLTAGE_GAP_EXPLAIN_WHY4	2.0	there is no gap between terminal 4 and the positive terminal
+FaultFinding-VOLTAGE_GAP_EXPLAIN_WHY4.sbj13-l1.qa188	VOLTAGE_GAP_EXPLAIN_WHY4	0.0	there is a gap between the positive battery terminal and terminal 4.
+FaultFinding-VOLTAGE_GAP_EXPLAIN_WHY4.sbj24-l1.qa182	VOLTAGE_GAP_EXPLAIN_WHY4	2.0	the terminal is conntected to postive end of battery
+FaultFinding-VOLTAGE_GAP_EXPLAIN_WHY4.sbj39-l1.qa192	VOLTAGE_GAP_EXPLAIN_WHY4	0.0	the terminals are blocked by a gap
+FaultFinding-VOLTAGE_GAP_EXPLAIN_WHY4.sbjb4-l1.qa139	VOLTAGE_GAP_EXPLAIN_WHY4	0.0	there is no difference in the two terminals. they are in a closed path
+FaultFinding-VOLTAGE_GAP_EXPLAIN_WHY4.sbjb18-l1.qa150	VOLTAGE_GAP_EXPLAIN_WHY4	0.0	I dont know
+FaultFinding-VOLTAGE_GAP_EXPLAIN_WHY4.sbjb21-l1.qa138	VOLTAGE_GAP_EXPLAIN_WHY4	0.0	seperted by gap in terminal 4
+FaultFinding-VOLTAGE_GAP_EXPLAIN_WHY4.sbjb25-l1.qa143	VOLTAGE_GAP_EXPLAIN_WHY4	0.0	BECAUSE IT WAS ATTACHED TO THE NEGATIVE TERMINAL.
+FaultFinding-VOLTAGE_GAP_EXPLAIN_WHY4.sbjb27-l1.qa138	VOLTAGE_GAP_EXPLAIN_WHY4	2.0	terminal 4 is connected only to the positive battery terminal
+FaultFinding-VOLTAGE_GAP_EXPLAIN_WHY4.sbjb29-l1.qa142	VOLTAGE_GAP_EXPLAIN_WHY4	2.0	the positive battery terminal is connected in circuit with terminal 4
+FaultFinding-VOLTAGE_GAP_EXPLAIN_WHY4.sbjb30-l1.qa143	VOLTAGE_GAP_EXPLAIN_WHY4	2.0	terminal 4 is not connected to the negative terminal because of a gap in bulb b.
+FaultFinding-VOLTAGE_GAP_EXPLAIN_WHY4.sbjb36-l1.qa138	VOLTAGE_GAP_EXPLAIN_WHY4	2.0	The positive battery terminal was not separated by a gap from terminal 4.

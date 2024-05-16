@@ -1,0 +1,129 @@
+AnswerId	PromptId	Score1	AnswerText
+FaultFinding-VOLTAGE_DEFINE_Q.sbj3-l1.qa213	VOLTAGE_DEFINE_Q	1.0	is the difference between two terminals
+FaultFinding-VOLTAGE_DEFINE_Q.sbj3-l1.qa214	VOLTAGE_DEFINE_Q	1.0	is the difference between terminals
+FaultFinding-VOLTAGE_DEFINE_Q.sbj3-l1.qa215	VOLTAGE_DEFINE_Q	1.0	the is a difference in the terminals
+FaultFinding-VOLTAGE_DEFINE_Q.sbj3-l1.qa216	VOLTAGE_DEFINE_Q	2.0	is the difference in electrial stat between terminals
+FaultFinding-VOLTAGE_DEFINE_Q.sbj7-l1.qa204	VOLTAGE_DEFINE_Q	2.0	the difference in electrical states between two terminals
+FaultFinding-VOLTAGE_DEFINE_Q.sbj8-l1.qa250	VOLTAGE_DEFINE_Q	2.0	the difference in the electrical states of the positive and negative terminals of a battery
+FaultFinding-VOLTAGE_DEFINE_Q.sbj8-l1.qa251	VOLTAGE_DEFINE_Q	2.0	the measurement between the electrical states of the positive and negative terminals of a battery
+FaultFinding-VOLTAGE_DEFINE_Q.sbj8-l1.qa252	VOLTAGE_DEFINE_Q	1.0	"electricity difference between the battey""s positive and negative terminals"
+FaultFinding-VOLTAGE_DEFINE_Q.sbj9-l1.qa208	VOLTAGE_DEFINE_Q	0.0	a measurement of current and flowing the a source.
+FaultFinding-VOLTAGE_DEFINE_Q.sbj9-l1.qa209	VOLTAGE_DEFINE_Q	0.0	a measurement of current flowing through a source.
+FaultFinding-VOLTAGE_DEFINE_Q.sbj9-l1.qa210	VOLTAGE_DEFINE_Q	1.0	a difference between the electrical states.
+FaultFinding-VOLTAGE_DEFINE_Q.sbj10-l1.qa238	VOLTAGE_DEFINE_Q	1.0	the difference between the positive and negative terminals of a battery
+FaultFinding-VOLTAGE_DEFINE_Q.sbj10-l1.qa240	VOLTAGE_DEFINE_Q	1.0	the difference of electrical states in a battery
+FaultFinding-VOLTAGE_DEFINE_Q.sbj10-l1.qa241	VOLTAGE_DEFINE_Q	1.0	the difference in electricity between terminals
+FaultFinding-VOLTAGE_DEFINE_Q.sbj11-l1.qa231	VOLTAGE_DEFINE_Q	2.0	teh difference of electrical states between two terminals
+FaultFinding-VOLTAGE_DEFINE_Q.sbj12-l1.qa203	VOLTAGE_DEFINE_Q	1.0	The difference between two terminals
+FaultFinding-VOLTAGE_DEFINE_Q.sbj12-l1.qa205	VOLTAGE_DEFINE_Q	1.0	Two terminals that have different electrical states
+FaultFinding-VOLTAGE_DEFINE_Q.sbj13-l1.qa244	VOLTAGE_DEFINE_Q	1.0	a measurement of electricity
+FaultFinding-VOLTAGE_DEFINE_Q.sbj13-l1.qa246	VOLTAGE_DEFINE_Q	1.0	the different in the positive terminal and negative terminal.
+FaultFinding-VOLTAGE_DEFINE_Q.sbj13-l1.qa247	VOLTAGE_DEFINE_Q	0.0	the difference between the electrical state of the positive terminal and the negative terminal.
+FaultFinding-VOLTAGE_DEFINE_Q.sbj14-l1.qa230	VOLTAGE_DEFINE_Q	0.0	voltage is the measure of electrical charges in a component.
+FaultFinding-VOLTAGE_DEFINE_Q.sbj14-l1.qa231	VOLTAGE_DEFINE_Q	0.0	voltage is the amount of electrical charge within a component.
+FaultFinding-VOLTAGE_DEFINE_Q.sbj14-l1.qa232	VOLTAGE_DEFINE_Q	1.0	voltage is the difference between tow terminals.
+FaultFinding-VOLTAGE_DEFINE_Q.sbj15-l1.qa252	VOLTAGE_DEFINE_Q	0.0	the measurement of power of electricity
+FaultFinding-VOLTAGE_DEFINE_Q.sbj15-l1.qa254	VOLTAGE_DEFINE_Q	0.0	the difference in connections between terminals
+FaultFinding-VOLTAGE_DEFINE_Q.sbj15-l1.qa255	VOLTAGE_DEFINE_Q	2.0	the difference in electrical state between two terminals
+FaultFinding-VOLTAGE_DEFINE_Q.sbj18-l1.qa201	VOLTAGE_DEFINE_Q	2.0	The difference in electrical states between two terminals.
+FaultFinding-VOLTAGE_DEFINE_Q.sbj19-l1.qa275	VOLTAGE_DEFINE_Q	1.0	the difference in batteries
+FaultFinding-VOLTAGE_DEFINE_Q.sbj19-l1.qa276	VOLTAGE_DEFINE_Q	1.0	difference between the baterry and termnial
+FaultFinding-VOLTAGE_DEFINE_Q.sbj19-l1.qa277	VOLTAGE_DEFINE_Q	0.0	the difference in the electrical state between the battery and terminal
+FaultFinding-VOLTAGE_DEFINE_Q.sbj22-l1.qa236	VOLTAGE_DEFINE_Q	1.0	voltage is the difference between states
+FaultFinding-VOLTAGE_DEFINE_Q.sbj22-l1.qa237	VOLTAGE_DEFINE_Q	1.0	it is the difference between the electrical states
+FaultFinding-VOLTAGE_DEFINE_Q.sbj22-l1.qa238	VOLTAGE_DEFINE_Q	2.0	voltage is the difference in the electrical states between the terminals
+FaultFinding-VOLTAGE_DEFINE_Q.sbj23-l1.qa204	VOLTAGE_DEFINE_Q	1.0	The difference in electrical states.
+FaultFinding-VOLTAGE_DEFINE_Q.sbj23-l1.qa205	VOLTAGE_DEFINE_Q	1.0	The measurement in difference of the electrical states.
+FaultFinding-VOLTAGE_DEFINE_Q.sbj24-l1.qa253	VOLTAGE_DEFINE_Q	2.0	measurement of the difference in electrical states between two terminals
+FaultFinding-VOLTAGE_DEFINE_Q.sbj26-l1.qa252	VOLTAGE_DEFINE_Q	0.0	the measurment of power to a source of energy
+FaultFinding-VOLTAGE_DEFINE_Q.sbj26-l1.qa253	VOLTAGE_DEFINE_Q	0.0	the power of the terminal
+FaultFinding-VOLTAGE_DEFINE_Q.sbj26-l1.qa255	VOLTAGE_DEFINE_Q	0.0	gods state
+FaultFinding-VOLTAGE_DEFINE_Q.sbj28-l1.qa229	VOLTAGE_DEFINE_Q	0.0	the difference between electrical charges of battery terminals
+FaultFinding-VOLTAGE_DEFINE_Q.sbj28-l1.qa230	VOLTAGE_DEFINE_Q	0.0	the difference of chemical signals between terminals
+FaultFinding-VOLTAGE_DEFINE_Q.sbj28-l1.qa231	VOLTAGE_DEFINE_Q	0.0	the difference between electrical charges in a battery
+FaultFinding-VOLTAGE_DEFINE_Q.sbj28-l1.qa232	VOLTAGE_DEFINE_Q	1.0	terminals
+FaultFinding-VOLTAGE_DEFINE_Q.sbj29-l1.qa222	VOLTAGE_DEFINE_Q	0.0	the difference in electricity created by chemical reactions between two terminals
+FaultFinding-VOLTAGE_DEFINE_Q.sbj30-l1.qa216	VOLTAGE_DEFINE_Q	1.0	The difference between the two ends of the battery
+FaultFinding-VOLTAGE_DEFINE_Q.sbj30-l1.qa218	VOLTAGE_DEFINE_Q	0.0	different chemical output
+FaultFinding-VOLTAGE_DEFINE_Q.sbj30-l1.qa219	VOLTAGE_DEFINE_Q	1.0	Difference between the electrical state of the two ends of the battery
+FaultFinding-VOLTAGE_DEFINE_Q.sbj31-l1.qa223	VOLTAGE_DEFINE_Q	0.0	potential difference
+FaultFinding-VOLTAGE_DEFINE_Q.sbj31-l1.qa224	VOLTAGE_DEFINE_Q	0.0	difference in eletricity
+FaultFinding-VOLTAGE_DEFINE_Q.sbj31-l1.qa225	VOLTAGE_DEFINE_Q	0.0	potential difference between 2 terminal
+FaultFinding-VOLTAGE_DEFINE_Q.sbj31-l1.qa226	VOLTAGE_DEFINE_Q	2.0	difference in electrical state between two terminals
+FaultFinding-VOLTAGE_DEFINE_Q.sbj33-l1.qa218	VOLTAGE_DEFINE_Q	1.0	the difference between the positive and negative measurements of power
+FaultFinding-VOLTAGE_DEFINE_Q.sbj34-l1.qa207	VOLTAGE_DEFINE_Q	0.0	The difference in electrical charge between two terminals
+FaultFinding-VOLTAGE_DEFINE_Q.sbj35-l1.qa231	VOLTAGE_DEFINE_Q	1.0	Voltage is the difference between the positive terminal and negative terminal in a battery.
+FaultFinding-VOLTAGE_DEFINE_Q.sbj35-l1.qa232	VOLTAGE_DEFINE_Q	2.0	Voltage is the difference in electrical states between two terminals.
+FaultFinding-VOLTAGE_DEFINE_Q.sbj36-l1.qa235	VOLTAGE_DEFINE_Q	0.0	the amount of volts
+FaultFinding-VOLTAGE_DEFINE_Q.sbj36-l1.qa236	VOLTAGE_DEFINE_Q	0.0	the distance between terminals
+FaultFinding-VOLTAGE_DEFINE_Q.sbj36-l1.qa237	VOLTAGE_DEFINE_Q	1.0	the difference between terminals
+FaultFinding-VOLTAGE_DEFINE_Q.sbj37-l1.qa204	VOLTAGE_DEFINE_Q	1.0	a difference between two terminals with a measurement
+FaultFinding-VOLTAGE_DEFINE_Q.sbj37-l1.qa205	VOLTAGE_DEFINE_Q	1.0	a difference is electrical states between two terminals
+FaultFinding-VOLTAGE_DEFINE_Q.sbj38-l1.qa209	VOLTAGE_DEFINE_Q	2.0	voltage is the difference in electrical states between two terminals of a circuit
+FaultFinding-VOLTAGE_DEFINE_Q.sbj38-l1.qa210	VOLTAGE_DEFINE_Q	2.0	the difference in electrical states of two terminals
+FaultFinding-VOLTAGE_DEFINE_Q.sbj39-l1.qa252	VOLTAGE_DEFINE_Q	0.0	The difference betweej two terminals that are not connected
+FaultFinding-VOLTAGE_DEFINE_Q.sbj39-l1.qa253	VOLTAGE_DEFINE_Q	0.0	The difference between two terminals that produces and electrical state
+FaultFinding-VOLTAGE_DEFINE_Q.sbj40-l1.qa244	VOLTAGE_DEFINE_Q	1.0	voltage is the diffrence between states.
+FaultFinding-VOLTAGE_DEFINE_Q.sbj40-l1.qa246	VOLTAGE_DEFINE_Q	1.0	voltage is the diffrence in electrical states.
+FaultFinding-VOLTAGE_DEFINE_Q.sbj40-l1.qa247	VOLTAGE_DEFINE_Q	2.0	volatge is the diffrence in electrical state between two terminals.
+FaultFinding-VOLTAGE_DEFINE_Q.sbj43-l1.qa219	VOLTAGE_DEFINE_Q	0.0	a measure of electric power
+FaultFinding-VOLTAGE_DEFINE_Q.sbj43-l1.qa220	VOLTAGE_DEFINE_Q	0.0	a measure of the strength of electricity
+FaultFinding-VOLTAGE_DEFINE_Q.sbj43-l1.qa221	VOLTAGE_DEFINE_Q	0.0	the difference in size between two terminals
+FaultFinding-VOLTAGE_DEFINE_Q.sbj45-l1.qa213	VOLTAGE_DEFINE_Q	1.0	the measurement of the difference between two terminals
+FaultFinding-VOLTAGE_DEFINE_Q.sbj45-l1.qa214	VOLTAGE_DEFINE_Q	0.0	i dont know
+FaultFinding-VOLTAGE_DEFINE_Q.sbj45-l1.qa215	VOLTAGE_DEFINE_Q	0.0	...
+FaultFinding-VOLTAGE_DEFINE_Q.sbj45-l1.qa216	VOLTAGE_DEFINE_Q	1.0	the measurement of the difference between two terminals in an electric state
+FaultFinding-VOLTAGE_DEFINE_Q.sbj46-l1.qa232	VOLTAGE_DEFINE_Q	0.0	distance between terminals
+FaultFinding-VOLTAGE_DEFINE_Q.sbj46-l1.qa233	VOLTAGE_DEFINE_Q	0.0	energy between terminals
+FaultFinding-VOLTAGE_DEFINE_Q.sbj46-l1.qa234	VOLTAGE_DEFINE_Q	0.0	difference between paths of terminals
+FaultFinding-VOLTAGE_DEFINE_Q.sbj46-l1.qa235	VOLTAGE_DEFINE_Q	1.0	negative and positive difference
+FaultFinding-VOLTAGE_DEFINE_Q.sbj47-l1.qa246	VOLTAGE_DEFINE_Q	0.0	the amount of power a battery emits
+FaultFinding-VOLTAGE_DEFINE_Q.sbj47-l1.qa247	VOLTAGE_DEFINE_Q	0.0	the difference in power a battery emits
+FaultFinding-VOLTAGE_DEFINE_Q.sbj47-l1.qa248	VOLTAGE_DEFINE_Q	0.0	the difference in an electrical state a battery has
+FaultFinding-VOLTAGE_DEFINE_Q.sbj48-l1.qa206	VOLTAGE_DEFINE_Q	2.0	"the difference between two different terminal""s electrical states."
+FaultFinding-VOLTAGE_DEFINE_Q.sbj48-l1.qa207	VOLTAGE_DEFINE_Q	2.0	voltage is a reading of the difference in electrical states between two terminals
+FaultFinding-VOLTAGE_DEFINE_Q.sbjb1-l1.qa184	VOLTAGE_DEFINE_Q	0.0	Voltage is the charge given when two terminals are connected.
+FaultFinding-VOLTAGE_DEFINE_Q.sbjb2-l1.qa188	VOLTAGE_DEFINE_Q	1.0	The difference between the terminals.
+FaultFinding-VOLTAGE_DEFINE_Q.sbjb3-l1.qa200	VOLTAGE_DEFINE_Q	0.0	0.0
+FaultFinding-VOLTAGE_DEFINE_Q.sbjb5-l1.qa187	VOLTAGE_DEFINE_Q	2.0	voltage is the difference in the electrical states between two terminals.
+FaultFinding-VOLTAGE_DEFINE_Q.sbjb7-l1.qa177	VOLTAGE_DEFINE_Q	1.0	difference in electrical states of terminals
+FaultFinding-VOLTAGE_DEFINE_Q.sbjb10-l1.qa177	VOLTAGE_DEFINE_Q	0.0	0
+FaultFinding-VOLTAGE_DEFINE_Q.sbjb11-l1.qa183	VOLTAGE_DEFINE_Q	0.0	The measure of electritcy across a power source
+FaultFinding-VOLTAGE_DEFINE_Q.sbjb12-l1.qa183	VOLTAGE_DEFINE_Q	0.0	0.0 volts
+FaultFinding-VOLTAGE_DEFINE_Q.sbjb15-l1.qa179	VOLTAGE_DEFINE_Q	0.0	measure of electicity
+FaultFinding-VOLTAGE_DEFINE_Q.sbjb16-l1.qa179	VOLTAGE_DEFINE_Q	0.0	difference between two electrical currents
+FaultFinding-VOLTAGE_DEFINE_Q.sbjb18-l1.qa190	VOLTAGE_DEFINE_Q	0.0	Voltage is the difference in electrical states between a bulb terminal and a battery terminal.
+FaultFinding-VOLTAGE_DEFINE_Q.sbjb19-l1.qa182	VOLTAGE_DEFINE_Q	0.0	the amount of electricity in a batery
+FaultFinding-VOLTAGE_DEFINE_Q.sbjb20-l1.qa190	VOLTAGE_DEFINE_Q	0.0	The amount of charge.
+FaultFinding-VOLTAGE_DEFINE_Q.sbjb21-l1.qa178	VOLTAGE_DEFINE_Q	0.0	electrucal charge
+FaultFinding-VOLTAGE_DEFINE_Q.sbjb22-l1.qa188	VOLTAGE_DEFINE_Q	0.0	"voltage is the differance between the 2 terminals of a batter""s state"
+FaultFinding-VOLTAGE_DEFINE_Q.sbjb24-l1.qa185	VOLTAGE_DEFINE_Q	0.0	measure of electrical current?
+FaultFinding-VOLTAGE_DEFINE_Q.sbjb25-l1.qa182	VOLTAGE_DEFINE_Q	0.0	Voltage is how much energy is going on inside a battery.
+FaultFinding-VOLTAGE_DEFINE_Q.sbjb26-l1.qa178	VOLTAGE_DEFINE_Q	2.0	The difference is electrical states between two terminals.
+FaultFinding-VOLTAGE_DEFINE_Q.sbjb27-l1.qa177	VOLTAGE_DEFINE_Q	0.0	the difference in charges of two terminals
+FaultFinding-VOLTAGE_DEFINE_Q.sbjb28-l1.qa182	VOLTAGE_DEFINE_Q	1.0	the difference in electrical states
+FaultFinding-VOLTAGE_DEFINE_Q.sbjb29-l1.qa181	VOLTAGE_DEFINE_Q	1.0	voltage is the difference between positive and negative
+FaultFinding-VOLTAGE_DEFINE_Q.sbjb30-l1.qa184	VOLTAGE_DEFINE_Q	1.0	the difference between 2 terminals.
+FaultFinding-VOLTAGE_DEFINE_Q.sbjb31-l1.qa177	VOLTAGE_DEFINE_Q	0.0	voltage is a property of batteries. voltage is the difference between electrical currents in two terminals.
+FaultFinding-VOLTAGE_DEFINE_Q.sbjb34-l1.qa177	VOLTAGE_DEFINE_Q	1.0	The measured difference between two electrical states.
+FaultFinding-VOLTAGE_DEFINE_Q.sbjb35-l1.qa179	VOLTAGE_DEFINE_Q	0.0	The difference in charge between the two terminals
+FaultFinding-VOLTAGE_DEFINE_Q.sbjb36-l1.qa177	VOLTAGE_DEFINE_Q	0.0	the measurement of the electrical current that occurs when the chemicals are mixed together.
+FaultFinding-VOLTAGE_DEFINE_Q.sbjb37-l1.qa177	VOLTAGE_DEFINE_Q	0.0	The amount of electric being put out
+FaultFinding-VOLTAGE_DEFINE_Q.sbjb38-l1.qa178	VOLTAGE_DEFINE_Q	0.0	The electrical difference between the two terminals of a battery
+FaultFinding-VOLTAGE_DEFINE_Q.sbjb39-l1.qa180	VOLTAGE_DEFINE_Q	1.0	the difference between terminals.
+FaultFinding-VOLTAGE_DEFINE_Q.sbjb40-l1.qa178	VOLTAGE_DEFINE_Q	1.0	voltage is the difference in the states of the terminal
+FaultFinding-VOLTAGE_DEFINE_Q.sbjb41-l1.qa180	VOLTAGE_DEFINE_Q	1.0	The measure between 2 different terminals
+FaultFinding-VOLTAGE_DEFINE_Q.sbjb42-l1.qa180	VOLTAGE_DEFINE_Q	2.0	measure of the difference between the elecrical states of two terminals.
+FaultFinding-VOLTAGE_DEFINE_Q.sbj10-l1.qa239	VOLTAGE_DEFINE_Q	1.0	electricity
+FaultFinding-VOLTAGE_DEFINE_Q.sbj13-l1.qa245	VOLTAGE_DEFINE_Q	1.0	a measurement of electricity between a positive and negative terminal
+FaultFinding-VOLTAGE_DEFINE_Q.sbj15-l1.qa253	VOLTAGE_DEFINE_Q	0.0	the measurement of power
+FaultFinding-VOLTAGE_DEFINE_Q.sbj23-l1.qa206	VOLTAGE_DEFINE_Q	2.0	The difference in electrical state between terminals.
+FaultFinding-VOLTAGE_DEFINE_Q.sbj26-l1.qa254	VOLTAGE_DEFINE_Q	0.0	god
+FaultFinding-VOLTAGE_DEFINE_Q.sbj27-l1.qa231	VOLTAGE_DEFINE_Q	1.0	the measurement of electricity
+FaultFinding-VOLTAGE_DEFINE_Q.sbj33-l1.qa219	VOLTAGE_DEFINE_Q	0.0	tell answer
+FaultFinding-VOLTAGE_DEFINE_Q.sbj34-l1.qa208	VOLTAGE_DEFINE_Q	1.0	The difference in electrical state
+FaultFinding-VOLTAGE_DEFINE_Q.sbj38-l1.qa207	VOLTAGE_DEFINE_Q	1.0	the difference is electrical states
+FaultFinding-VOLTAGE_DEFINE_Q.sbj42-l1.qa240	VOLTAGE_DEFINE_Q	1.0	The difference in the terminals of a battery.
+FaultFinding-VOLTAGE_DEFINE_Q.sbjb6-l1.qa180	VOLTAGE_DEFINE_Q	0.0	The difference between the positive and negative side
+FaultFinding-VOLTAGE_DEFINE_Q.sbjb9-l1.qa193	VOLTAGE_DEFINE_Q	2.0	Voltage is the difference between the electrical states between two terminals.
+FaultFinding-VOLTAGE_DEFINE_Q.sbjb17-l1.qa181	VOLTAGE_DEFINE_Q	2.0	The difference between the electrical states of two terminals

@@ -1,0 +1,106 @@
+AnswerId	PromptId	Score1	AnswerText
+SwitchesBulbsParallel-SWITCH_TABLE_EXPLAIN_Q1.sbj3-l2.qa58	SWITCH_TABLE_EXPLAIN_Q1	2.0	because bulb a was still in a closed path with the battery
+SwitchesBulbsParallel-SWITCH_TABLE_EXPLAIN_Q1.sbj7-l2.qa58	SWITCH_TABLE_EXPLAIN_Q1	2.0	bulb a was still contained in a closed path with the battery.
+SwitchesBulbsParallel-SWITCH_TABLE_EXPLAIN_Q1.sbj8-l2.qa61	SWITCH_TABLE_EXPLAIN_Q1	1.0	because the path was closed
+SwitchesBulbsParallel-SWITCH_TABLE_EXPLAIN_Q1.sbj8-l2.qa62	SWITCH_TABLE_EXPLAIN_Q1	1.0	because it was contained in same path as the battery
+SwitchesBulbsParallel-SWITCH_TABLE_EXPLAIN_Q1.sbj8-l2.qa63	SWITCH_TABLE_EXPLAIN_Q1	2.0	because bulb a is contained within the same closed path as the battery
+SwitchesBulbsParallel-SWITCH_TABLE_EXPLAIN_Q1.sbj8-l2.qa64	SWITCH_TABLE_EXPLAIN_Q1	1.0	switch Y does not affect bulb a
+SwitchesBulbsParallel-SWITCH_TABLE_EXPLAIN_Q1.sbj9-l2.qa59	SWITCH_TABLE_EXPLAIN_Q1	2.0	bulb a was in a closed path with the battery.
+SwitchesBulbsParallel-SWITCH_TABLE_EXPLAIN_Q1.sbj10-l2.qa61	SWITCH_TABLE_EXPLAIN_Q1	0.0	becuase bulb a is on a closed circuit with the battery
+SwitchesBulbsParallel-SWITCH_TABLE_EXPLAIN_Q1.sbj10-l2.qa62	SWITCH_TABLE_EXPLAIN_Q1	2.0	because bulb a is on a closed path with the battery
+SwitchesBulbsParallel-SWITCH_TABLE_EXPLAIN_Q1.sbj11-l2.qa60	SWITCH_TABLE_EXPLAIN_Q1	2.0	because bulb a is in a closed path with the battery.
+SwitchesBulbsParallel-SWITCH_TABLE_EXPLAIN_Q1.sbj12-l2.qa63	SWITCH_TABLE_EXPLAIN_Q1	0.0	The circuit is complete with the battery and bulb a
+SwitchesBulbsParallel-SWITCH_TABLE_EXPLAIN_Q1.sbj13-l2.qa66	SWITCH_TABLE_EXPLAIN_Q1	1.0	they are contained in the same path.
+SwitchesBulbsParallel-SWITCH_TABLE_EXPLAIN_Q1.sbj13-l2.qa67	SWITCH_TABLE_EXPLAIN_Q1	1.0	switch x is contained in the same path as bulb a.
+SwitchesBulbsParallel-SWITCH_TABLE_EXPLAIN_Q1.sbj13-l2.qa68	SWITCH_TABLE_EXPLAIN_Q1	1.0	bulb a is in the same path of switch x.
+SwitchesBulbsParallel-SWITCH_TABLE_EXPLAIN_Q1.sbj14-l2.qa59	SWITCH_TABLE_EXPLAIN_Q1	0.0	because it was not contained in the closed path.
+SwitchesBulbsParallel-SWITCH_TABLE_EXPLAIN_Q1.sbj14-l2.qa60	SWITCH_TABLE_EXPLAIN_Q1	2.0	because it was contained in a closed bath with the battery.
+SwitchesBulbsParallel-SWITCH_TABLE_EXPLAIN_Q1.sbj15-l2.qa67	SWITCH_TABLE_EXPLAIN_Q1	0.0	because there was a gap in the terminals
+SwitchesBulbsParallel-SWITCH_TABLE_EXPLAIN_Q1.sbj19-l2.qa75	SWITCH_TABLE_EXPLAIN_Q1	0.0	Because the switch was connected to the closed circuit
+SwitchesBulbsParallel-SWITCH_TABLE_EXPLAIN_Q1.sbj19-l2.qa76	SWITCH_TABLE_EXPLAIN_Q1	1.0	the path was closed
+SwitchesBulbsParallel-SWITCH_TABLE_EXPLAIN_Q1.sbj19-l2.qa77	SWITCH_TABLE_EXPLAIN_Q1	1.0	the closed path is connected to the light bulb
+SwitchesBulbsParallel-SWITCH_TABLE_EXPLAIN_Q1.sbj19-l2.qa78	SWITCH_TABLE_EXPLAIN_Q1	1.0	Bulb A is contain in a closed path
+SwitchesBulbsParallel-SWITCH_TABLE_EXPLAIN_Q1.sbj22-l2.qa61	SWITCH_TABLE_EXPLAIN_Q1	1.0	there was closed paths between the battery
+SwitchesBulbsParallel-SWITCH_TABLE_EXPLAIN_Q1.sbj22-l2.qa62	SWITCH_TABLE_EXPLAIN_Q1	0.0	l
+SwitchesBulbsParallel-SWITCH_TABLE_EXPLAIN_Q1.sbj23-l2.qa63	SWITCH_TABLE_EXPLAIN_Q1	1.0	Bulb A is conected to the battery.
+SwitchesBulbsParallel-SWITCH_TABLE_EXPLAIN_Q1.sbj23-l2.qa64	SWITCH_TABLE_EXPLAIN_Q1	2.0	Bulb A is in a closed path with the battery.
+SwitchesBulbsParallel-SWITCH_TABLE_EXPLAIN_Q1.sbj24-l2.qa61	SWITCH_TABLE_EXPLAIN_Q1	1.0	switch Y does not effect bulb A
+SwitchesBulbsParallel-SWITCH_TABLE_EXPLAIN_Q1.sbj26-l2.qa60	SWITCH_TABLE_EXPLAIN_Q1	0.0	i forgot
+SwitchesBulbsParallel-SWITCH_TABLE_EXPLAIN_Q1.sbj26-l2.qa61	SWITCH_TABLE_EXPLAIN_Q1	2.0	because switch x is in the same path as blub a
+SwitchesBulbsParallel-SWITCH_TABLE_EXPLAIN_Q1.sbj26-l2.qa62	SWITCH_TABLE_EXPLAIN_Q1	2.0	switch x is in the closed path with bulb a
+SwitchesBulbsParallel-SWITCH_TABLE_EXPLAIN_Q1.sbj27-l2.qa63	SWITCH_TABLE_EXPLAIN_Q1	0.0	yes
+SwitchesBulbsParallel-SWITCH_TABLE_EXPLAIN_Q1.sbj27-l2.qa65	SWITCH_TABLE_EXPLAIN_Q1	0.0	bulb a was on
+SwitchesBulbsParallel-SWITCH_TABLE_EXPLAIN_Q1.sbj28-l2.qa61	SWITCH_TABLE_EXPLAIN_Q1	2.0	it was in a closed path with a battery
+SwitchesBulbsParallel-SWITCH_TABLE_EXPLAIN_Q1.sbj29-l2.qa64	SWITCH_TABLE_EXPLAIN_Q1	1.0	bulb a and switch x are in the same closed path
+SwitchesBulbsParallel-SWITCH_TABLE_EXPLAIN_Q1.sbj30-l2.qa68	SWITCH_TABLE_EXPLAIN_Q1	1.0	Bulb A has a closed pathway
+SwitchesBulbsParallel-SWITCH_TABLE_EXPLAIN_Q1.sbj30-l2.qa69	SWITCH_TABLE_EXPLAIN_Q1	1.0	Bulb A is on a closed circut path
+SwitchesBulbsParallel-SWITCH_TABLE_EXPLAIN_Q1.sbj30-l2.qa70	SWITCH_TABLE_EXPLAIN_Q1	2.0	Bulb A is in a closed path with the battery
+SwitchesBulbsParallel-SWITCH_TABLE_EXPLAIN_Q1.sbj31-l2.qa66	SWITCH_TABLE_EXPLAIN_Q1	2.0	bulb a and the battery was on a closed path
+SwitchesBulbsParallel-SWITCH_TABLE_EXPLAIN_Q1.sbj31-l2.qa67	SWITCH_TABLE_EXPLAIN_Q1	0.0	dont know
+SwitchesBulbsParallel-SWITCH_TABLE_EXPLAIN_Q1.sbj31-l2.qa68	SWITCH_TABLE_EXPLAIN_Q1	2.0	the bulb and the battery is contained on a closed path
+SwitchesBulbsParallel-SWITCH_TABLE_EXPLAIN_Q1.sbj33-l2.qa66	SWITCH_TABLE_EXPLAIN_Q1	0.0	no
+SwitchesBulbsParallel-SWITCH_TABLE_EXPLAIN_Q1.sbj33-l2.qa68	SWITCH_TABLE_EXPLAIN_Q1	0.0	it was is a closed circuit with the battery
+SwitchesBulbsParallel-SWITCH_TABLE_EXPLAIN_Q1.sbj33-l2.qa69	SWITCH_TABLE_EXPLAIN_Q1	0.0	tell answer
+SwitchesBulbsParallel-SWITCH_TABLE_EXPLAIN_Q1.sbj34-l2.qa66	SWITCH_TABLE_EXPLAIN_Q1	2.0	Switch Y is not in the path of Bulb A
+SwitchesBulbsParallel-SWITCH_TABLE_EXPLAIN_Q1.sbj34-l2.qa67	SWITCH_TABLE_EXPLAIN_Q1	2.0	Switch Y was in a dfferent path
+SwitchesBulbsParallel-SWITCH_TABLE_EXPLAIN_Q1.sbj34-l2.qa68	SWITCH_TABLE_EXPLAIN_Q1	2.0	Bulb A is contained in a closed path with the battery
+SwitchesBulbsParallel-SWITCH_TABLE_EXPLAIN_Q1.sbj35-l2.qa66	SWITCH_TABLE_EXPLAIN_Q1	2.0	Bulb A is in a closed path with a battery
+SwitchesBulbsParallel-SWITCH_TABLE_EXPLAIN_Q1.sbj37-l2.qa60	SWITCH_TABLE_EXPLAIN_Q1	2.0	bulb a is contained in the closed path with switch x. switch y is not in the closed path with bulb a.
+SwitchesBulbsParallel-SWITCH_TABLE_EXPLAIN_Q1.sbj38-l2.qa56	SWITCH_TABLE_EXPLAIN_Q1	2.0	bulb a was in a closed path with the battery
+SwitchesBulbsParallel-SWITCH_TABLE_EXPLAIN_Q1.sbj39-l2.qa72	SWITCH_TABLE_EXPLAIN_Q1	0.0	Yes.
+SwitchesBulbsParallel-SWITCH_TABLE_EXPLAIN_Q1.sbj39-l2.qa73	SWITCH_TABLE_EXPLAIN_Q1	1.0	yes bulb A was on
+SwitchesBulbsParallel-SWITCH_TABLE_EXPLAIN_Q1.sbj39-l2.qa74	SWITCH_TABLE_EXPLAIN_Q1	0.0	Because it was contained in a closed circuit
+SwitchesBulbsParallel-SWITCH_TABLE_EXPLAIN_Q1.sbj39-l2.qa75	SWITCH_TABLE_EXPLAIN_Q1	2.0	Because it was contained in the battery that has a closed path
+SwitchesBulbsParallel-SWITCH_TABLE_EXPLAIN_Q1.sbj40-l2.qa68	SWITCH_TABLE_EXPLAIN_Q1	1.0	bulb a was on because it was contined in a closed path.
+SwitchesBulbsParallel-SWITCH_TABLE_EXPLAIN_Q1.sbj40-l2.qa69	SWITCH_TABLE_EXPLAIN_Q1	0.0	i give up.
+SwitchesBulbsParallel-SWITCH_TABLE_EXPLAIN_Q1.sbj42-l2.qa62	SWITCH_TABLE_EXPLAIN_Q1	2.0	There was a closed path with the battery and bulb a
+SwitchesBulbsParallel-SWITCH_TABLE_EXPLAIN_Q1.sbj43-l2.qa58	SWITCH_TABLE_EXPLAIN_Q1	2.0	beacuse it was in a closed path with the battery
+SwitchesBulbsParallel-SWITCH_TABLE_EXPLAIN_Q1.sbj45-l2.qa59	SWITCH_TABLE_EXPLAIN_Q1	2.0	Bulb A was still in a closed path with the battery
+SwitchesBulbsParallel-SWITCH_TABLE_EXPLAIN_Q1.sbj46-l2.qa67	SWITCH_TABLE_EXPLAIN_Q1	2.0	had a closed path to the battery
+SwitchesBulbsParallel-SWITCH_TABLE_EXPLAIN_Q1.sbj46-l2.qa68	SWITCH_TABLE_EXPLAIN_Q1	2.0	bulb a and the battery were in a closed path
+SwitchesBulbsParallel-SWITCH_TABLE_EXPLAIN_Q1.sbj47-l2.qa67	SWITCH_TABLE_EXPLAIN_Q1	0.0	Yes it was on
+SwitchesBulbsParallel-SWITCH_TABLE_EXPLAIN_Q1.sbj47-l2.qa68	SWITCH_TABLE_EXPLAIN_Q1	1.0	because bulb a is connected to switch x and the battery is in a closed path
+SwitchesBulbsParallel-SWITCH_TABLE_EXPLAIN_Q1.sbj48-l2.qa62	SWITCH_TABLE_EXPLAIN_Q1	2.0	Because bulb a was contained in a closed path with the battery.
+SwitchesBulbsParallel-SWITCH_TABLE_EXPLAIN_Q1.sbjb1-l2.qa54	SWITCH_TABLE_EXPLAIN_Q1	1.0	Bulb A and switch x are contained in the same path and the switch affects bulb A.
+SwitchesBulbsParallel-SWITCH_TABLE_EXPLAIN_Q1.sbjb2-l2.qa55	SWITCH_TABLE_EXPLAIN_Q1	2.0	It was still contained in a closed path with the battery.
+SwitchesBulbsParallel-SWITCH_TABLE_EXPLAIN_Q1.sbjb3-l2.qa58	SWITCH_TABLE_EXPLAIN_Q1	0.0	It was closest to the battery
+SwitchesBulbsParallel-SWITCH_TABLE_EXPLAIN_Q1.sbjb5-l2.qa54	SWITCH_TABLE_EXPLAIN_Q1	2.0	bulb a was contained on a closed path with the battery
+SwitchesBulbsParallel-SWITCH_TABLE_EXPLAIN_Q1.sbjb6-l2.qa54	SWITCH_TABLE_EXPLAIN_Q1	0.0	Bulb A was still contained in a closed circuit.
+SwitchesBulbsParallel-SWITCH_TABLE_EXPLAIN_Q1.sbjb7-l2.qa55	SWITCH_TABLE_EXPLAIN_Q1	1.0	It was contained in a closed path
+SwitchesBulbsParallel-SWITCH_TABLE_EXPLAIN_Q1.sbjb9-l2.qa54	SWITCH_TABLE_EXPLAIN_Q1	2.0	Bulb A was still on a closed path to the battery
+SwitchesBulbsParallel-SWITCH_TABLE_EXPLAIN_Q1.sbjb10-l2.qa54	SWITCH_TABLE_EXPLAIN_Q1	0.0	because it is still in a closed circuit
+SwitchesBulbsParallel-SWITCH_TABLE_EXPLAIN_Q1.sbjb11-l2.qa54	SWITCH_TABLE_EXPLAIN_Q1	2.0	Bulb A was on because it was in a closed path that contained the battery
+SwitchesBulbsParallel-SWITCH_TABLE_EXPLAIN_Q1.sbjb12-l2.qa54	SWITCH_TABLE_EXPLAIN_Q1	0.0	bulb a was in a closed circuit with the battery
+SwitchesBulbsParallel-SWITCH_TABLE_EXPLAIN_Q1.sbjb15-l2.qa55	SWITCH_TABLE_EXPLAIN_Q1	1.0	it was enclosed in a complete circuit
+SwitchesBulbsParallel-SWITCH_TABLE_EXPLAIN_Q1.sbjb16-l2.qa54	SWITCH_TABLE_EXPLAIN_Q1	2.0	it was in a closed path with the battery
+SwitchesBulbsParallel-SWITCH_TABLE_EXPLAIN_Q1.sbjb17-l2.qa54	SWITCH_TABLE_EXPLAIN_Q1	1.0	it was contained within a closed path
+SwitchesBulbsParallel-SWITCH_TABLE_EXPLAIN_Q1.sbjb19-l2.qa54	SWITCH_TABLE_EXPLAIN_Q1	0.0	because that created a closed circuit
+SwitchesBulbsParallel-SWITCH_TABLE_EXPLAIN_Q1.sbjb21-l2.qa54	SWITCH_TABLE_EXPLAIN_Q1	1.0	it was still on a closed path
+SwitchesBulbsParallel-SWITCH_TABLE_EXPLAIN_Q1.sbjb22-l2.qa54	SWITCH_TABLE_EXPLAIN_Q1	1.0	it completes teh crciut
+SwitchesBulbsParallel-SWITCH_TABLE_EXPLAIN_Q1.sbjb24-l2.qa58	SWITCH_TABLE_EXPLAIN_Q1	0.0	a is in a closed circuit when x is closed
+SwitchesBulbsParallel-SWITCH_TABLE_EXPLAIN_Q1.sbjb25-l2.qa55	SWITCH_TABLE_EXPLAIN_Q1	1.0	It was in the same path as switch X.
+SwitchesBulbsParallel-SWITCH_TABLE_EXPLAIN_Q1.sbjb26-l2.qa54	SWITCH_TABLE_EXPLAIN_Q1	2.0	Bubl A was contained in a closed path with the battery.
+SwitchesBulbsParallel-SWITCH_TABLE_EXPLAIN_Q1.sbjb27-l2.qa54	SWITCH_TABLE_EXPLAIN_Q1	0.0	switch Y does not affect the closed circuit of bulb A
+SwitchesBulbsParallel-SWITCH_TABLE_EXPLAIN_Q1.sbjb28-l2.qa54	SWITCH_TABLE_EXPLAIN_Q1	1.0	Bulb A was still in a closed path
+SwitchesBulbsParallel-SWITCH_TABLE_EXPLAIN_Q1.sbjb29-l2.qa54	SWITCH_TABLE_EXPLAIN_Q1	0.0	because there was no gap in the complete circuit
+SwitchesBulbsParallel-SWITCH_TABLE_EXPLAIN_Q1.sbjb30-l2.qa54	SWITCH_TABLE_EXPLAIN_Q1	0.0	bulb a is contained in a complete circuit when switch x is closed.
+SwitchesBulbsParallel-SWITCH_TABLE_EXPLAIN_Q1.sbjb31-l2.qa54	SWITCH_TABLE_EXPLAIN_Q1	0.0	because bulb a is in a closed circuit with the battery and switch x
+SwitchesBulbsParallel-SWITCH_TABLE_EXPLAIN_Q1.sbjb32-l2.qa54	SWITCH_TABLE_EXPLAIN_Q1	1.0	"Because switch Y didn""t interfere with the current."
+SwitchesBulbsParallel-SWITCH_TABLE_EXPLAIN_Q1.sbjb36-l2.qa54	SWITCH_TABLE_EXPLAIN_Q1	1.0	it was a closed path
+SwitchesBulbsParallel-SWITCH_TABLE_EXPLAIN_Q1.sbjb37-l2.qa54	SWITCH_TABLE_EXPLAIN_Q1	1.0	It has its own closed path
+SwitchesBulbsParallel-SWITCH_TABLE_EXPLAIN_Q1.sbjb38-l2.qa54	SWITCH_TABLE_EXPLAIN_Q1	0.0	Because a closed circuit was formed.
+SwitchesBulbsParallel-SWITCH_TABLE_EXPLAIN_Q1.sbjb39-l2.qa54	SWITCH_TABLE_EXPLAIN_Q1	2.0	because bulb A was still in a closed path with the battery.
+SwitchesBulbsParallel-SWITCH_TABLE_EXPLAIN_Q1.sbjb40-l2.qa54	SWITCH_TABLE_EXPLAIN_Q1	2.0	There was a closed path between the battery and bulb a.
+SwitchesBulbsParallel-SWITCH_TABLE_EXPLAIN_Q1.sbjb42-l2.qa54	SWITCH_TABLE_EXPLAIN_Q1	1.0	because bulb A was still contained in a closed path
+SwitchesBulbsParallel-SWITCH_TABLE_EXPLAIN_Q1.sbj12-l2.qa62	SWITCH_TABLE_EXPLAIN_Q1	0.0	It is on a complete path with the battery
+SwitchesBulbsParallel-SWITCH_TABLE_EXPLAIN_Q1.sbj14-l2.qa61	SWITCH_TABLE_EXPLAIN_Q1	2.0	because it was contained in a closed path to the battery.
+SwitchesBulbsParallel-SWITCH_TABLE_EXPLAIN_Q1.sbj14-l2.qa62	SWITCH_TABLE_EXPLAIN_Q1	1.0	The battery is conatined in the same path as the bulb.
+SwitchesBulbsParallel-SWITCH_TABLE_EXPLAIN_Q1.sbj15-l2.qa68	SWITCH_TABLE_EXPLAIN_Q1	0.0	there was a gap in therefdjkjreajfjhkldec
+SwitchesBulbsParallel-SWITCH_TABLE_EXPLAIN_Q1.sbj18-l2.qa60	SWITCH_TABLE_EXPLAIN_Q1	2.0	Bulb a was in a closed path with a battery.
+SwitchesBulbsParallel-SWITCH_TABLE_EXPLAIN_Q1.sbj29-l2.qa66	SWITCH_TABLE_EXPLAIN_Q1	2.0	bulb a and switch z are contained in a closed path with a battery
+SwitchesBulbsParallel-SWITCH_TABLE_EXPLAIN_Q1.sbj37-l2.qa59	SWITCH_TABLE_EXPLAIN_Q1	1.0	it does not affect bulb a. switch x does affect bulb a. switch x was closed
+SwitchesBulbsParallel-SWITCH_TABLE_EXPLAIN_Q1.sbjb4-l2.qa54	SWITCH_TABLE_EXPLAIN_Q1	2.0	it was on a closed path and connected to the battery
+SwitchesBulbsParallel-SWITCH_TABLE_EXPLAIN_Q1.sbjb20-l2.qa54	SWITCH_TABLE_EXPLAIN_Q1	1.0	Bulb A is in the path of switch x.
+SwitchesBulbsParallel-SWITCH_TABLE_EXPLAIN_Q1.sbjb34-l2.qa55	SWITCH_TABLE_EXPLAIN_Q1	0.0	Bulb A was in a closed circuit.
+SwitchesBulbsParallel-SWITCH_TABLE_EXPLAIN_Q1.sbjb35-l2.qa55	SWITCH_TABLE_EXPLAIN_Q1	1.0	"Because it""s path was closed."
+SwitchesBulbsParallel-SWITCH_TABLE_EXPLAIN_Q1.sbjb41-l2.qa55	SWITCH_TABLE_EXPLAIN_Q1	2.0	Bulb A was on because the path was closed from bulb A to the battery.

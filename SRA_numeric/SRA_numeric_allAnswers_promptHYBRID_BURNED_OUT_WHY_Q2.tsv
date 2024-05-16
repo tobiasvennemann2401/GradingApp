@@ -1,0 +1,95 @@
+AnswerId	PromptId	Score1	AnswerText
+SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q2.sbj3-l2.qa108	HYBRID_BURNED_OUT_WHY_Q2	2.0	because bulb a and b are still contained within a closed path with the battery
+SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q2.sbj7-l2.qa112	HYBRID_BURNED_OUT_WHY_Q2	2.0	there is a closed path that contains the battery, bulb b, and bulb a
+SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q2.sbj8-l2.qa122	HYBRID_BURNED_OUT_WHY_Q2	2.0	because they are both still contained in a closed path with the battery
+SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q2.sbj9-l2.qa113	HYBRID_BURNED_OUT_WHY_Q2	2.0	bulbs a and b are still contained in a closed path with the battery.
+SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q2.sbj10-l2.qa118	HYBRID_BURNED_OUT_WHY_Q2	2.0	because bulbs a and b are in a closed path with the battery
+SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q2.sbj12-l2.qa124	HYBRID_BURNED_OUT_WHY_Q2	2.0	If bulb C is damaged, then bulb B and bulb A are still contained in a closed path with the battery.
+SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q2.sbj13-l2.qa124	HYBRID_BURNED_OUT_WHY_Q2	2.0	bulb c is not in the same path of bulb a and b.
+SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q2.sbj13-l2.qa125	HYBRID_BURNED_OUT_WHY_Q2	0.0	i dont know.
+SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q2.sbj13-l2.qa126	HYBRID_BURNED_OUT_WHY_Q2	1.0	bulb c is not in the same path of the battery.
+SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q2.sbj13-l2.qa128	HYBRID_BURNED_OUT_WHY_Q2	0.0	"i don""t know."
+SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q2.sbj14-l2.qa120	HYBRID_BURNED_OUT_WHY_Q2	2.0	bulb B and bulb A stay on a closed path.
+SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q2.sbj14-l2.qa121	HYBRID_BURNED_OUT_WHY_Q2	2.0	Bulb B and Bulb A are on closed paths.
+SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q2.sbj15-l2.qa140	HYBRID_BURNED_OUT_WHY_Q2	0.0	the bulb in burned out
+SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q2.sbj15-l2.qa141	HYBRID_BURNED_OUT_WHY_Q2	0.0	becaudse the terminica;l circuit bulb sidshfklopc
+SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q2.sbj18-l2.qa111	HYBRID_BURNED_OUT_WHY_Q2	2.0	bulbs a and b are still in a closed path with the battery
+SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q2.sbj19-l2.qa138	HYBRID_BURNED_OUT_WHY_Q2	2.0	if C is damaged, the bulb A and B ae contained in a closed path
+SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q2.sbj19-l2.qa140	HYBRID_BURNED_OUT_WHY_Q2	1.0	battter is contained in a closed path
+SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q2.sbj19-l2.qa141	HYBRID_BURNED_OUT_WHY_Q2	1.0	the battery is contained in a closed path
+SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q2.sbj22-l2.qa124	HYBRID_BURNED_OUT_WHY_Q2	0.0	l
+SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q2.sbj23-l2.qa117	HYBRID_BURNED_OUT_WHY_Q2	0.0	Bulb A and Bulb C are contained in a closed path with the battery.
+SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q2.sbj23-l2.qa118	HYBRID_BURNED_OUT_WHY_Q2	2.0	Bulb A and Bulb B are contained in a closed path with the battery.
+SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q2.sbj24-l2.qa114	HYBRID_BURNED_OUT_WHY_Q2	2.0	bulb c is in an independent path
+SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q2.sbj26-l2.qa130	HYBRID_BURNED_OUT_WHY_Q2	0.0	how so?
+SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q2.sbj26-l2.qa131	HYBRID_BURNED_OUT_WHY_Q2	0.0	no i do not want to
+SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q2.sbj26-l2.qa132	HYBRID_BURNED_OUT_WHY_Q2	0.0	no
+SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q2.sbj26-l2.qa134	HYBRID_BURNED_OUT_WHY_Q2	0.0	bulb c is contained in a closed path
+SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q2.sbj27-l2.qa125	HYBRID_BURNED_OUT_WHY_Q2	1.0	because bulb c is not included in the closed path
+SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q2.sbj27-l2.qa127	HYBRID_BURNED_OUT_WHY_Q2	2.0	"bulb c is contained in it""s own closed path"
+SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q2.sbj28-l2.qa119	HYBRID_BURNED_OUT_WHY_Q2	2.0	closed path
+SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q2.sbj29-l2.qa124	HYBRID_BURNED_OUT_WHY_Q2	2.0	bulbs a and b are contained ina  closed path with the battery
+SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q2.sbj30-l2.qa123	HYBRID_BURNED_OUT_WHY_Q2	2.0	A and B are on a closed path with the battery
+SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q2.sbj31-l2.qa124	HYBRID_BURNED_OUT_WHY_Q2	2.0	If bulb C is damaged, then bulb A and bulb B are still contained in a closed path with the battery.
+SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q2.sbj33-l2.qa121	HYBRID_BURNED_OUT_WHY_Q2	1.0	bulb C is not in the same closed path as the battery
+SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q2.sbj33-l2.qa122	HYBRID_BURNED_OUT_WHY_Q2	0.0	tell  answer
+SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q2.sbj34-l2.qa125	HYBRID_BURNED_OUT_WHY_Q2	2.0	Bulb A and B are still contained in a closed path with the battery.
+SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q2.sbj35-l2.qa124	HYBRID_BURNED_OUT_WHY_Q2	2.0	bulb c does not create a gap in the path for bulb b and a
+SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q2.sbj35-l2.qa125	HYBRID_BURNED_OUT_WHY_Q2	1.0	bulb c does not create a gap
+SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q2.sbj35-l2.qa126	HYBRID_BURNED_OUT_WHY_Q2	2.0	If bulb c is damaged, bulb a and bulb b are still contained in a closed path with the battery
+SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q2.sbj36-l2.qa116	HYBRID_BURNED_OUT_WHY_Q2	2.0	if bulb c is damaged, then bulb a and b are contained in a closed path with the battery
+SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q2.sbj38-l2.qa115	HYBRID_BURNED_OUT_WHY_Q2	2.0	if bulb C is damaged, bulb A and bulb B are still in a closed path with the battery.
+SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q2.sbj39-l2.qa134	HYBRID_BURNED_OUT_WHY_Q2	2.0	Bulbs A and B are contained in a closed path with the battery
+SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q2.sbj40-l2.qa125	HYBRID_BURNED_OUT_WHY_Q2	1.0	bulb c does not affect the path of a and b.
+SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q2.sbj40-l2.qa126	HYBRID_BURNED_OUT_WHY_Q2	0.0	i give up.
+SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q2.sbj42-l2.qa115	HYBRID_BURNED_OUT_WHY_Q2	2.0	there is a closed path that contains the battery and bulb a and bulb b
+SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q2.sbj43-l2.qa123	HYBRID_BURNED_OUT_WHY_Q2	0.0	there is still a complete path for bulb a and b
+SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q2.sbj43-l2.qa124	HYBRID_BURNED_OUT_WHY_Q2	0.0	bulb a and c are still contained in closed paths with the battery
+SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q2.sbj43-l2.qa125	HYBRID_BURNED_OUT_WHY_Q2	2.0	bulb a and b are still contained in a closed path with the battery
+SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q2.sbj45-l2.qa112	HYBRID_BURNED_OUT_WHY_Q2	2.0	they are still in a closed path with the battery
+SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q2.sbj46-l2.qa129	HYBRID_BURNED_OUT_WHY_Q2	2.0	Bulb A and bulb b are still contained in closed paths with the battery
+SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q2.sbj47-l2.qa125	HYBRID_BURNED_OUT_WHY_Q2	0.0	bulbs A and B are still connected to the closed circuit containing the battery
+SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q2.sbj47-l2.qa126	HYBRID_BURNED_OUT_WHY_Q2	2.0	bulbs A and B are still connected to the closed path containing the battery
+SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q2.sbj47-l2.qa127	HYBRID_BURNED_OUT_WHY_Q2	2.0	bulbs A and B are still connected to the battery
+SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q2.sbj48-l2.qa116	HYBRID_BURNED_OUT_WHY_Q2	2.0	because bulbs a and b are still contained in a closed path with the battery.
+SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q2.sbjb3-l2.qa106	HYBRID_BURNED_OUT_WHY_Q2	2.0	they are still on a close path as teh battery
+SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q2.sbjb4-l2.qa102	HYBRID_BURNED_OUT_WHY_Q2	0.0	they are on their own closed path with the battery
+SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q2.sbjb5-l2.qa102	HYBRID_BURNED_OUT_WHY_Q2	2.0	bulbs a and b are still contained on a closed path with the battery
+SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q2.sbjb6-l2.qa102	HYBRID_BURNED_OUT_WHY_Q2	0.0	Because they remain in a closed circuit
+SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q2.sbjb7-l2.qa103	HYBRID_BURNED_OUT_WHY_Q2	2.0	They have a seperate closed path with the battery
+SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q2.sbjb11-l2.qa102	HYBRID_BURNED_OUT_WHY_Q2	2.0	Bulbs A and B stay on because they are still contained within a closed path with a battery
+SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q2.sbjb13-l2.qa102	HYBRID_BURNED_OUT_WHY_Q2	2.0	If bulb C is damaged, there is still a closed path with the battery.
+SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q2.sbjb15-l2.qa103	HYBRID_BURNED_OUT_WHY_Q2	1.0	because A and B still connected to battery
+SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q2.sbjb17-l2.qa104	HYBRID_BURNED_OUT_WHY_Q2	2.0	there is still a closed path for bulb A and B
+SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q2.sbjb18-l2.qa102	HYBRID_BURNED_OUT_WHY_Q2	2.0	A and B are still in a closed pathway with the battery
+SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q2.sbjb19-l2.qa102	HYBRID_BURNED_OUT_WHY_Q2	2.0	because bulb c is not in the same ppath
+SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q2.sbjb20-l2.qa102	HYBRID_BURNED_OUT_WHY_Q2	2.0	Bulb A and Bulb C are still in a contained path.
+SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q2.sbjb21-l2.qa102	HYBRID_BURNED_OUT_WHY_Q2	0.0	they are on seperate closed circuits with the battery
+SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q2.sbjb22-l2.qa102	HYBRID_BURNED_OUT_WHY_Q2	2.0	not contained insa me path
+SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q2.sbjb24-l2.qa106	HYBRID_BURNED_OUT_WHY_Q2	1.0	SEPARATE PATHS
+SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q2.sbjb25-l2.qa103	HYBRID_BURNED_OUT_WHY_Q2	0.0	They are in separate paths.
+SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q2.sbjb26-l2.qa102	HYBRID_BURNED_OUT_WHY_Q2	2.0	A and B are still contained in a closed path with the battery.
+SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q2.sbjb27-l2.qa102	HYBRID_BURNED_OUT_WHY_Q2	0.0	they are still contained in a closed circuit with the battery
+SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q2.sbjb28-l2.qa102	HYBRID_BURNED_OUT_WHY_Q2	2.0	Bulbs A and B are on a different closed path
+SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q2.sbjb29-l2.qa103	HYBRID_BURNED_OUT_WHY_Q2	2.0	because they are on a closed path that is not interrupted by C
+SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q2.sbjb30-l2.qa102	HYBRID_BURNED_OUT_WHY_Q2	2.0	bulbs a and b are still contained in closed paths with the battery.
+SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q2.sbjb31-l2.qa102	HYBRID_BURNED_OUT_WHY_Q2	2.0	because bulb a and b are not contained in a closed path with bulb c
+SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q2.sbjb32-l2.qa102	HYBRID_BURNED_OUT_WHY_Q2	2.0	they were on a closed pat
+SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q2.sbjb34-l2.qa103	HYBRID_BURNED_OUT_WHY_Q2	2.0	Bulb B and bulb A were still contained in a closed path with the battery.
+SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q2.sbjb35-l2.qa104	HYBRID_BURNED_OUT_WHY_Q2	2.0	"Because bulb C is on it""s own pathway seperate from A and B with the battery"
+SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q2.sbjb36-l2.qa102	HYBRID_BURNED_OUT_WHY_Q2	1.0	because bulb c doesnt effect the other closed paths
+SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q2.sbjb37-l2.qa103	HYBRID_BURNED_OUT_WHY_Q2	2.0	They are contained in a close pathway
+SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q2.sbjb38-l2.qa102	HYBRID_BURNED_OUT_WHY_Q2	2.0	Because Bulb C is not contained on the path of the other bulbs
+SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q2.sbjb40-l2.qa102	HYBRID_BURNED_OUT_WHY_Q2	2.0	they still are contained in a closed path with the battery
+SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q2.sbjb41-l2.qa103	HYBRID_BURNED_OUT_WHY_Q2	2.0	Through bulb A, bulb B is still contained in a closed path to the battery.
+SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q2.sbjb42-l2.qa102	HYBRID_BURNED_OUT_WHY_Q2	2.0	Bulbs B and A are still contained on a closed path with the battery
+SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q2.sbj11-l2.qa117	HYBRID_BURNED_OUT_WHY_Q2	2.0	because bulb a and b are still contained in the closed path with the battery.
+SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q2.sbj19-l2.qa139	HYBRID_BURNED_OUT_WHY_Q2	1.0	contain in a closed path
+SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q2.sbj26-l2.qa129	HYBRID_BURNED_OUT_WHY_Q2	1.0	because bulb c is not contained in a closed path with the battery
+SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q2.sbj37-l2.qa111	HYBRID_BURNED_OUT_WHY_Q2	0.0	bulb a and bulb c are still contained in a closed path with the battery
+SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q2.sbj37-l2.qa112	HYBRID_BURNED_OUT_WHY_Q2	2.0	bulb a and bulb b are still contained in closed path with the battery
+SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q2.sbjb1-l2.qa103	HYBRID_BURNED_OUT_WHY_Q2	2.0	They are contained in a closed path with the battery.
+SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q2.sbjb2-l2.qa105	HYBRID_BURNED_OUT_WHY_Q2	2.0	There is still a closed path.
+SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q2.sbjb9-l2.qa103	HYBRID_BURNED_OUT_WHY_Q2	2.0	They were still contained on closed paths to battery.
+SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q2.sbjb10-l2.qa102	HYBRID_BURNED_OUT_WHY_Q2	2.0	because c is in parallel
+SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q2.sbjb39-l2.qa102	HYBRID_BURNED_OUT_WHY_Q2	2.0	becuase bulbs A and B are still in a closed path.

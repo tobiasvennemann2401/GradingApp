@@ -1,0 +1,138 @@
+AnswerId	PromptId	Score1	AnswerText
+FaultFinding-VOLTAGE_INCOMPLETE_CIRCUIT_2_Q.sbj3-l1.qa218	VOLTAGE_INCOMPLETE_CIRCUIT_2_Q	1.0	because there is a difference in electrial states between the two terminals
+FaultFinding-VOLTAGE_INCOMPLETE_CIRCUIT_2_Q.sbj7-l1.qa206	VOLTAGE_INCOMPLETE_CIRCUIT_2_Q	1.0	there is a difference between the electrical states of the two battery  terminals because they are not connected to each other
+FaultFinding-VOLTAGE_INCOMPLETE_CIRCUIT_2_Q.sbj8-l1.qa255	VOLTAGE_INCOMPLETE_CIRCUIT_2_Q	2.0	because the cheminal reaction of the volatge is there wther or not there is an incomplete circuit
+FaultFinding-VOLTAGE_INCOMPLETE_CIRCUIT_2_Q.sbj9-l1.qa212	VOLTAGE_INCOMPLETE_CIRCUIT_2_Q	1.0	the battery will always have a voltage.
+FaultFinding-VOLTAGE_INCOMPLETE_CIRCUIT_2_Q.sbj9-l1.qa213	VOLTAGE_INCOMPLETE_CIRCUIT_2_Q	0.0	the battery is a chemical reaction that does not rely on the circuit being complete or not.
+FaultFinding-VOLTAGE_INCOMPLETE_CIRCUIT_2_Q.sbj9-l1.qa214	VOLTAGE_INCOMPLETE_CIRCUIT_2_Q	0.0	the terminals in the battery will have an electrical state and chemical reaction that will continuously flow.
+FaultFinding-VOLTAGE_INCOMPLETE_CIRCUIT_2_Q.sbj10-l1.qa243	VOLTAGE_INCOMPLETE_CIRCUIT_2_Q	1.0	because a battery is in a constant state of electrical charge
+FaultFinding-VOLTAGE_INCOMPLETE_CIRCUIT_2_Q.sbj10-l1.qa244	VOLTAGE_INCOMPLETE_CIRCUIT_2_Q	1.0	a battery is in a constant state of electricity
+FaultFinding-VOLTAGE_INCOMPLETE_CIRCUIT_2_Q.sbj10-l1.qa245	VOLTAGE_INCOMPLETE_CIRCUIT_2_Q	0.0	because a battery always has a charge in its positive terminal
+FaultFinding-VOLTAGE_INCOMPLETE_CIRCUIT_2_Q.sbj11-l1.qa233	VOLTAGE_INCOMPLETE_CIRCUIT_2_Q	0.0	because the terminals are not connected
+FaultFinding-VOLTAGE_INCOMPLETE_CIRCUIT_2_Q.sbj11-l1.qa234	VOLTAGE_INCOMPLETE_CIRCUIT_2_Q	0.0	the positive terminal and negative terminal are not connected
+FaultFinding-VOLTAGE_INCOMPLETE_CIRCUIT_2_Q.sbj11-l1.qa235	VOLTAGE_INCOMPLETE_CIRCUIT_2_Q	0.0	the positive battery terminal is not connected to the negative battery terminal.
+FaultFinding-VOLTAGE_INCOMPLETE_CIRCUIT_2_Q.sbj12-l1.qa208	VOLTAGE_INCOMPLETE_CIRCUIT_2_Q	1.0	The chemical reation still exists
+FaultFinding-VOLTAGE_INCOMPLETE_CIRCUIT_2_Q.sbj12-l1.qa209	VOLTAGE_INCOMPLETE_CIRCUIT_2_Q	2.0	The battery uses the chemical reation to create voltage
+FaultFinding-VOLTAGE_INCOMPLETE_CIRCUIT_2_Q.sbj13-l1.qa249	VOLTAGE_INCOMPLETE_CIRCUIT_2_Q	0.0	there is no short circuit to the battery.
+FaultFinding-VOLTAGE_INCOMPLETE_CIRCUIT_2_Q.sbj13-l1.qa250	VOLTAGE_INCOMPLETE_CIRCUIT_2_Q	1.0	the battery still holds the electrical charge if there is an incomplete circuit.
+FaultFinding-VOLTAGE_INCOMPLETE_CIRCUIT_2_Q.sbj14-l1.qa234	VOLTAGE_INCOMPLETE_CIRCUIT_2_Q	1.0	because the gap will not effect the voltage.
+FaultFinding-VOLTAGE_INCOMPLETE_CIRCUIT_2_Q.sbj14-l1.qa235	VOLTAGE_INCOMPLETE_CIRCUIT_2_Q	1.0	Because the chemical reaction is not effected by a gap.
+FaultFinding-VOLTAGE_INCOMPLETE_CIRCUIT_2_Q.sbj15-l1.qa258	VOLTAGE_INCOMPLETE_CIRCUIT_2_Q	1.0	the terminals must have a difference in electrical states to have voltage
+FaultFinding-VOLTAGE_INCOMPLETE_CIRCUIT_2_Q.sbj15-l1.qa259	VOLTAGE_INCOMPLETE_CIRCUIT_2_Q	0.0	the difference in the electrical states between two terminals causes a chemical reaction
+FaultFinding-VOLTAGE_INCOMPLETE_CIRCUIT_2_Q.sbj18-l1.qa203	VOLTAGE_INCOMPLETE_CIRCUIT_2_Q	1.0	There is always a difference in voltage between two battery terminals.
+FaultFinding-VOLTAGE_INCOMPLETE_CIRCUIT_2_Q.sbj18-l1.qa204	VOLTAGE_INCOMPLETE_CIRCUIT_2_Q	0.0	The gap causes a difference in electrical states.
+FaultFinding-VOLTAGE_INCOMPLETE_CIRCUIT_2_Q.sbj18-l1.qa205	VOLTAGE_INCOMPLETE_CIRCUIT_2_Q	1.0	The battery terminals have different electrical states.
+FaultFinding-VOLTAGE_INCOMPLETE_CIRCUIT_2_Q.sbj19-l1.qa279	VOLTAGE_INCOMPLETE_CIRCUIT_2_Q	0.0	because the voltage doesnt change in the battery
+FaultFinding-VOLTAGE_INCOMPLETE_CIRCUIT_2_Q.sbj19-l1.qa280	VOLTAGE_INCOMPLETE_CIRCUIT_2_Q	1.0	because of the chemical in the battery
+FaultFinding-VOLTAGE_INCOMPLETE_CIRCUIT_2_Q.sbj19-l1.qa281	VOLTAGE_INCOMPLETE_CIRCUIT_2_Q	1.0	because of the chemical reaction in the battery
+FaultFinding-VOLTAGE_INCOMPLETE_CIRCUIT_2_Q.sbj22-l1.qa240	VOLTAGE_INCOMPLETE_CIRCUIT_2_Q	0.0	because they are in the same electrical state
+FaultFinding-VOLTAGE_INCOMPLETE_CIRCUIT_2_Q.sbj22-l1.qa241	VOLTAGE_INCOMPLETE_CIRCUIT_2_Q	0.0	and they are in the same state
+FaultFinding-VOLTAGE_INCOMPLETE_CIRCUIT_2_Q.sbj22-l1.qa242	VOLTAGE_INCOMPLETE_CIRCUIT_2_Q	0.0	l
+FaultFinding-VOLTAGE_INCOMPLETE_CIRCUIT_2_Q.sbj23-l1.qa208	VOLTAGE_INCOMPLETE_CIRCUIT_2_Q	1.0	There is a difference in electrical states between two terminals.
+FaultFinding-VOLTAGE_INCOMPLETE_CIRCUIT_2_Q.sbj23-l1.qa209	VOLTAGE_INCOMPLETE_CIRCUIT_2_Q	0.0	It is different from the battery.
+FaultFinding-VOLTAGE_INCOMPLETE_CIRCUIT_2_Q.sbj24-l1.qa255	VOLTAGE_INCOMPLETE_CIRCUIT_2_Q	1.0	difference in electrical state
+FaultFinding-VOLTAGE_INCOMPLETE_CIRCUIT_2_Q.sbj24-l1.qa256	VOLTAGE_INCOMPLETE_CIRCUIT_2_Q	0.0	gap in terminal
+FaultFinding-VOLTAGE_INCOMPLETE_CIRCUIT_2_Q.sbj26-l1.qa257	VOLTAGE_INCOMPLETE_CIRCUIT_2_Q	0.0	because the voltage is the difference in electrical states between two terminals
+FaultFinding-VOLTAGE_INCOMPLETE_CIRCUIT_2_Q.sbj26-l1.qa258	VOLTAGE_INCOMPLETE_CIRCUIT_2_Q	1.0	the terminal has an electrical state between terminals
+FaultFinding-VOLTAGE_INCOMPLETE_CIRCUIT_2_Q.sbj26-l1.qa259	VOLTAGE_INCOMPLETE_CIRCUIT_2_Q	0.0	a chemical reaction between terminals
+FaultFinding-VOLTAGE_INCOMPLETE_CIRCUIT_2_Q.sbj27-l1.qa235	VOLTAGE_INCOMPLETE_CIRCUIT_2_Q	1.0	because the battery has electricity and the gap does not
+FaultFinding-VOLTAGE_INCOMPLETE_CIRCUIT_2_Q.sbj27-l1.qa236	VOLTAGE_INCOMPLETE_CIRCUIT_2_Q	1.0	the battery always has voltage
+FaultFinding-VOLTAGE_INCOMPLETE_CIRCUIT_2_Q.sbj28-l1.qa234	VOLTAGE_INCOMPLETE_CIRCUIT_2_Q	0.0	the terminals are not connected
+FaultFinding-VOLTAGE_INCOMPLETE_CIRCUIT_2_Q.sbj28-l1.qa235	VOLTAGE_INCOMPLETE_CIRCUIT_2_Q	0.0	there is a gap between terminals
+FaultFinding-VOLTAGE_INCOMPLETE_CIRCUIT_2_Q.sbj28-l1.qa236	VOLTAGE_INCOMPLETE_CIRCUIT_2_Q	0.0	a battery uses voltage
+FaultFinding-VOLTAGE_INCOMPLETE_CIRCUIT_2_Q.sbj29-l1.qa225	VOLTAGE_INCOMPLETE_CIRCUIT_2_Q	0.0	dont know
+FaultFinding-VOLTAGE_INCOMPLETE_CIRCUIT_2_Q.sbj29-l1.qa227	VOLTAGE_INCOMPLETE_CIRCUIT_2_Q	0.0	because there is no gap between the positive and negative terminal
+FaultFinding-VOLTAGE_INCOMPLETE_CIRCUIT_2_Q.sbj29-l1.qa228	VOLTAGE_INCOMPLETE_CIRCUIT_2_Q	0.0	the terminals used by the battery have no gap.
+FaultFinding-VOLTAGE_INCOMPLETE_CIRCUIT_2_Q.sbj30-l1.qa221	VOLTAGE_INCOMPLETE_CIRCUIT_2_Q	1.0	Because it is the difference of the electrical state between the two battery terminals
+FaultFinding-VOLTAGE_INCOMPLETE_CIRCUIT_2_Q.sbj30-l1.qa223	VOLTAGE_INCOMPLETE_CIRCUIT_2_Q	1.0	It is the difference of the electrical states caused by a chemical reaction between the two terminals of the battery.
+FaultFinding-VOLTAGE_INCOMPLETE_CIRCUIT_2_Q.sbj31-l1.qa229	VOLTAGE_INCOMPLETE_CIRCUIT_2_Q	1.0	"the electrical state difference between the battery""s two terminals"
+FaultFinding-VOLTAGE_INCOMPLETE_CIRCUIT_2_Q.sbj31-l1.qa230	VOLTAGE_INCOMPLETE_CIRCUIT_2_Q	0.0	i dont know
+FaultFinding-VOLTAGE_INCOMPLETE_CIRCUIT_2_Q.sbj33-l1.qa221	VOLTAGE_INCOMPLETE_CIRCUIT_2_Q	0.0	because it has a positive terminal
+FaultFinding-VOLTAGE_INCOMPLETE_CIRCUIT_2_Q.sbj33-l1.qa222	VOLTAGE_INCOMPLETE_CIRCUIT_2_Q	0.0	tell answer
+FaultFinding-VOLTAGE_INCOMPLETE_CIRCUIT_2_Q.sbj34-l1.qa210	VOLTAGE_INCOMPLETE_CIRCUIT_2_Q	0.0	The battery will have a different electrical state than the circuit
+FaultFinding-VOLTAGE_INCOMPLETE_CIRCUIT_2_Q.sbj34-l1.qa211	VOLTAGE_INCOMPLETE_CIRCUIT_2_Q	0.0	The difference in electrical state
+FaultFinding-VOLTAGE_INCOMPLETE_CIRCUIT_2_Q.sbj34-l1.qa212	VOLTAGE_INCOMPLETE_CIRCUIT_2_Q	0.0	The battery has a different electrical state than the incomplete circuit
+FaultFinding-VOLTAGE_INCOMPLETE_CIRCUIT_2_Q.sbj34-l1.qa213	VOLTAGE_INCOMPLETE_CIRCUIT_2_Q	0.0	The battery uses the electrical state
+FaultFinding-VOLTAGE_INCOMPLETE_CIRCUIT_2_Q.sbj35-l1.qa234	VOLTAGE_INCOMPLETE_CIRCUIT_2_Q	1.0	Battery will always have voltage.
+FaultFinding-VOLTAGE_INCOMPLETE_CIRCUIT_2_Q.sbj35-l1.qa235	VOLTAGE_INCOMPLETE_CIRCUIT_2_Q	1.0	The battery keeps a chemical reaction reaction.
+FaultFinding-VOLTAGE_INCOMPLETE_CIRCUIT_2_Q.sbj35-l1.qa236	VOLTAGE_INCOMPLETE_CIRCUIT_2_Q	0.0	The battery uses a chemical reaction to maintain the voltage,
+FaultFinding-VOLTAGE_INCOMPLETE_CIRCUIT_2_Q.sbj36-l1.qa239	VOLTAGE_INCOMPLETE_CIRCUIT_2_Q	0.0	there is always voltage even if there is a gap
+FaultFinding-VOLTAGE_INCOMPLETE_CIRCUIT_2_Q.sbj36-l1.qa240	VOLTAGE_INCOMPLETE_CIRCUIT_2_Q	0.0	there is a chemical reaction between two terminals
+FaultFinding-VOLTAGE_INCOMPLETE_CIRCUIT_2_Q.sbj36-l1.qa241	VOLTAGE_INCOMPLETE_CIRCUIT_2_Q	0.0	a terminal has an electrical state where theres a chemical reaction
+FaultFinding-VOLTAGE_INCOMPLETE_CIRCUIT_2_Q.sbj37-l1.qa208	VOLTAGE_INCOMPLETE_CIRCUIT_2_Q	1.0	because a battery always has voltage
+FaultFinding-VOLTAGE_INCOMPLETE_CIRCUIT_2_Q.sbj37-l1.qa209	VOLTAGE_INCOMPLETE_CIRCUIT_2_Q	1.0	because a battery has a chemical reaction that causes a voltage
+FaultFinding-VOLTAGE_INCOMPLETE_CIRCUIT_2_Q.sbj37-l1.qa210	VOLTAGE_INCOMPLETE_CIRCUIT_2_Q	1.0	a batter uses a chemical reaction to create voltage
+FaultFinding-VOLTAGE_INCOMPLETE_CIRCUIT_2_Q.sbj38-l1.qa212	VOLTAGE_INCOMPLETE_CIRCUIT_2_Q	1.0	the voltage of the battery depends on the chemical interaction inside the battery. It does not depend on components in a curcuit.
+FaultFinding-VOLTAGE_INCOMPLETE_CIRCUIT_2_Q.sbj38-l1.qa213	VOLTAGE_INCOMPLETE_CIRCUIT_2_Q	1.0	the voltage of a battery does not depend on the components in a curcuit.
+FaultFinding-VOLTAGE_INCOMPLETE_CIRCUIT_2_Q.sbj38-l1.qa214	VOLTAGE_INCOMPLETE_CIRCUIT_2_Q	1.0	the voltage of the battery does not depend on the components in a curcuit. It depends on a chemical reaction.
+FaultFinding-VOLTAGE_INCOMPLETE_CIRCUIT_2_Q.sbj39-l1.qa255	VOLTAGE_INCOMPLETE_CIRCUIT_2_Q	1.0	becasuse it is electrically charged
+FaultFinding-VOLTAGE_INCOMPLETE_CIRCUIT_2_Q.sbj39-l1.qa256	VOLTAGE_INCOMPLETE_CIRCUIT_2_Q	1.0	yes, because there is a chemical reaction
+FaultFinding-VOLTAGE_INCOMPLETE_CIRCUIT_2_Q.sbj39-l1.qa257	VOLTAGE_INCOMPLETE_CIRCUIT_2_Q	1.0	There is a chemical reaction.
+FaultFinding-VOLTAGE_INCOMPLETE_CIRCUIT_2_Q.sbj40-l1.qa249	VOLTAGE_INCOMPLETE_CIRCUIT_2_Q	0.0	circuit do not effect electrical state between terminals
+FaultFinding-VOLTAGE_INCOMPLETE_CIRCUIT_2_Q.sbj40-l1.qa250	VOLTAGE_INCOMPLETE_CIRCUIT_2_Q	0.0	circuits do not effect the electrical state between two terminals.
+FaultFinding-VOLTAGE_INCOMPLETE_CIRCUIT_2_Q.sbj40-l1.qa251	VOLTAGE_INCOMPLETE_CIRCUIT_2_Q	0.0	an incomplete circuit would not effect the the electrical state between the terminals.
+FaultFinding-VOLTAGE_INCOMPLETE_CIRCUIT_2_Q.sbj40-l1.qa252	VOLTAGE_INCOMPLETE_CIRCUIT_2_Q	0.0	"the terminal""s electrical state is not effected by the incomplete circuit."
+FaultFinding-VOLTAGE_INCOMPLETE_CIRCUIT_2_Q.sbj42-l1.qa243	VOLTAGE_INCOMPLETE_CIRCUIT_2_Q	1.0	There is still a voltage is the different terminals
+FaultFinding-VOLTAGE_INCOMPLETE_CIRCUIT_2_Q.sbj42-l1.qa244	VOLTAGE_INCOMPLETE_CIRCUIT_2_Q	0.0	The terminal is still connected to an electrical state of the battery
+FaultFinding-VOLTAGE_INCOMPLETE_CIRCUIT_2_Q.sbj43-l1.qa225	VOLTAGE_INCOMPLETE_CIRCUIT_2_Q	1.0	it always has the same voltage due to a chemical reaction inside of it
+FaultFinding-VOLTAGE_INCOMPLETE_CIRCUIT_2_Q.sbj43-l1.qa226	VOLTAGE_INCOMPLETE_CIRCUIT_2_Q	0.0	a battery is always in the same electrical state. it has a chemical reaction inside of it.
+FaultFinding-VOLTAGE_INCOMPLETE_CIRCUIT_2_Q.sbj45-l1.qa218	VOLTAGE_INCOMPLETE_CIRCUIT_2_Q	0.0	because the battery has its own electrical state within given by the lead
+FaultFinding-VOLTAGE_INCOMPLETE_CIRCUIT_2_Q.sbj45-l1.qa220	VOLTAGE_INCOMPLETE_CIRCUIT_2_Q	1.0	the battery has its own chemical reaction
+FaultFinding-VOLTAGE_INCOMPLETE_CIRCUIT_2_Q.sbj46-l1.qa237	VOLTAGE_INCOMPLETE_CIRCUIT_2_Q	0.0	because terminals are seperate
+FaultFinding-VOLTAGE_INCOMPLETE_CIRCUIT_2_Q.sbj46-l1.qa238	VOLTAGE_INCOMPLETE_CIRCUIT_2_Q	0.0	not connected
+FaultFinding-VOLTAGE_INCOMPLETE_CIRCUIT_2_Q.sbj46-l1.qa239	VOLTAGE_INCOMPLETE_CIRCUIT_2_Q	0.0	battery uses charge
+FaultFinding-VOLTAGE_INCOMPLETE_CIRCUIT_2_Q.sbj47-l1.qa250	VOLTAGE_INCOMPLETE_CIRCUIT_2_Q	0.0	because a batter will always have a voltage even if it is 0
+FaultFinding-VOLTAGE_INCOMPLETE_CIRCUIT_2_Q.sbj47-l1.qa251	VOLTAGE_INCOMPLETE_CIRCUIT_2_Q	0.0	because a battery will always have a voltage even if it is 0
+FaultFinding-VOLTAGE_INCOMPLETE_CIRCUIT_2_Q.sbj47-l1.qa252	VOLTAGE_INCOMPLETE_CIRCUIT_2_Q	0.0	because a battery always has a chemical reaction, positive or negative
+FaultFinding-VOLTAGE_INCOMPLETE_CIRCUIT_2_Q.sbj48-l1.qa209	VOLTAGE_INCOMPLETE_CIRCUIT_2_Q	2.0	because a chemical reaction inside the battery keeps the positive and negative terminals at different electrical states at all times.
+FaultFinding-VOLTAGE_INCOMPLETE_CIRCUIT_2_Q.sbj48-l1.qa210	VOLTAGE_INCOMPLETE_CIRCUIT_2_Q	0.0	A battery will always have a voltage because the electrical states of the positive and negative terminals are always different.
+FaultFinding-VOLTAGE_INCOMPLETE_CIRCUIT_2_Q.sbj48-l1.qa211	VOLTAGE_INCOMPLETE_CIRCUIT_2_Q	2.0	A chemical reaction inside the battery makes the electrical states of the positive and negative terminals different at all times.
+FaultFinding-VOLTAGE_INCOMPLETE_CIRCUIT_2_Q.sbj48-l1.qa212	VOLTAGE_INCOMPLETE_CIRCUIT_2_Q	2.0	The two terminals of a battery will always have different electrical states due to a chemical reaction inside the battery
+FaultFinding-VOLTAGE_INCOMPLETE_CIRCUIT_2_Q.sbjb1-l1.qa186	VOLTAGE_INCOMPLETE_CIRCUIT_2_Q	0.0	The voltage does not change.
+FaultFinding-VOLTAGE_INCOMPLETE_CIRCUIT_2_Q.sbjb2-l1.qa190	VOLTAGE_INCOMPLETE_CIRCUIT_2_Q	0.0	Because it will still be connected to one of the terminals
+FaultFinding-VOLTAGE_INCOMPLETE_CIRCUIT_2_Q.sbjb4-l1.qa181	VOLTAGE_INCOMPLETE_CIRCUIT_2_Q	0.0	because the gap creates a difference in electrical states
+FaultFinding-VOLTAGE_INCOMPLETE_CIRCUIT_2_Q.sbjb5-l1.qa189	VOLTAGE_INCOMPLETE_CIRCUIT_2_Q	1.0	the voltage of a battery is the result of chemical reactions within the battery
+FaultFinding-VOLTAGE_INCOMPLETE_CIRCUIT_2_Q.sbjb6-l1.qa182	VOLTAGE_INCOMPLETE_CIRCUIT_2_Q	0.0	Because it has one regardless of the circuit
+FaultFinding-VOLTAGE_INCOMPLETE_CIRCUIT_2_Q.sbjb7-l1.qa179	VOLTAGE_INCOMPLETE_CIRCUIT_2_Q	1.0	battery always has voltage
+FaultFinding-VOLTAGE_INCOMPLETE_CIRCUIT_2_Q.sbjb9-l1.qa195	VOLTAGE_INCOMPLETE_CIRCUIT_2_Q	1.0	Because there is a difference between the electrical states of the two terminals.
+FaultFinding-VOLTAGE_INCOMPLETE_CIRCUIT_2_Q.sbjb10-l1.qa179	VOLTAGE_INCOMPLETE_CIRCUIT_2_Q	0.0	because there is still a difference in electrical states.  One side could have a positive connection and the other could have a negative connection
+FaultFinding-VOLTAGE_INCOMPLETE_CIRCUIT_2_Q.sbjb11-l1.qa185	VOLTAGE_INCOMPLETE_CIRCUIT_2_Q	1.0	Because the terminals are not in a closed path, so you are giving the voltage of the battery itself
+FaultFinding-VOLTAGE_INCOMPLETE_CIRCUIT_2_Q.sbjb12-l1.qa185	VOLTAGE_INCOMPLETE_CIRCUIT_2_Q	1.0	"because the battery always has a voltage unless it""s dead"
+FaultFinding-VOLTAGE_INCOMPLETE_CIRCUIT_2_Q.sbjb13-l1.qa181	VOLTAGE_INCOMPLETE_CIRCUIT_2_Q	1.0	Because it has two electrial states within itself.
+FaultFinding-VOLTAGE_INCOMPLETE_CIRCUIT_2_Q.sbjb15-l1.qa181	VOLTAGE_INCOMPLETE_CIRCUIT_2_Q	1.0	"because they aren""t connected"
+FaultFinding-VOLTAGE_INCOMPLETE_CIRCUIT_2_Q.sbjb16-l1.qa181	VOLTAGE_INCOMPLETE_CIRCUIT_2_Q	0.0	battery will always have a voltage
+FaultFinding-VOLTAGE_INCOMPLETE_CIRCUIT_2_Q.sbjb17-l1.qa183	VOLTAGE_INCOMPLETE_CIRCUIT_2_Q	0.0	There will be a difference in measured electrical states
+FaultFinding-VOLTAGE_INCOMPLETE_CIRCUIT_2_Q.sbjb18-l1.qa192	VOLTAGE_INCOMPLETE_CIRCUIT_2_Q	0.0	because
+FaultFinding-VOLTAGE_INCOMPLETE_CIRCUIT_2_Q.sbjb19-l1.qa184	VOLTAGE_INCOMPLETE_CIRCUIT_2_Q	1.0	a gap in the circuit does not affect the voltage of the battery.
+FaultFinding-VOLTAGE_INCOMPLETE_CIRCUIT_2_Q.sbjb20-l1.qa192	VOLTAGE_INCOMPLETE_CIRCUIT_2_Q	0.0	An incomplete circuit does not affect voltage.
+FaultFinding-VOLTAGE_INCOMPLETE_CIRCUIT_2_Q.sbjb21-l1.qa180	VOLTAGE_INCOMPLETE_CIRCUIT_2_Q	0.0	it can be 0
+FaultFinding-VOLTAGE_INCOMPLETE_CIRCUIT_2_Q.sbjb22-l1.qa190	VOLTAGE_INCOMPLETE_CIRCUIT_2_Q	0.0	a battery always has voltage unless it is damaged
+FaultFinding-VOLTAGE_INCOMPLETE_CIRCUIT_2_Q.sbjb24-l1.qa187	VOLTAGE_INCOMPLETE_CIRCUIT_2_Q	0.0	circuit has nothing to do with the batteries voltage
+FaultFinding-VOLTAGE_INCOMPLETE_CIRCUIT_2_Q.sbjb25-l1.qa184	VOLTAGE_INCOMPLETE_CIRCUIT_2_Q	0.0	"Well, it will have a voltage of zero, if that""s what you are asking."
+FaultFinding-VOLTAGE_INCOMPLETE_CIRCUIT_2_Q.sbjb26-l1.qa180	VOLTAGE_INCOMPLETE_CIRCUIT_2_Q	1.0	"The battery""s voltage comes from a chemical reaction that takes place within the battery itself."
+FaultFinding-VOLTAGE_INCOMPLETE_CIRCUIT_2_Q.sbjb27-l1.qa179	VOLTAGE_INCOMPLETE_CIRCUIT_2_Q	1.0	because the electrical states between the two battery terminals will be different no matter what
+FaultFinding-VOLTAGE_INCOMPLETE_CIRCUIT_2_Q.sbjb28-l1.qa184	VOLTAGE_INCOMPLETE_CIRCUIT_2_Q	0.0	there is a gap
+FaultFinding-VOLTAGE_INCOMPLETE_CIRCUIT_2_Q.sbjb29-l1.qa183	VOLTAGE_INCOMPLETE_CIRCUIT_2_Q	1.0	beacause the two terminals still have an electrical state
+FaultFinding-VOLTAGE_INCOMPLETE_CIRCUIT_2_Q.sbjb30-l1.qa186	VOLTAGE_INCOMPLETE_CIRCUIT_2_Q	0.0	the battery always has a voltage because there is a positive terminal and there is a negative terminal.
+FaultFinding-VOLTAGE_INCOMPLETE_CIRCUIT_2_Q.sbjb32-l1.qa183	VOLTAGE_INCOMPLETE_CIRCUIT_2_Q	1.0	Because it is measuring the difference in electrical states between two terminals.
+FaultFinding-VOLTAGE_INCOMPLETE_CIRCUIT_2_Q.sbjb34-l1.qa179	VOLTAGE_INCOMPLETE_CIRCUIT_2_Q	0.0	Because the battery contains chemicals that differe in electrical states.
+FaultFinding-VOLTAGE_INCOMPLETE_CIRCUIT_2_Q.sbjb36-l1.qa179	VOLTAGE_INCOMPLETE_CIRCUIT_2_Q	0.0	the voltage stays the same within the battery
+FaultFinding-VOLTAGE_INCOMPLETE_CIRCUIT_2_Q.sbjb37-l1.qa179	VOLTAGE_INCOMPLETE_CIRCUIT_2_Q	0.0	"I don""t know"
+FaultFinding-VOLTAGE_INCOMPLETE_CIRCUIT_2_Q.sbjb38-l1.qa180	VOLTAGE_INCOMPLETE_CIRCUIT_2_Q	1.0	Because the two terminals will always have different electrical states.
+FaultFinding-VOLTAGE_INCOMPLETE_CIRCUIT_2_Q.sbjb39-l1.qa182	VOLTAGE_INCOMPLETE_CIRCUIT_2_Q	1.0	because voltage is the difference in electrical states between two terminals.
+FaultFinding-VOLTAGE_INCOMPLETE_CIRCUIT_2_Q.sbjb42-l1.qa182	VOLTAGE_INCOMPLETE_CIRCUIT_2_Q	1.0	because the battery has its own chemical reacion between the positive and negative tterminals it contains
+FaultFinding-VOLTAGE_INCOMPLETE_CIRCUIT_2_Q.sbj8-l1.qa254	VOLTAGE_INCOMPLETE_CIRCUIT_2_Q	1.0	because the circuit does not effect the voltage
+FaultFinding-VOLTAGE_INCOMPLETE_CIRCUIT_2_Q.sbj8-l1.qa256	VOLTAGE_INCOMPLETE_CIRCUIT_2_Q	0.0	a battery uses electricity
+FaultFinding-VOLTAGE_INCOMPLETE_CIRCUIT_2_Q.sbj12-l1.qa207	VOLTAGE_INCOMPLETE_CIRCUIT_2_Q	0.0	The battery is not damaged
+FaultFinding-VOLTAGE_INCOMPLETE_CIRCUIT_2_Q.sbj13-l1.qa251	VOLTAGE_INCOMPLETE_CIRCUIT_2_Q	0.0	the battery has a positive and a negative chemical reaction.
+FaultFinding-VOLTAGE_INCOMPLETE_CIRCUIT_2_Q.sbj15-l1.qa257	VOLTAGE_INCOMPLETE_CIRCUIT_2_Q	1.0	because there is a difference in the electrical state between the two terminals
+FaultFinding-VOLTAGE_INCOMPLETE_CIRCUIT_2_Q.sbj24-l1.qa258	VOLTAGE_INCOMPLETE_CIRCUIT_2_Q	0.0	some things never change
+FaultFinding-VOLTAGE_INCOMPLETE_CIRCUIT_2_Q.sbj27-l1.qa237	VOLTAGE_INCOMPLETE_CIRCUIT_2_Q	1.0	"the battery still has it""s chemical reaction"
+FaultFinding-VOLTAGE_INCOMPLETE_CIRCUIT_2_Q.sbj30-l1.qa222	VOLTAGE_INCOMPLETE_CIRCUIT_2_Q	0.0	idk
+FaultFinding-VOLTAGE_INCOMPLETE_CIRCUIT_2_Q.sbj31-l1.qa228	VOLTAGE_INCOMPLETE_CIRCUIT_2_Q	1.0	because the electrical state difference is still there
+FaultFinding-VOLTAGE_INCOMPLETE_CIRCUIT_2_Q.sbj43-l1.qa224	VOLTAGE_INCOMPLETE_CIRCUIT_2_Q	0.0	it always has the same voltage
+FaultFinding-VOLTAGE_INCOMPLETE_CIRCUIT_2_Q.sbj45-l1.qa219	VOLTAGE_INCOMPLETE_CIRCUIT_2_Q	1.0	the battery has an electrical state
+FaultFinding-VOLTAGE_INCOMPLETE_CIRCUIT_2_Q.sbjb31-l1.qa179	VOLTAGE_INCOMPLETE_CIRCUIT_2_Q	0.0	because voltage remains with complete and incomplete circuits. because the terminals are not connected to each other.
+FaultFinding-VOLTAGE_INCOMPLETE_CIRCUIT_2_Q.sbjb35-l1.qa181	VOLTAGE_INCOMPLETE_CIRCUIT_2_Q	1.0	because battery voltage is a constant
+FaultFinding-VOLTAGE_INCOMPLETE_CIRCUIT_2_Q.sbjb40-l1.qa180	VOLTAGE_INCOMPLETE_CIRCUIT_2_Q	0.0	there would be a greater difference
+FaultFinding-VOLTAGE_INCOMPLETE_CIRCUIT_2_Q.sbjb41-l1.qa182	VOLTAGE_INCOMPLETE_CIRCUIT_2_Q	1.0	Because the battery is filled with its own chemical reactions.

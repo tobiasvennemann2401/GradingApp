@@ -1,0 +1,93 @@
+AnswerId	PromptId	Score1	AnswerText
+SwitchesBulbsSeries-DAMAGED_BULB_SWITCH_Q.sbj3-l1.qa101	DAMAGED_BULB_SWITCH_Q	2.0	it acts in the same manner
+SwitchesBulbsSeries-DAMAGED_BULB_SWITCH_Q.sbj3-l1.qa102	DAMAGED_BULB_SWITCH_Q	2.0	its acts the same
+SwitchesBulbsSeries-DAMAGED_BULB_SWITCH_Q.sbj3-l1.qa103	DAMAGED_BULB_SWITCH_Q	2.0	the bulb creates a gap and so does an open switch
+SwitchesBulbsSeries-DAMAGED_BULB_SWITCH_Q.sbj7-l1.qa95	DAMAGED_BULB_SWITCH_Q	2.0	it acts the same way
+SwitchesBulbsSeries-DAMAGED_BULB_SWITCH_Q.sbj7-l1.qa96	DAMAGED_BULB_SWITCH_Q	2.0	they both create a gap in the path
+SwitchesBulbsSeries-DAMAGED_BULB_SWITCH_Q.sbj8-l1.qa119	DAMAGED_BULB_SWITCH_Q	0.0	a damaged bulb creates a gap. an open switch creates in incomplete path.
+SwitchesBulbsSeries-DAMAGED_BULB_SWITCH_Q.sbj8-l1.qa120	DAMAGED_BULB_SWITCH_Q	0.0	a damaged bulb creates a gap while an open switch creates a incomplete path.
+SwitchesBulbsSeries-DAMAGED_BULB_SWITCH_Q.sbj8-l1.qa121	DAMAGED_BULB_SWITCH_Q	0.0	a damaged bulb creates a gap while and open switch creates an incomplete circuit
+SwitchesBulbsSeries-DAMAGED_BULB_SWITCH_Q.sbj8-l1.qa122	DAMAGED_BULB_SWITCH_Q	1.0	An open switch causes an incomplete circuit
+SwitchesBulbsSeries-DAMAGED_BULB_SWITCH_Q.sbj9-l1.qa95	DAMAGED_BULB_SWITCH_Q	2.0	A damaged bulb and open switch created gaps in the path.
+SwitchesBulbsSeries-DAMAGED_BULB_SWITCH_Q.sbj10-l1.qa114	DAMAGED_BULB_SWITCH_Q	2.0	they are the same
+SwitchesBulbsSeries-DAMAGED_BULB_SWITCH_Q.sbj11-l1.qa120	DAMAGED_BULB_SWITCH_Q	0.0	the connect the circuit.
+SwitchesBulbsSeries-DAMAGED_BULB_SWITCH_Q.sbj11-l1.qa121	DAMAGED_BULB_SWITCH_Q	2.0	they create gaps in the circuit.
+SwitchesBulbsSeries-DAMAGED_BULB_SWITCH_Q.sbj12-l1.qa90	DAMAGED_BULB_SWITCH_Q	2.0	Same effect
+SwitchesBulbsSeries-DAMAGED_BULB_SWITCH_Q.sbj12-l1.qa91	DAMAGED_BULB_SWITCH_Q	2.0	Both create a gap in the path
+SwitchesBulbsSeries-DAMAGED_BULB_SWITCH_Q.sbj13-l1.qa113	DAMAGED_BULB_SWITCH_Q	1.0	it creates a gap.
+SwitchesBulbsSeries-DAMAGED_BULB_SWITCH_Q.sbj13-l1.qa114	DAMAGED_BULB_SWITCH_Q	1.0	it is a gap in the circuit.
+SwitchesBulbsSeries-DAMAGED_BULB_SWITCH_Q.sbj14-l1.qa111	DAMAGED_BULB_SWITCH_Q	1.0	They both have opened paths.
+SwitchesBulbsSeries-DAMAGED_BULB_SWITCH_Q.sbj14-l1.qa112	DAMAGED_BULB_SWITCH_Q	2.0	They both have gaps.
+SwitchesBulbsSeries-DAMAGED_BULB_SWITCH_Q.sbj15-l1.qa128	DAMAGED_BULB_SWITCH_Q	2.0	both dont allow for a closed path
+SwitchesBulbsSeries-DAMAGED_BULB_SWITCH_Q.sbj15-l1.qa129	DAMAGED_BULB_SWITCH_Q	2.0	both create a gap
+SwitchesBulbsSeries-DAMAGED_BULB_SWITCH_Q.sbj18-l1.qa97	DAMAGED_BULB_SWITCH_Q	2.0	It acts the same.
+SwitchesBulbsSeries-DAMAGED_BULB_SWITCH_Q.sbj18-l1.qa98	DAMAGED_BULB_SWITCH_Q	2.0	It is the same.
+SwitchesBulbsSeries-DAMAGED_BULB_SWITCH_Q.sbj18-l1.qa99	DAMAGED_BULB_SWITCH_Q	2.0	A damaged bulb is the same as an open switch.
+SwitchesBulbsSeries-DAMAGED_BULB_SWITCH_Q.sbj18-l1.qa100	DAMAGED_BULB_SWITCH_Q	2.0	A damaged bulb and an open switch are the same.
+SwitchesBulbsSeries-DAMAGED_BULB_SWITCH_Q.sbj19-l1.qa127	DAMAGED_BULB_SWITCH_Q	1.0	creates a gap
+SwitchesBulbsSeries-DAMAGED_BULB_SWITCH_Q.sbj19-l1.qa128	DAMAGED_BULB_SWITCH_Q	1.0	open path
+SwitchesBulbsSeries-DAMAGED_BULB_SWITCH_Q.sbj19-l1.qa129	DAMAGED_BULB_SWITCH_Q	1.0	it creates a gap and makes a open path
+SwitchesBulbsSeries-DAMAGED_BULB_SWITCH_Q.sbj22-l1.qa113	DAMAGED_BULB_SWITCH_Q	2.0	it is the same. they both create gaps
+SwitchesBulbsSeries-DAMAGED_BULB_SWITCH_Q.sbj22-l1.qa115	DAMAGED_BULB_SWITCH_Q	2.0	the bulb and the switch create gaps
+SwitchesBulbsSeries-DAMAGED_BULB_SWITCH_Q.sbj23-l1.qa98	DAMAGED_BULB_SWITCH_Q	2.0	It is very similar.
+SwitchesBulbsSeries-DAMAGED_BULB_SWITCH_Q.sbj23-l1.qa99	DAMAGED_BULB_SWITCH_Q	2.0	They both create a gap in the circuit.
+SwitchesBulbsSeries-DAMAGED_BULB_SWITCH_Q.sbj24-l1.qa106	DAMAGED_BULB_SWITCH_Q	2.0	it is like an open switch
+SwitchesBulbsSeries-DAMAGED_BULB_SWITCH_Q.sbj24-l1.qa107	DAMAGED_BULB_SWITCH_Q	2.0	they are both open
+SwitchesBulbsSeries-DAMAGED_BULB_SWITCH_Q.sbj24-l1.qa108	DAMAGED_BULB_SWITCH_Q	2.0	each will create an open path in circuit
+SwitchesBulbsSeries-DAMAGED_BULB_SWITCH_Q.sbj26-l1.qa119	DAMAGED_BULB_SWITCH_Q	2.0	the same
+SwitchesBulbsSeries-DAMAGED_BULB_SWITCH_Q.sbj27-l1.qa105	DAMAGED_BULB_SWITCH_Q	2.0	it is the same
+SwitchesBulbsSeries-DAMAGED_BULB_SWITCH_Q.sbj27-l1.qa106	DAMAGED_BULB_SWITCH_Q	2.0	they both create a gap
+SwitchesBulbsSeries-DAMAGED_BULB_SWITCH_Q.sbj29-l1.qa110	DAMAGED_BULB_SWITCH_Q	2.0	both can be gaps in a circuit
+SwitchesBulbsSeries-DAMAGED_BULB_SWITCH_Q.sbj30-l1.qa97	DAMAGED_BULB_SWITCH_Q	2.0	Same.
+SwitchesBulbsSeries-DAMAGED_BULB_SWITCH_Q.sbj31-l1.qa100	DAMAGED_BULB_SWITCH_Q	2.0	same
+SwitchesBulbsSeries-DAMAGED_BULB_SWITCH_Q.sbj33-l1.qa97	DAMAGED_BULB_SWITCH_Q	2.0	it acts the same
+SwitchesBulbsSeries-DAMAGED_BULB_SWITCH_Q.sbj33-l1.qa98	DAMAGED_BULB_SWITCH_Q	2.0	both a damaged bulb and open switch create a gap in the path
+SwitchesBulbsSeries-DAMAGED_BULB_SWITCH_Q.sbj34-l1.qa92	DAMAGED_BULB_SWITCH_Q	2.0	It has the same effect
+SwitchesBulbsSeries-DAMAGED_BULB_SWITCH_Q.sbj34-l1.qa93	DAMAGED_BULB_SWITCH_Q	2.0	They both open the path
+SwitchesBulbsSeries-DAMAGED_BULB_SWITCH_Q.sbj35-l1.qa100	DAMAGED_BULB_SWITCH_Q	1.0	It creates a gap in the path.
+SwitchesBulbsSeries-DAMAGED_BULB_SWITCH_Q.sbj35-l1.qa101	DAMAGED_BULB_SWITCH_Q	1.0	It also prevents the bulb from being on.
+SwitchesBulbsSeries-DAMAGED_BULB_SWITCH_Q.sbj35-l1.qa102	DAMAGED_BULB_SWITCH_Q	1.0	A damaged bulb prevents other bulbs from being on.
+SwitchesBulbsSeries-DAMAGED_BULB_SWITCH_Q.sbj35-l1.qa103	DAMAGED_BULB_SWITCH_Q	0.0	A switch causes an incomplete path.
+SwitchesBulbsSeries-DAMAGED_BULB_SWITCH_Q.sbj36-l1.qa105	DAMAGED_BULB_SWITCH_Q	2.0	they both create gaps
+SwitchesBulbsSeries-DAMAGED_BULB_SWITCH_Q.sbj38-l1.qa93	DAMAGED_BULB_SWITCH_Q	2.0	they are the same.
+SwitchesBulbsSeries-DAMAGED_BULB_SWITCH_Q.sbj39-l1.qa116	DAMAGED_BULB_SWITCH_Q	2.0	Their results are similar.
+SwitchesBulbsSeries-DAMAGED_BULB_SWITCH_Q.sbj39-l1.qa117	DAMAGED_BULB_SWITCH_Q	2.0	They both create a gap.
+SwitchesBulbsSeries-DAMAGED_BULB_SWITCH_Q.sbj40-l1.qa109	DAMAGED_BULB_SWITCH_Q	2.0	both create gaps.
+SwitchesBulbsSeries-DAMAGED_BULB_SWITCH_Q.sbj43-l1.qa107	DAMAGED_BULB_SWITCH_Q	2.0	a damaged bulb has the same effect of an open switch
+SwitchesBulbsSeries-DAMAGED_BULB_SWITCH_Q.sbj43-l1.qa108	DAMAGED_BULB_SWITCH_Q	2.0	a damaged bulb is the same as an open switch
+SwitchesBulbsSeries-DAMAGED_BULB_SWITCH_Q.sbj43-l1.qa109	DAMAGED_BULB_SWITCH_Q	2.0	a damaged bulb is like an open switch
+SwitchesBulbsSeries-DAMAGED_BULB_SWITCH_Q.sbj45-l1.qa94	DAMAGED_BULB_SWITCH_Q	2.0	the have the same effect on the circuit
+SwitchesBulbsSeries-DAMAGED_BULB_SWITCH_Q.sbj45-l1.qa95	DAMAGED_BULB_SWITCH_Q	2.0	both a damaged bulb and an open switch creates a gap in the circuit
+SwitchesBulbsSeries-DAMAGED_BULB_SWITCH_Q.sbj46-l1.qa107	DAMAGED_BULB_SWITCH_Q	2.0	same thing
+SwitchesBulbsSeries-DAMAGED_BULB_SWITCH_Q.sbj47-l1.qa121	DAMAGED_BULB_SWITCH_Q	2.0	both function the same and interfer with the bulb turning on
+SwitchesBulbsSeries-DAMAGED_BULB_SWITCH_Q.sbj48-l1.qa95	DAMAGED_BULB_SWITCH_Q	2.0	they both creat gaps in the path
+SwitchesBulbsSeries-DAMAGED_BULB_SWITCH_Q.sbjb1-l1.qa81	DAMAGED_BULB_SWITCH_Q	2.0	It has the same effect.
+SwitchesBulbsSeries-DAMAGED_BULB_SWITCH_Q.sbjb2-l1.qa89	DAMAGED_BULB_SWITCH_Q	2.0	They both create gaps.
+SwitchesBulbsSeries-DAMAGED_BULB_SWITCH_Q.sbjb3-l1.qa96	DAMAGED_BULB_SWITCH_Q	0.0	I dont know
+SwitchesBulbsSeries-DAMAGED_BULB_SWITCH_Q.sbjb4-l1.qa81	DAMAGED_BULB_SWITCH_Q	1.0	it is very similar
+SwitchesBulbsSeries-DAMAGED_BULB_SWITCH_Q.sbjb5-l1.qa91	DAMAGED_BULB_SWITCH_Q	2.0	they behave identically
+SwitchesBulbsSeries-DAMAGED_BULB_SWITCH_Q.sbjb7-l1.qa81	DAMAGED_BULB_SWITCH_Q	0.0	They are similar.
+SwitchesBulbsSeries-DAMAGED_BULB_SWITCH_Q.sbjb9-l1.qa84	DAMAGED_BULB_SWITCH_Q	2.0	The effect is the same. They both create a gap.
+SwitchesBulbsSeries-DAMAGED_BULB_SWITCH_Q.sbjb11-l1.qa83	DAMAGED_BULB_SWITCH_Q	0.0	It would not appear to be damaged, because an open switch creates a gap.
+SwitchesBulbsSeries-DAMAGED_BULB_SWITCH_Q.sbjb12-l1.qa84	DAMAGED_BULB_SWITCH_Q	2.0	They both create a gap in the circuit
+SwitchesBulbsSeries-DAMAGED_BULB_SWITCH_Q.sbjb13-l1.qa82	DAMAGED_BULB_SWITCH_Q	2.0	They both have a gap.
+SwitchesBulbsSeries-DAMAGED_BULB_SWITCH_Q.sbjb15-l1.qa83	DAMAGED_BULB_SWITCH_Q	2.0	they both have the ability to create gaps.
+SwitchesBulbsSeries-DAMAGED_BULB_SWITCH_Q.sbjb16-l1.qa83	DAMAGED_BULB_SWITCH_Q	2.0	same result, but a switch can be closed
+SwitchesBulbsSeries-DAMAGED_BULB_SWITCH_Q.sbjb18-l1.qa90	DAMAGED_BULB_SWITCH_Q	2.0	It works the same way.
+SwitchesBulbsSeries-DAMAGED_BULB_SWITCH_Q.sbjb19-l1.qa86	DAMAGED_BULB_SWITCH_Q	1.0	the switch can close and the gap would be gone but the a damaged bulb will always have a gap in the circuit
+SwitchesBulbsSeries-DAMAGED_BULB_SWITCH_Q.sbjb20-l1.qa92	DAMAGED_BULB_SWITCH_Q	2.0	A damaged bulb creates a gap in the path. An open switch creates a gap in the path.
+SwitchesBulbsSeries-DAMAGED_BULB_SWITCH_Q.sbjb24-l1.qa87	DAMAGED_BULB_SWITCH_Q	2.0	they both act the same way
+SwitchesBulbsSeries-DAMAGED_BULB_SWITCH_Q.sbjb25-l1.qa83	DAMAGED_BULB_SWITCH_Q	1.0	Open switch is just creating a gap, nothing is being damaged.
+SwitchesBulbsSeries-DAMAGED_BULB_SWITCH_Q.sbjb26-l1.qa81	DAMAGED_BULB_SWITCH_Q	2.0	They have an identical impact on the circut.
+SwitchesBulbsSeries-DAMAGED_BULB_SWITCH_Q.sbjb29-l1.qa84	DAMAGED_BULB_SWITCH_Q	2.0	it acts in the same way, creating a gap
+SwitchesBulbsSeries-DAMAGED_BULB_SWITCH_Q.sbjb30-l1.qa81	DAMAGED_BULB_SWITCH_Q	2.0	a damaged bulb has the same effect as an open switch.
+SwitchesBulbsSeries-DAMAGED_BULB_SWITCH_Q.sbjb31-l1.qa81	DAMAGED_BULB_SWITCH_Q	0.0	they both damage the circuit
+SwitchesBulbsSeries-DAMAGED_BULB_SWITCH_Q.sbjb32-l1.qa83	DAMAGED_BULB_SWITCH_Q	1.0	It creates an open gap.
+SwitchesBulbsSeries-DAMAGED_BULB_SWITCH_Q.sbjb34-l1.qa81	DAMAGED_BULB_SWITCH_Q	0.0	The damabed bulb and the open switch disrupt the flow of the current.
+SwitchesBulbsSeries-DAMAGED_BULB_SWITCH_Q.sbjb35-l1.qa81	DAMAGED_BULB_SWITCH_Q	2.0	They are functionally the same.
+SwitchesBulbsSeries-DAMAGED_BULB_SWITCH_Q.sbjb36-l1.qa81	DAMAGED_BULB_SWITCH_Q	2.0	the damaged bulb does the same thing as an open switch by creating a gap but the damaged bulb cannot fix its self to recreate the current as a switch can turn the current on and off.
+SwitchesBulbsSeries-DAMAGED_BULB_SWITCH_Q.sbjb37-l1.qa81	DAMAGED_BULB_SWITCH_Q	1.0	"The both don""t work"
+SwitchesBulbsSeries-DAMAGED_BULB_SWITCH_Q.sbjb38-l1.qa82	DAMAGED_BULB_SWITCH_Q	1.0	Both a damaged bulb and open switch will disconnect the circuit.
+SwitchesBulbsSeries-DAMAGED_BULB_SWITCH_Q.sbjb40-l1.qa81	DAMAGED_BULB_SWITCH_Q	2.0	They are the same because they create a gap.
+SwitchesBulbsSeries-DAMAGED_BULB_SWITCH_Q.sbjb41-l1.qa82	DAMAGED_BULB_SWITCH_Q	0.0	An open switch means a closed pathway, where as a damaged bulb means a gap, and they both cause the circuit not to work properly.
+SwitchesBulbsSeries-DAMAGED_BULB_SWITCH_Q.sbjb42-l1.qa82	DAMAGED_BULB_SWITCH_Q	2.0	it creates the same effect

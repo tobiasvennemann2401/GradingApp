@@ -1,0 +1,137 @@
+AnswerId	PromptId	Score1	AnswerText
+FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj3-l1.qa173	VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q	2.0	if the voltage is not zero there is a difference in electrical states. If the voltage is zero there is no difference in electrical state
+FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj3-l1.qa174	VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q	0.0	if there is a measurement reading then the electrical states are opposite
+FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj7-l1.qa164	VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q	0.0	if the terminal is connected to the negative terminal, the reading will be 1.5V.  if the terminal is connected to the positive terminal, the reading will be 0 V.
+FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj7-l1.qa165	VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q	0.0	i do not know
+FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj7-l1.qa166	VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q	0.0	the electrical states are the same
+FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj8-l1.qa197	VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q	0.0	the volatge readings determines how much electricity
+FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj8-l1.qa198	VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q	0.0	the positive terminal has a higher electrical state than that of the negative terminal
+FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj8-l1.qa199	VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q	0.0	The positive terminal has higher electrical charge that that of the negative terminal
+FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj8-l1.qa200	VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q	0.0	the value of the measurement indicates its electrical capabilities
+FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj9-l1.qa167	VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q	0.0	the distance between the voltage terminals.
+FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj9-l1.qa168	VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q	0.0	the relationship between the voltage reading between two terminals and their electrical states is based on the distance between the terminals on the battery.
+FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj9-l1.qa169	VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q	1.0	the difference between the voltage terminals.
+FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj9-l1.qa170	VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q	0.0	the relationship between the voltage reading between two terminals and their elevtrical states is based on the difference between the terminals on the battery.
+FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj10-l1.qa186	VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q	2.0	it is the difference in voltage between the positive and negative terminals
+FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj10-l1.qa187	VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q	1.0	the difference between positive and negative
+FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj10-l1.qa188	VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q	2.0	the difference in voltage between the two terminals
+FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj10-l1.qa189	VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q	1.0	one is positive and one is negative
+FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj11-l1.qa194	VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q	0.0	0
+FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj11-l1.qa195	VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q	2.0	the difference of the electrical states of the terminals is the voltage.
+FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj11-l1.qa196	VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q	1.0	the voltage reading is the difference between the electrical states of the terminal.
+FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj12-l1.qa162	VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q	1.0	Their electrical state is determined by their relationship
+FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj12-l1.qa163	VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q	1.0	The electrical state of one terminal afferts the other terminal
+FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj12-l1.qa164	VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q	0.0	The relationship between the electrical states of the terminals determines the voltage
+FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj12-l1.qa165	VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q	0.0	The value of the measurement between two terminals gives the voltage
+FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj13-l1.qa194	VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q	0.0	whether there is a gap.
+FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj13-l1.qa195	VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q	0.0	there is a difference in electrical current at each terminal.
+FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj14-l1.qa187	VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q	0.0	dfjfkd
+FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj14-l1.qa188	VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q	0.0	slkdfkdjf
+FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj14-l1.qa189	VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q	1.0	There is a difference between the positive terminal and negative terminal.
+FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj15-l1.qa203	VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q	0.0	a gapp in the connection
+FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj15-l1.qa204	VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q	0.0	a connection difference
+FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj15-l1.qa205	VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q	0.0	yes
+FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj15-l1.qa206	VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q	2.0	there is a difference in electrical state beween the two terminals
+FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj18-l1.qa165	VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q	2.0	The voltage reading is 1.5 V because their electrical states are different.
+FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj19-l1.qa217	VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q	1.0	the battery that they are connected to
+FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj19-l1.qa218	VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q	1.0	the difference between the batteries
+FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj19-l1.qa219	VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q	1.0	the difference in the positive and negative states
+FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj22-l1.qa189	VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q	0.0	they are the same
+FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj22-l1.qa190	VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q	0.0	the value of the measurements indicates that they are the same
+FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj23-l1.qa164	VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q	0.0	They have to be in different electrical states to have a voltage reading.
+FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj23-l1.qa165	VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q	0.0	If they are the same electrical state, there is no voltage.
+FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj23-l1.qa167	VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q	1.0	There is a difference in voltage when the electrical states differ.
+FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj23-l1.qa168	VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q	0.0	If there is a measurement of voltage, the electrical states are different.
+FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj24-l1.qa193	VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q	2.0	The voltage reading tells the difference in electrical states between the two terminals
+FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj24-l1.qa194	VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q	1.0	voltage reading tells difference in electrical states
+FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj24-l1.qa195	VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q	2.0	The voltage reading tells the difference in electrical states of two terminals
+FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj24-l1.qa196	VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q	0.0	yea?
+FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj26-l1.qa199	VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q	0.0	the voltage
+FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj26-l1.qa200	VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q	0.0	god
+FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj26-l1.qa201	VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q	0.0	the power of god
+FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj27-l1.qa182	VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q	0.0	if the voltage is 0 there is no electricity
+FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj27-l1.qa183	VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q	1.0	it shows their electrical state
+FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj27-l1.qa184	VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q	1.0	the voltage reading and their electrical state are the same
+FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj28-l1.qa182	VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q	1.0	voltage
+FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj28-l1.qa183	VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q	1.0	the positive and negative ends of the battery
+FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj28-l1.qa184	VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q	1.0	the value of the measurement indicates voltage
+FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj29-l1.qa181	VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q	1.0	if they are connected or not connected.
+FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj29-l1.qa182	VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q	1.0	whether there is a gap between two terminals or not.
+FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj29-l1.qa183	VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q	1.0	the measurement indicated whether the terminals are connected.
+FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj30-l1.qa170	VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q	0.0	If the terminal is connected to the positve battery terminal it has 1.50 V.  If the terminal is connected to the negative battery terminal it has 0.00 V.
+FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj30-l1.qa171	VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q	0.0	They are not connected.
+FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj31-l1.qa180	VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q	0.0	i dont know
+FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj31-l1.qa181	VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q	0.0	the voltage difference
+FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj33-l1.qa173	VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q	0.0	the voltage reading will be more if it is connected to a positive terminal than if it is connected to a negative termninal
+FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj33-l1.qa174	VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q	0.0	tell me the answer
+FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj34-l1.qa163	VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q	1.0	The voltage reading is the difference
+FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj34-l1.qa164	VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q	0.0	Voltage reading shows the gap
+FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj34-l1.qa165	VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q	2.0	Voltage measures the difference in electrical state between them
+FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj35-l1.qa180	VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q	0.0	One is positive and one is negative.
+FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj35-l1.qa181	VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q	0.0	They are in the same electrical state.
+FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj35-l1.qa182	VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q	0.0	They are connected to the negative terminal.
+FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj36-l1.qa187	VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q	1.0	the voltage reading shows the electrical states
+FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj36-l1.qa189	VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q	1.0	the value of the measurement indicates the electrical states
+FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj37-l1.qa162	VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q	0.0	one is positive. one is negative
+FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj37-l1.qa163	VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q	2.0	the number will be 0 if they are the same electrical state.
+FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj37-l1.qa164	VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q	2.0	the value of the electrical state tells us if they are different states or the same state
+FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj38-l1.qa165	VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q	0.0	the voltage is the difference between the electrical states
+FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj39-l1.qa199	VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q	0.0	The positive electical state must be put on the correct side to get a proper reading
+FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj39-l1.qa200	VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q	0.0	If the meter is put in the wrong place, it will read the opposite electrical states.
+FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj39-l1.qa201	VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q	0.0	Tehr
+FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj39-l1.qa202	VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q	0.0	the difference in the electrical states and the two terminals gives the voltage readings
+FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj40-l1.qa192	VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q	0.0	they are the same voltage.
+FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj40-l1.qa193	VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q	0.0	i dont know.
+FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj40-l1.qa194	VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q	0.0	the value between the ow terminals are the same.
+FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj42-l1.qa177	VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q	1.0	The voltage reading is determined by the terminals and their electrical states.
+FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj42-l1.qa178	VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q	0.0	The voltage reading is determined by whether the electrical state is positive or negative.
+FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj42-l1.qa179	VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q	0.0	The value of the measurement indicates whether the electrical state is positive or negative.
+FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj43-l1.qa177	VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q	1.0	it determines whether they are connected
+FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj43-l1.qa180	VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q	1.0	it measures the voltage to determine wheter the terminals are connected to one another
+FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj45-l1.qa171	VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q	1.0	the voltage reading is the difference between two terminals
+FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj45-l1.qa173	VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q	0.0	i still dont know
+FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj46-l1.qa187	VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q	0.0	always the same
+FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj46-l1.qa188	VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q	0.0	volts are the same
+FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj47-l1.qa196	VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q	0.0	the voltage reading will correspond with their electrical state
+FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj47-l1.qa197	VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q	0.0	the location of the terminals will correspond with their electrical state
+FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj47-l1.qa198	VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q	1.0	the value of the measurement indicated if it is connected to the postive or negative terminal
+FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj48-l1.qa167	VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q	1.0	it is a measure of the difference
+FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj48-l1.qa168	VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q	1.0	The voltage reading between two terminals is a measure of the difference in electricity
+FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbj48-l1.qa169	VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q	1.0	the voltage reading is the difference between the two terminals
+FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbjb1-l1.qa149	VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q	1.0	The only difference is when there is a gap between the terminals.
+FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbjb2-l1.qa154	VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q	0.0	Whether the is a gap or not.
+FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbjb3-l1.qa164	VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q	0.0	They will always be the same
+FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbjb4-l1.qa144	VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q	0.0	the voltage reading will be the same no matter what the electrical state is
+FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbjb5-l1.qa153	VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q	2.0	voltage is the difference in the electrical states between the two terminals
+FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbjb6-l1.qa146	VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q	0.0	"I don""t know."
+FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbjb7-l1.qa143	VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q	2.0	If the states are the same, voltage will be zero.
+FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbjb9-l1.qa159	VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q	0.0	There is a chemical reaction between the positive and negative terminals
+FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbjb10-l1.qa143	VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q	0.0	there will be a reading only if there is a positive and negative connection assuming that there is a battery
+FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbjb11-l1.qa146	VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q	0.0	1 and 2 will always have the same voltage as the negative terminal. And Terminals 5 and 6 will always have the same voltage as the positive terminal.
+FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbjb12-l1.qa149	VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q	0.0	If there is no gap the voltage is 1.5 volts and teh electrical state is active
+FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbjb13-l1.qa145	VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q	0.0	I do not know.
+FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbjb15-l1.qa145	VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q	0.0	whether or not they are connected
+FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbjb16-l1.qa145	VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q	1.0	they are different
+FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbjb17-l1.qa147	VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q	0.0	A positive reading equals different electrical states, no reading equals same electrical states
+FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbjb18-l1.qa155	VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q	0.0	it is 0.
+FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbjb19-l1.qa148	VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q	0.0	they both have the same electrical reading.
+FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbjb20-l1.qa155	VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q	1.0	The terminal.
+FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbjb22-l1.qa154	VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q	0.0	the voltage is the difference between 2 terminals electrical state on a battery
+FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbjb24-l1.qa151	VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q	0.0	?/
+FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbjb25-l1.qa148	VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q	0.0	They are divided into positive and negative terminals.
+FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbjb26-l1.qa144	VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q	0.0	The difference in power between the two terminals.
+FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbjb27-l1.qa143	VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q	0.0	if the voltage reading is 0 volts then the bulb is not on
+FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbjb28-l1.qa148	VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q	0.0	all or nothing
+FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbjb29-l1.qa147	VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q	0.0	1.5 volts
+FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbjb30-l1.qa148	VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q	2.0	the voltage reading measures the difference between two terminals and their electrical states.
+FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbjb31-l1.qa143	VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q	1.0	the voltage reading is the difference between the two terminals.
+FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbjb32-l1.qa147	VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q	0.0	the same
+FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbjb34-l1.qa143	VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q	2.0	When the electrical states are the same then the voltage reading is 0. When the electrical states differ then the voltage reading does not equal zero.
+FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbjb35-l1.qa144	VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q	0.0	The voltage reading of the two terminal is dependant on the power source that in on their closed circuit.
+FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbjb36-l1.qa143	VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q	0.0	If they are in a closed circuit they will have both a positive and negative state if not it depends where the gap is to determine if the staes will be the same or different.
+FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbjb37-l1.qa143	VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q	0.0	"I don""t know"
+FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbjb38-l1.qa144	VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q	2.0	Voltage measures the difference in the electrical state of both terminals.
+FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbjb39-l1.qa145	VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q	1.0	If the terminals are connected, then their electrical states will be the same.
+FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbjb40-l1.qa144	VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q	0.0	the voltage reading will be 0 if it is connected to the positve terminal, but 1.5 if it is not.
+FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbjb41-l1.qa146	VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q	0.0	The relationship is that they are different depending on whether or not they are connected to the positive or negative battery terminal.
+FaultFinding-VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q.sbjb42-l1.qa146	VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q	2.0	If the voltage reading is >0, they are in different states. If they have a voltage reading of 0, they are in the same state.

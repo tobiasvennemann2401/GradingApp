@@ -1,0 +1,61 @@
+AnswerId	PromptId	Score1	AnswerText
+FaultFinding-BULB_C_VOLTAGE_EXPLAIN_WHY2.sbj7-l1.qa186	BULB_C_VOLTAGE_EXPLAIN_WHY2	2.0	terminal 2 is not connected to the positive terminal
+FaultFinding-BULB_C_VOLTAGE_EXPLAIN_WHY2.sbj8-l1.qa229	BULB_C_VOLTAGE_EXPLAIN_WHY2	2.0	the positive battery terminal is seperated by a gap from terminal 2
+FaultFinding-BULB_C_VOLTAGE_EXPLAIN_WHY2.sbj9-l1.qa190	BULB_C_VOLTAGE_EXPLAIN_WHY2	2.0	the positive battery terminal is not connected to terminal 2.
+FaultFinding-BULB_C_VOLTAGE_EXPLAIN_WHY2.sbj10-l1.qa211	BULB_C_VOLTAGE_EXPLAIN_WHY2	2.0	because there is a gap between terminal two and the positive battery terminal
+FaultFinding-BULB_C_VOLTAGE_EXPLAIN_WHY2.sbj12-l1.qa184	BULB_C_VOLTAGE_EXPLAIN_WHY2	2.0	The positive battery terminal is separated by a gap from terminal 2
+FaultFinding-BULB_C_VOLTAGE_EXPLAIN_WHY2.sbj14-l1.qa210	BULB_C_VOLTAGE_EXPLAIN_WHY2	2.0	Because there was a gap between the positive battery terminal and terminal 2.
+FaultFinding-BULB_C_VOLTAGE_EXPLAIN_WHY2.sbj19-l1.qa243	BULB_C_VOLTAGE_EXPLAIN_WHY2	0.0	i dont know
+FaultFinding-BULB_C_VOLTAGE_EXPLAIN_WHY2.sbj19-l1.qa244	BULB_C_VOLTAGE_EXPLAIN_WHY2	1.0	terminal 2 has a gap
+FaultFinding-BULB_C_VOLTAGE_EXPLAIN_WHY2.sbj19-l1.qa245	BULB_C_VOLTAGE_EXPLAIN_WHY2	1.0	the gap in terminal 2 is postive
+FaultFinding-BULB_C_VOLTAGE_EXPLAIN_WHY2.sbj19-l1.qa246	BULB_C_VOLTAGE_EXPLAIN_WHY2	1.0	there is a difference between terminal 2
+FaultFinding-BULB_C_VOLTAGE_EXPLAIN_WHY2.sbj22-l1.qa210	BULB_C_VOLTAGE_EXPLAIN_WHY2	2.0	the positive battery terminal is separated by a gay from terminal 2
+FaultFinding-BULB_C_VOLTAGE_EXPLAIN_WHY2.sbj23-l1.qa187	BULB_C_VOLTAGE_EXPLAIN_WHY2	2.0	The positive battery terminal is separated by a gap from terminal 2.
+FaultFinding-BULB_C_VOLTAGE_EXPLAIN_WHY2.sbj24-l1.qa222	BULB_C_VOLTAGE_EXPLAIN_WHY2	1.0	has to do something with a gap
+FaultFinding-BULB_C_VOLTAGE_EXPLAIN_WHY2.sbj24-l1.qa223	BULB_C_VOLTAGE_EXPLAIN_WHY2	0.0	the path is completed by the voltage meter
+FaultFinding-BULB_C_VOLTAGE_EXPLAIN_WHY2.sbj29-l1.qa203	BULB_C_VOLTAGE_EXPLAIN_WHY2	2.0	the positive battery terminal and terminal 2 are not connected
+FaultFinding-BULB_C_VOLTAGE_EXPLAIN_WHY2.sbj31-l1.qa203	BULB_C_VOLTAGE_EXPLAIN_WHY2	2.0	terminal 2 is connected to the negative terminal and terminal 2 is seperated from the positive terminal by a gap
+FaultFinding-BULB_C_VOLTAGE_EXPLAIN_WHY2.sbj33-l1.qa198	BULB_C_VOLTAGE_EXPLAIN_WHY2	1.0	positive terminal is serperated from terminal 2
+FaultFinding-BULB_C_VOLTAGE_EXPLAIN_WHY2.sbj33-l1.qa199	BULB_C_VOLTAGE_EXPLAIN_WHY2	0.0	tell answer
+FaultFinding-BULB_C_VOLTAGE_EXPLAIN_WHY2.sbj35-l1.qa208	BULB_C_VOLTAGE_EXPLAIN_WHY2	2.0	the terminal is separated from the positive battery terminal.
+FaultFinding-BULB_C_VOLTAGE_EXPLAIN_WHY2.sbj35-l1.qa209	BULB_C_VOLTAGE_EXPLAIN_WHY2	0.0	the terminal is connected to the positive battery terminal
+FaultFinding-BULB_C_VOLTAGE_EXPLAIN_WHY2.sbj35-l1.qa210	BULB_C_VOLTAGE_EXPLAIN_WHY2	2.0	The terminal is not connected to the positive battery terminal.
+FaultFinding-BULB_C_VOLTAGE_EXPLAIN_WHY2.sbj36-l1.qa217	BULB_C_VOLTAGE_EXPLAIN_WHY2	2.0	the posiive battery terminal is separated by a gap from terminal 2
+FaultFinding-BULB_C_VOLTAGE_EXPLAIN_WHY2.sbj37-l1.qa184	BULB_C_VOLTAGE_EXPLAIN_WHY2	2.0	terminal 2 is not connected to the positive battery terminal
+FaultFinding-BULB_C_VOLTAGE_EXPLAIN_WHY2.sbj38-l1.qa189	BULB_C_VOLTAGE_EXPLAIN_WHY2	2.0	the positive terminal is not connected to terminal 2
+FaultFinding-BULB_C_VOLTAGE_EXPLAIN_WHY2.sbj39-l1.qa228	BULB_C_VOLTAGE_EXPLAIN_WHY2	2.0	the positive battery terminal is separted by a gap from terminal 2
+FaultFinding-BULB_C_VOLTAGE_EXPLAIN_WHY2.sbj40-l1.qa220	BULB_C_VOLTAGE_EXPLAIN_WHY2	0.0	i dont know.
+FaultFinding-BULB_C_VOLTAGE_EXPLAIN_WHY2.sbj40-l1.qa221	BULB_C_VOLTAGE_EXPLAIN_WHY2	2.0	there is a gap between terminal 2 and the positive terminal.
+FaultFinding-BULB_C_VOLTAGE_EXPLAIN_WHY2.sbj42-l1.qa205	BULB_C_VOLTAGE_EXPLAIN_WHY2	2.0	A terminal is not connected to the positive battery terminal.
+FaultFinding-BULB_C_VOLTAGE_EXPLAIN_WHY2.sbj43-l1.qa202	BULB_C_VOLTAGE_EXPLAIN_WHY2	2.0	the positive terminal and terminal 2 are seperated by a gap
+FaultFinding-BULB_C_VOLTAGE_EXPLAIN_WHY2.sbj45-l1.qa195	BULB_C_VOLTAGE_EXPLAIN_WHY2	0.0	i still dont know
+FaultFinding-BULB_C_VOLTAGE_EXPLAIN_WHY2.sbj45-l1.qa196	BULB_C_VOLTAGE_EXPLAIN_WHY2	2.0	the gap separates the positive battery terminal from terminal 2
+FaultFinding-BULB_C_VOLTAGE_EXPLAIN_WHY2.sbj46-l1.qa209	BULB_C_VOLTAGE_EXPLAIN_WHY2	0.0	positive battery is seperated by a gap from terminal 2
+FaultFinding-BULB_C_VOLTAGE_EXPLAIN_WHY2.sbj48-l1.qa189	BULB_C_VOLTAGE_EXPLAIN_WHY2	2.0	because the positive terminal is separated by a gap from terminal 2
+FaultFinding-BULB_C_VOLTAGE_EXPLAIN_WHY2.sbjb1-l1.qa167	BULB_C_VOLTAGE_EXPLAIN_WHY2	0.0	The positive battery is separated by a gap from terminal 3.
+FaultFinding-BULB_C_VOLTAGE_EXPLAIN_WHY2.sbjb2-l1.qa171	BULB_C_VOLTAGE_EXPLAIN_WHY2	0.0	It was separated by a gap by terminal 2.
+FaultFinding-BULB_C_VOLTAGE_EXPLAIN_WHY2.sbjb3-l1.qa183	BULB_C_VOLTAGE_EXPLAIN_WHY2	2.0	The positive battery terminal is separtated by a gap from terminal 2
+FaultFinding-BULB_C_VOLTAGE_EXPLAIN_WHY2.sbjb4-l1.qa162	BULB_C_VOLTAGE_EXPLAIN_WHY2	2.0	"the terminals are not connected - there""s a gap"
+FaultFinding-BULB_C_VOLTAGE_EXPLAIN_WHY2.sbjb6-l1.qa163	BULB_C_VOLTAGE_EXPLAIN_WHY2	0.0	The positive battery terminal is seperated by a gap from termnial one.
+FaultFinding-BULB_C_VOLTAGE_EXPLAIN_WHY2.sbjb7-l1.qa160	BULB_C_VOLTAGE_EXPLAIN_WHY2	1.0	seperated by a gap
+FaultFinding-BULB_C_VOLTAGE_EXPLAIN_WHY2.sbjb10-l1.qa160	BULB_C_VOLTAGE_EXPLAIN_WHY2	0.0	same as 1
+FaultFinding-BULB_C_VOLTAGE_EXPLAIN_WHY2.sbjb11-l1.qa165	BULB_C_VOLTAGE_EXPLAIN_WHY2	0.0	The positive battery terminal is separated by a gap from terminal 1
+FaultFinding-BULB_C_VOLTAGE_EXPLAIN_WHY2.sbjb15-l1.qa162	BULB_C_VOLTAGE_EXPLAIN_WHY2	1.0	not connected to positive battery
+FaultFinding-BULB_C_VOLTAGE_EXPLAIN_WHY2.sbjb19-l1.qa165	BULB_C_VOLTAGE_EXPLAIN_WHY2	2.0	The positive battery terminal is seporated by a gap from terminal 2.
+FaultFinding-BULB_C_VOLTAGE_EXPLAIN_WHY2.sbjb21-l1.qa161	BULB_C_VOLTAGE_EXPLAIN_WHY2	0.0	idk
+FaultFinding-BULB_C_VOLTAGE_EXPLAIN_WHY2.sbjb24-l1.qa168	BULB_C_VOLTAGE_EXPLAIN_WHY2	0.0	npo idea
+FaultFinding-BULB_C_VOLTAGE_EXPLAIN_WHY2.sbjb25-l1.qa165	BULB_C_VOLTAGE_EXPLAIN_WHY2	0.0	"BECAUSE THEY AREN""T DAMAGED."
+FaultFinding-BULB_C_VOLTAGE_EXPLAIN_WHY2.sbjb26-l1.qa161	BULB_C_VOLTAGE_EXPLAIN_WHY2	2.0	The positive bettery terminal is separated by a gap from terminal 2.
+FaultFinding-BULB_C_VOLTAGE_EXPLAIN_WHY2.sbjb28-l1.qa165	BULB_C_VOLTAGE_EXPLAIN_WHY2	2.0	there is a gap between the two of them
+FaultFinding-BULB_C_VOLTAGE_EXPLAIN_WHY2.sbjb29-l1.qa164	BULB_C_VOLTAGE_EXPLAIN_WHY2	2.0	because the positive battery terminal is seperated by a gap from terminal 2
+FaultFinding-BULB_C_VOLTAGE_EXPLAIN_WHY2.sbjb30-l1.qa167	BULB_C_VOLTAGE_EXPLAIN_WHY2	2.0	the positive battery terminal is seperated by a gap from terminal 2.
+FaultFinding-BULB_C_VOLTAGE_EXPLAIN_WHY2.sbjb32-l1.qa164	BULB_C_VOLTAGE_EXPLAIN_WHY2	0.0	The positive battery terminal is separated by a gap from terminal 1.
+FaultFinding-BULB_C_VOLTAGE_EXPLAIN_WHY2.sbjb34-l1.qa160	BULB_C_VOLTAGE_EXPLAIN_WHY2	1.0	Terminal 2 and the positive terminal had different electrical states.
+FaultFinding-BULB_C_VOLTAGE_EXPLAIN_WHY2.sbjb38-l1.qa161	BULB_C_VOLTAGE_EXPLAIN_WHY2	1.0	separated by a gap
+FaultFinding-BULB_C_VOLTAGE_EXPLAIN_WHY2.sbjb39-l1.qa163	BULB_C_VOLTAGE_EXPLAIN_WHY2	2.0	The positive battery is separated by a gap from terminal 2.
+FaultFinding-BULB_C_VOLTAGE_EXPLAIN_WHY2.sbj3-l1.qa194	BULB_C_VOLTAGE_EXPLAIN_WHY2	2.0	positive battery terminal is separated by a gap from terminal 2
+FaultFinding-BULB_C_VOLTAGE_EXPLAIN_WHY2.sbj11-l1.qa214	BULB_C_VOLTAGE_EXPLAIN_WHY2	2.0	terminal 2 is not connected to the positive battery terminal.
+FaultFinding-BULB_C_VOLTAGE_EXPLAIN_WHY2.sbj13-l1.qa223	BULB_C_VOLTAGE_EXPLAIN_WHY2	2.0	because there is a gap between the positive battery terminal and bulb terminal 2.
+FaultFinding-BULB_C_VOLTAGE_EXPLAIN_WHY2.sbj18-l1.qa183	BULB_C_VOLTAGE_EXPLAIN_WHY2	2.0	Terminal 2 is not connected to the positive terminal.
+FaultFinding-BULB_C_VOLTAGE_EXPLAIN_WHY2.sbjb16-l1.qa162	BULB_C_VOLTAGE_EXPLAIN_WHY2	2.0	the positive terminal is seperated by a gap from terminal 2
+FaultFinding-BULB_C_VOLTAGE_EXPLAIN_WHY2.sbjb22-l1.qa171	BULB_C_VOLTAGE_EXPLAIN_WHY2	2.0	The positive battery terminal is separated b a gap from terminal 2

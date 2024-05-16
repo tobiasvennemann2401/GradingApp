@@ -1,0 +1,68 @@
+AnswerId	PromptId	Score1	AnswerText
+SwitchesBulbsSeries-SHORT_CIRCUIT_EXPLAIN_Q_4.sbj3-l1.qa52	SHORT_CIRCUIT_EXPLAIN_Q_4	2.0	the battery is not contained in a closed path
+SwitchesBulbsSeries-SHORT_CIRCUIT_EXPLAIN_Q_4.sbj7-l1.qa52	SHORT_CIRCUIT_EXPLAIN_Q_4	2.0	the battery is  not contained in a closed path
+SwitchesBulbsSeries-SHORT_CIRCUIT_EXPLAIN_Q_4.sbj8-l1.qa67	SHORT_CIRCUIT_EXPLAIN_Q_4	0.0	Because it is in an incomplete path
+SwitchesBulbsSeries-SHORT_CIRCUIT_EXPLAIN_Q_4.sbj8-l1.qa68	SHORT_CIRCUIT_EXPLAIN_Q_4	2.0	The path does not close
+SwitchesBulbsSeries-SHORT_CIRCUIT_EXPLAIN_Q_4.sbj9-l1.qa54	SHORT_CIRCUIT_EXPLAIN_Q_4	2.0	The battery is not in a closed path.
+SwitchesBulbsSeries-SHORT_CIRCUIT_EXPLAIN_Q_4.sbj10-l1.qa62	SHORT_CIRCUIT_EXPLAIN_Q_4	1.0	circuit 4 is contained in an open path
+SwitchesBulbsSeries-SHORT_CIRCUIT_EXPLAIN_Q_4.sbj10-l1.qa63	SHORT_CIRCUIT_EXPLAIN_Q_4	0.0	the batteries terminals are not connected
+SwitchesBulbsSeries-SHORT_CIRCUIT_EXPLAIN_Q_4.sbj11-l1.qa71	SHORT_CIRCUIT_EXPLAIN_Q_4	0.0	the bulb is in the closed path
+SwitchesBulbsSeries-SHORT_CIRCUIT_EXPLAIN_Q_4.sbj12-l1.qa49	SHORT_CIRCUIT_EXPLAIN_Q_4	2.0	The battery is not in a closed path so it can not be damaged
+SwitchesBulbsSeries-SHORT_CIRCUIT_EXPLAIN_Q_4.sbj13-l1.qa59	SHORT_CIRCUIT_EXPLAIN_Q_4	2.0	it is not contained in a closed path.
+SwitchesBulbsSeries-SHORT_CIRCUIT_EXPLAIN_Q_4.sbj13-l1.qa60	SHORT_CIRCUIT_EXPLAIN_Q_4	1.0	the bulb is not connected to the positive connection.
+SwitchesBulbsSeries-SHORT_CIRCUIT_EXPLAIN_Q_4.sbj13-l1.qa61	SHORT_CIRCUIT_EXPLAIN_Q_4	1.0	the bulb is not connected to the positive connection of the battery.
+SwitchesBulbsSeries-SHORT_CIRCUIT_EXPLAIN_Q_4.sbj13-l1.qa62	SHORT_CIRCUIT_EXPLAIN_Q_4	2.0	the battery is not contained in a closed path.
+SwitchesBulbsSeries-SHORT_CIRCUIT_EXPLAIN_Q_4.sbj14-l1.qa64	SHORT_CIRCUIT_EXPLAIN_Q_4	2.0	Because neither components are in closed paths.
+SwitchesBulbsSeries-SHORT_CIRCUIT_EXPLAIN_Q_4.sbj14-l1.qa65	SHORT_CIRCUIT_EXPLAIN_Q_4	2.0	Because the battery and the bulb are not in a closed path.
+SwitchesBulbsSeries-SHORT_CIRCUIT_EXPLAIN_Q_4.sbj14-l1.qa67	SHORT_CIRCUIT_EXPLAIN_Q_4	2.0	Because the battery is not in a closed path.
+SwitchesBulbsSeries-SHORT_CIRCUIT_EXPLAIN_Q_4.sbj15-l1.qa78	SHORT_CIRCUIT_EXPLAIN_Q_4	0.0	the battery is not in a closed circuit
+SwitchesBulbsSeries-SHORT_CIRCUIT_EXPLAIN_Q_4.sbj15-l1.qa79	SHORT_CIRCUIT_EXPLAIN_Q_4	2.0	the battery is not in a closed path
+SwitchesBulbsSeries-SHORT_CIRCUIT_EXPLAIN_Q_4.sbj22-l1.qa64	SHORT_CIRCUIT_EXPLAIN_Q_4	2.0	there is no closed path
+SwitchesBulbsSeries-SHORT_CIRCUIT_EXPLAIN_Q_4.sbj22-l1.qa65	SHORT_CIRCUIT_EXPLAIN_Q_4	0.0	because one end of the bulb is not connected to the positive side of te battery
+SwitchesBulbsSeries-SHORT_CIRCUIT_EXPLAIN_Q_4.sbj22-l1.qa66	SHORT_CIRCUIT_EXPLAIN_Q_4	1.0	there is not a terminal connected to the positive path of the battery
+SwitchesBulbsSeries-SHORT_CIRCUIT_EXPLAIN_Q_4.sbj22-l1.qa67	SHORT_CIRCUIT_EXPLAIN_Q_4	0.0	circuit 4 has no terminal to the bulb
+SwitchesBulbsSeries-SHORT_CIRCUIT_EXPLAIN_Q_4.sbj23-l1.qa52	SHORT_CIRCUIT_EXPLAIN_Q_4	2.0	The battery and bulb are not in a closed path.
+SwitchesBulbsSeries-SHORT_CIRCUIT_EXPLAIN_Q_4.sbj24-l1.qa62	SHORT_CIRCUIT_EXPLAIN_Q_4	1.0	not a closed path
+SwitchesBulbsSeries-SHORT_CIRCUIT_EXPLAIN_Q_4.sbj26-l1.qa67	SHORT_CIRCUIT_EXPLAIN_Q_4	1.0	the bulb is not contained in a closed path
+SwitchesBulbsSeries-SHORT_CIRCUIT_EXPLAIN_Q_4.sbj26-l1.qa68	SHORT_CIRCUIT_EXPLAIN_Q_4	2.0	the battery is not in the closed path
+SwitchesBulbsSeries-SHORT_CIRCUIT_EXPLAIN_Q_4.sbj27-l1.qa62	SHORT_CIRCUIT_EXPLAIN_Q_4	0.0	the battery is not contained in the circuit
+SwitchesBulbsSeries-SHORT_CIRCUIT_EXPLAIN_Q_4.sbj30-l1.qa48	SHORT_CIRCUIT_EXPLAIN_Q_4	2.0	The path contains the light bulb and it is not closed.
+SwitchesBulbsSeries-SHORT_CIRCUIT_EXPLAIN_Q_4.sbj30-l1.qa49	SHORT_CIRCUIT_EXPLAIN_Q_4	2.0	The path contains the light bulb and the path is not closed.
+SwitchesBulbsSeries-SHORT_CIRCUIT_EXPLAIN_Q_4.sbj31-l1.qa54	SHORT_CIRCUIT_EXPLAIN_Q_4	2.0	the path is not closed
+SwitchesBulbsSeries-SHORT_CIRCUIT_EXPLAIN_Q_4.sbj31-l1.qa55	SHORT_CIRCUIT_EXPLAIN_Q_4	2.0	the batter is not on a closed path
+SwitchesBulbsSeries-SHORT_CIRCUIT_EXPLAIN_Q_4.sbj34-l1.qa46	SHORT_CIRCUIT_EXPLAIN_Q_4	1.0	the battery is connected to a bulb
+SwitchesBulbsSeries-SHORT_CIRCUIT_EXPLAIN_Q_4.sbj34-l1.qa47	SHORT_CIRCUIT_EXPLAIN_Q_4	0.0	the battery path is closed
+SwitchesBulbsSeries-SHORT_CIRCUIT_EXPLAIN_Q_4.sbj38-l1.qa51	SHORT_CIRCUIT_EXPLAIN_Q_4	2.0	circuit 4 does not contain a closed path and cannot be a short circuit.
+SwitchesBulbsSeries-SHORT_CIRCUIT_EXPLAIN_Q_4.sbj39-l1.qa61	SHORT_CIRCUIT_EXPLAIN_Q_4	1.0	Circuit 4 is not a short circuit because it is not connected.
+SwitchesBulbsSeries-SHORT_CIRCUIT_EXPLAIN_Q_4.sbj39-l1.qa65	SHORT_CIRCUIT_EXPLAIN_Q_4	0.0	?
+SwitchesBulbsSeries-SHORT_CIRCUIT_EXPLAIN_Q_4.sbj47-l1.qa66	SHORT_CIRCUIT_EXPLAIN_Q_4	2.0	It is not a closed path
+SwitchesBulbsSeries-SHORT_CIRCUIT_EXPLAIN_Q_4.sbj47-l1.qa70	SHORT_CIRCUIT_EXPLAIN_Q_4	1.0	The bulb and the battery are connected
+SwitchesBulbsSeries-SHORT_CIRCUIT_EXPLAIN_Q_4.sbj48-l1.qa51	SHORT_CIRCUIT_EXPLAIN_Q_4	2.0	it is an incomplete circuit
+SwitchesBulbsSeries-SHORT_CIRCUIT_EXPLAIN_Q_4.sbj48-l1.qa52	SHORT_CIRCUIT_EXPLAIN_Q_4	2.0	circuit 4 does not have a closed path
+SwitchesBulbsSeries-SHORT_CIRCUIT_EXPLAIN_Q_4.sbjb1-l1.qa42	SHORT_CIRCUIT_EXPLAIN_Q_4	2.0	It is an open path.
+SwitchesBulbsSeries-SHORT_CIRCUIT_EXPLAIN_Q_4.sbjb2-l1.qa49	SHORT_CIRCUIT_EXPLAIN_Q_4	2.0	It is not a closed path.
+SwitchesBulbsSeries-SHORT_CIRCUIT_EXPLAIN_Q_4.sbjb3-l1.qa49	SHORT_CIRCUIT_EXPLAIN_Q_4	2.0	the battery is not cantained in a closed path
+SwitchesBulbsSeries-SHORT_CIRCUIT_EXPLAIN_Q_4.sbjb5-l1.qa52	SHORT_CIRCUIT_EXPLAIN_Q_4	2.0	there is no closed path in circuit 4.
+SwitchesBulbsSeries-SHORT_CIRCUIT_EXPLAIN_Q_4.sbjb7-l1.qa42	SHORT_CIRCUIT_EXPLAIN_Q_4	2.0	Battery is not contained i a closed path.
+SwitchesBulbsSeries-SHORT_CIRCUIT_EXPLAIN_Q_4.sbjb10-l1.qa42	SHORT_CIRCUIT_EXPLAIN_Q_4	0.0	again because the battery is not in a closed circuit with itself
+SwitchesBulbsSeries-SHORT_CIRCUIT_EXPLAIN_Q_4.sbjb11-l1.qa44	SHORT_CIRCUIT_EXPLAIN_Q_4	2.0	This not a closed path.
+SwitchesBulbsSeries-SHORT_CIRCUIT_EXPLAIN_Q_4.sbjb13-l1.qa43	SHORT_CIRCUIT_EXPLAIN_Q_4	2.0	Both the bulb and the battery have an open path.
+SwitchesBulbsSeries-SHORT_CIRCUIT_EXPLAIN_Q_4.sbjb15-l1.qa44	SHORT_CIRCUIT_EXPLAIN_Q_4	2.0	the battery is not conatined in a closed path
+SwitchesBulbsSeries-SHORT_CIRCUIT_EXPLAIN_Q_4.sbjb17-l1.qa44	SHORT_CIRCUIT_EXPLAIN_Q_4	0.0	A terminal of the bulb is contained within the closed path.
+SwitchesBulbsSeries-SHORT_CIRCUIT_EXPLAIN_Q_4.sbjb19-l1.qa45	SHORT_CIRCUIT_EXPLAIN_Q_4	2.0	The batery is not contained in a closed path
+SwitchesBulbsSeries-SHORT_CIRCUIT_EXPLAIN_Q_4.sbjb20-l1.qa44	SHORT_CIRCUIT_EXPLAIN_Q_4	2.0	The battery is not contained in a closed path. There is a bulb.
+SwitchesBulbsSeries-SHORT_CIRCUIT_EXPLAIN_Q_4.sbjb22-l1.qa53	SHORT_CIRCUIT_EXPLAIN_Q_4	2.0	the is an open path
+SwitchesBulbsSeries-SHORT_CIRCUIT_EXPLAIN_Q_4.sbjb24-l1.qa44	SHORT_CIRCUIT_EXPLAIN_Q_4	0.0	i have no idea
+SwitchesBulbsSeries-SHORT_CIRCUIT_EXPLAIN_Q_4.sbjb25-l1.qa42	SHORT_CIRCUIT_EXPLAIN_Q_4	1.0	Because neither of the components are connected to themselves.
+SwitchesBulbsSeries-SHORT_CIRCUIT_EXPLAIN_Q_4.sbjb26-l1.qa42	SHORT_CIRCUIT_EXPLAIN_Q_4	2.0	There is no closed path.
+SwitchesBulbsSeries-SHORT_CIRCUIT_EXPLAIN_Q_4.sbjb28-l1.qa46	SHORT_CIRCUIT_EXPLAIN_Q_4	2.0	There is no closed path in diagram 4
+SwitchesBulbsSeries-SHORT_CIRCUIT_EXPLAIN_Q_4.sbjb31-l1.qa42	SHORT_CIRCUIT_EXPLAIN_Q_4	2.0	"because  it isn""t contained in a closed path."
+SwitchesBulbsSeries-SHORT_CIRCUIT_EXPLAIN_Q_4.sbjb32-l1.qa44	SHORT_CIRCUIT_EXPLAIN_Q_4	2.0	The battery is not closed in a closed path.
+SwitchesBulbsSeries-SHORT_CIRCUIT_EXPLAIN_Q_4.sbjb37-l1.qa42	SHORT_CIRCUIT_EXPLAIN_Q_4	2.0	The battery and light bulb are not contained in a close path
+SwitchesBulbsSeries-SHORT_CIRCUIT_EXPLAIN_Q_4.sbjb39-l1.qa42	SHORT_CIRCUIT_EXPLAIN_Q_4	2.0	Circuit 4 is not a short circuit because the battery is not contained in a closed path.
+SwitchesBulbsSeries-SHORT_CIRCUIT_EXPLAIN_Q_4.sbjb41-l1.qa43	SHORT_CIRCUIT_EXPLAIN_Q_4	2.0	The battery is in an open path to the bulb.
+SwitchesBulbsSeries-SHORT_CIRCUIT_EXPLAIN_Q_4.sbjb42-l1.qa43	SHORT_CIRCUIT_EXPLAIN_Q_4	2.0	the batter is not contained in a closed path.
+SwitchesBulbsSeries-SHORT_CIRCUIT_EXPLAIN_Q_4.sbj8-l1.qa66	SHORT_CIRCUIT_EXPLAIN_Q_4	2.0	Because the path is open
+SwitchesBulbsSeries-SHORT_CIRCUIT_EXPLAIN_Q_4.sbj11-l1.qa72	SHORT_CIRCUIT_EXPLAIN_Q_4	0.0	circuit 4 is a short circuit.
+SwitchesBulbsSeries-SHORT_CIRCUIT_EXPLAIN_Q_4.sbj31-l1.qa56	SHORT_CIRCUIT_EXPLAIN_Q_4	2.0	battery is not on a closed path
+SwitchesBulbsSeries-SHORT_CIRCUIT_EXPLAIN_Q_4.sbj34-l1.qa45	SHORT_CIRCUIT_EXPLAIN_Q_4	2.0	there are no closed paths

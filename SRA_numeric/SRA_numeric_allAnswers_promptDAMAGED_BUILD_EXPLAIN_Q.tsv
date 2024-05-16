@@ -1,0 +1,86 @@
+AnswerId	PromptId	Score1	AnswerText
+SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbj3-l1.qa88	DAMAGED_BUILD_EXPLAIN_Q	2.0	there will be a gap at bulb b, thus affecting the rest of the circuit
+SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbj3-l1.qa89	DAMAGED_BUILD_EXPLAIN_Q	2.0	if bulb b is damaged there will be a gap in the path at that bulb
+SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbj7-l1.qa85	DAMAGED_BUILD_EXPLAIN_Q	2.0	if bulb b is off there will be a gap in the path
+SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbj8-l1.qa107	DAMAGED_BUILD_EXPLAIN_Q	0.0	The bulb does not effect the others
+SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbj8-l1.qa108	DAMAGED_BUILD_EXPLAIN_Q	0.0	bulb B does not effect the other bulbs
+SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbj9-l1.qa83	DAMAGED_BUILD_EXPLAIN_Q	2.0	If bulb b is damaged, then the circuit will be incomplete.
+SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbj10-l1.qa104	DAMAGED_BUILD_EXPLAIN_Q	2.0	there is a gap in the connection
+SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbj11-l1.qa108	DAMAGED_BUILD_EXPLAIN_Q	2.0	the damaged bulb creates a gap in the circuit.
+SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbj12-l1.qa80	DAMAGED_BUILD_EXPLAIN_Q	2.0	There will be a gap in the path
+SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbj13-l1.qa100	DAMAGED_BUILD_EXPLAIN_Q	0.0	there is no path through the connection of bulb b.
+SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbj13-l1.qa101	DAMAGED_BUILD_EXPLAIN_Q	0.0	there is no path through bulb b.
+SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbj14-l1.qa97	DAMAGED_BUILD_EXPLAIN_Q	2.0	If bulb B is damaged a gap is created.
+SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbj15-l1.qa118	DAMAGED_BUILD_EXPLAIN_Q	2.0	actually bulbs a and c will be off because the path will no longer be cloed
+SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbj18-l1.qa87	DAMAGED_BUILD_EXPLAIN_Q	2.0	There will be a gap in the path.
+SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbj19-l1.qa111	DAMAGED_BUILD_EXPLAIN_Q	0.0	there is no path for the other bulbs
+SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbj19-l1.qa112	DAMAGED_BUILD_EXPLAIN_Q	0.0	A and B are off
+SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbj22-l1.qa102	DAMAGED_BUILD_EXPLAIN_Q	1.0	there will be a gap between bulbs
+SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbj22-l1.qa103	DAMAGED_BUILD_EXPLAIN_Q	1.0	there will be a gap between the bulbs
+SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbj23-l1.qa88	DAMAGED_BUILD_EXPLAIN_Q	2.0	There will be a gap in the circuit.
+SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbj24-l1.qa95	DAMAGED_BUILD_EXPLAIN_Q	2.0	gap in bulb b
+SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbj24-l1.qa96	DAMAGED_BUILD_EXPLAIN_Q	2.0	bulb B has a gap
+SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbj27-l1.qa95	DAMAGED_BUILD_EXPLAIN_Q	2.0	there is a gap
+SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbj28-l1.qa95	DAMAGED_BUILD_EXPLAIN_Q	0.0	there is no path between the bulb-holders
+SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbj28-l1.qa96	DAMAGED_BUILD_EXPLAIN_Q	0.0	there is no path
+SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbj28-l1.qa97	DAMAGED_BUILD_EXPLAIN_Q	0.0	there is no path between the bulbs
+SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbj29-l1.qa100	DAMAGED_BUILD_EXPLAIN_Q	2.0	damaged bulb b creates a gap
+SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbj30-l1.qa87	DAMAGED_BUILD_EXPLAIN_Q	2.0	There is a gap.
+SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbj31-l1.qa90	DAMAGED_BUILD_EXPLAIN_Q	2.0	the path is not closed anymore
+SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbj33-l1.qa87	DAMAGED_BUILD_EXPLAIN_Q	2.0	if bulb B is damaged, the path will have a gap
+SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbj34-l1.qa81	DAMAGED_BUILD_EXPLAIN_Q	0.0	If bulb B is damaged, there is no path
+SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbj34-l1.qa82	DAMAGED_BUILD_EXPLAIN_Q	0.0	There is no path through bulb B
+SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbj35-l1.qa90	DAMAGED_BUILD_EXPLAIN_Q	2.0	There will be a gap.
+SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbj36-l1.qa92	DAMAGED_BUILD_EXPLAIN_Q	2.0	there is a gap in the closed path
+SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbj37-l1.qa81	DAMAGED_BUILD_EXPLAIN_Q	2.0	there is a gap in the circuit
+SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbj38-l1.qa83	DAMAGED_BUILD_EXPLAIN_Q	2.0	if bulb B is damaged there will be a gap in the curcuit
+SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbj39-l1.qa102	DAMAGED_BUILD_EXPLAIN_Q	0.0	?
+SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbj39-l1.qa103	DAMAGED_BUILD_EXPLAIN_Q	2.0	They will not be on because it will cause a gap.
+SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbj40-l1.qa99	DAMAGED_BUILD_EXPLAIN_Q	2.0	if bulb b is damaged, it creates a gap in the circuit.
+SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbj42-l1.qa97	DAMAGED_BUILD_EXPLAIN_Q	2.0	The path will not be closed.
+SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbj43-l1.qa94	DAMAGED_BUILD_EXPLAIN_Q	2.0	if bulb b is damaged it does not make a complete circut
+SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbj43-l1.qa95	DAMAGED_BUILD_EXPLAIN_Q	2.0	when bulb b is damaged there is no complete circut
+SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbj45-l1.qa83	DAMAGED_BUILD_EXPLAIN_Q	2.0	there will be a gap
+SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbj46-l1.qa96	DAMAGED_BUILD_EXPLAIN_Q	1.0	distrupt the circuit
+SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbj47-l1.qa102	DAMAGED_BUILD_EXPLAIN_Q	1.0	Because the path connecting the bulbs will be damaged
+SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbj47-l1.qa107	DAMAGED_BUILD_EXPLAIN_Q	0.0	the holder of the bulb will damage the other bulb
+SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbj48-l1.qa84	DAMAGED_BUILD_EXPLAIN_Q	2.0	because if bulb b is damaged, then there is no path through the bulb, creating an incomplete circuit
+SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbj48-l1.qa85	DAMAGED_BUILD_EXPLAIN_Q	2.0	if bulb b is damaged, then the path will have a gap.
+SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbjb1-l1.qa71	DAMAGED_BUILD_EXPLAIN_Q	0.0	It still has a connect path between bulb a and c and the battery.
+SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbjb3-l1.qa86	DAMAGED_BUILD_EXPLAIN_Q	1.0	They are connected to the battery not each other
+SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbjb4-l1.qa71	DAMAGED_BUILD_EXPLAIN_Q	2.0	when the bulb is burnt it creates a gap in the closed path
+SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbjb5-l1.qa81	DAMAGED_BUILD_EXPLAIN_Q	0.0	there will be a gap at bulb b. this will create an open circuit.
+SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbjb6-l1.qa71	DAMAGED_BUILD_EXPLAIN_Q	0.0	Because they are breaking the circuit.
+SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbjb7-l1.qa71	DAMAGED_BUILD_EXPLAIN_Q	2.0	There will not be a closed path.
+SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbjb9-l1.qa74	DAMAGED_BUILD_EXPLAIN_Q	2.0	The path between the bulbs and the battery is open
+SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbjb10-l1.qa71	DAMAGED_BUILD_EXPLAIN_Q	2.0	because there is no connection so the path is not closed
+SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbjb11-l1.qa73	DAMAGED_BUILD_EXPLAIN_Q	0.0	A damaged bulb does not create a gap in a closed path
+SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbjb12-l1.qa74	DAMAGED_BUILD_EXPLAIN_Q	2.0	If bulb B is damaged there is a gap in the circuit
+SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbjb13-l1.qa72	DAMAGED_BUILD_EXPLAIN_Q	2.0	If buld B is damaged that will create a gap.
+SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbjb15-l1.qa73	DAMAGED_BUILD_EXPLAIN_Q	0.0	Maybe because there is still one path that connects A and C through B
+SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbjb16-l1.qa73	DAMAGED_BUILD_EXPLAIN_Q	2.0	There will be a gap where the bulb holder is supposed to be
+SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbjb17-l1.qa73	DAMAGED_BUILD_EXPLAIN_Q	2.0	Burned out bulb B will cause a gap in the closed path.
+SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbjb18-l1.qa80	DAMAGED_BUILD_EXPLAIN_Q	2.0	Because there is a gap.
+SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbjb19-l1.qa76	DAMAGED_BUILD_EXPLAIN_Q	0.0	because there is a gap in the bulb
+SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbjb21-l1.qa71	DAMAGED_BUILD_EXPLAIN_Q	0.0	it will cut off the circuit
+SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbjb25-l1.qa73	DAMAGED_BUILD_EXPLAIN_Q	0.0	"I""m not sure."
+SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbjb26-l1.qa71	DAMAGED_BUILD_EXPLAIN_Q	0.0	If bulb B is damaged, then the circut is no longer closed.
+SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbjb27-l1.qa71	DAMAGED_BUILD_EXPLAIN_Q	2.0	bulb B becomes a gap in the circuit
+SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbjb28-l1.qa75	DAMAGED_BUILD_EXPLAIN_Q	0.0	"The bulbs aren""t codependent so they will still be on"
+SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbjb29-l1.qa74	DAMAGED_BUILD_EXPLAIN_Q	2.0	there would be a gap in the circuit
+SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbjb30-l1.qa71	DAMAGED_BUILD_EXPLAIN_Q	2.0	the gap between the damaged wires of bulb b creates a gap in the path.
+SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbjb31-l1.qa71	DAMAGED_BUILD_EXPLAIN_Q	0.0	"the current will flow to the other bulbs even though it is not able to execute light on B. Also, I""ve experienced that one light can be out without them all being affected."
+SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbjb32-l1.qa73	DAMAGED_BUILD_EXPLAIN_Q	2.0	Because their is a gap between A and C now.
+SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbjb34-l1.qa71	DAMAGED_BUILD_EXPLAIN_Q	0.0	When bulb B is damaged there is a disruption in the current.
+SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbjb36-l1.qa71	DAMAGED_BUILD_EXPLAIN_Q	1.0	"if it is not connected the electrical current can""t pass through to connect the other bulbs."
+SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbjb37-l1.qa71	DAMAGED_BUILD_EXPLAIN_Q	0.0	There are two pathways
+SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbjb38-l1.qa72	DAMAGED_BUILD_EXPLAIN_Q	2.0	The circuit will become incomplete.
+SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbjb39-l1.qa71	DAMAGED_BUILD_EXPLAIN_Q	2.0	If bulb B is damaged, there will be a gap.
+SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbjb40-l1.qa71	DAMAGED_BUILD_EXPLAIN_Q	2.0	There would be a gap.
+SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbjb42-l1.qa72	DAMAGED_BUILD_EXPLAIN_Q	2.0	it would create a gap
+SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbj26-l1.qa109	DAMAGED_BUILD_EXPLAIN_Q	1.0	gap in connection
+SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbj40-l1.qa98	DAMAGED_BUILD_EXPLAIN_Q	1.0	if bulb b is damaged, there will be no path from a to c.
+SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbjb20-l1.qa82	DAMAGED_BUILD_EXPLAIN_Q	2.0	If bulb B is damaged it creates a gap in the path.
+SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbjb24-l1.qa77	DAMAGED_BUILD_EXPLAIN_Q	0.0	no path through the bulb holder= open circuit
+SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbjb35-l1.qa71	DAMAGED_BUILD_EXPLAIN_Q	1.0	because that would create a gap.
+SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbjb41-l1.qa72	DAMAGED_BUILD_EXPLAIN_Q	1.0	In order for bulbs A and C to work properly, they also need B to work properly because they are all connected to the same battery power.
