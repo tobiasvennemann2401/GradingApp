@@ -27,7 +27,6 @@ def cluster(expand_contractions, remove_stopwords, stem_answers, distance_thresh
                                                                            session.distance_matrix,
                                                                            distance_threshold, True,
                                                                            previous_cluster_info)
-    print(session.student_answers["cluster"])
 
 
 def preprocess():
@@ -42,6 +41,30 @@ def preprocess():
 def create_session():
     global session
     session = datastructure.create_session(15)
+
+def get_progress():
+    if 'grade' in session.student_answers.columns:
+        total_count = len(session.student_answers['grade'])
+        if total_count == 0:
+            return 0  # Avoid division by zero if the column is empty
+
+        # Count non -1 values
+        non_negative_one_count = session.student_answers['grade'][session.student_answers['grade'] != -1].count()
+
+        return non_negative_one_count / total_count
+    else:
+        return 0  # Return 0 if there is no 'grade' column
+
+def set_grade_for_cluster(cluster_value, new_grade):
+    if 'cluster' in session.student_answers.columns and 'grade' in session.student_answers.columns:
+        session.student_answers.loc[session.student_answers['cluster'] == cluster_value, 'grade'] = new_grade
+def set_grade_for_student(cluster_value, new_grade):
+    if 'student_id' in session.student_answers.columns and 'grade' in session.student_answers.columns:
+        session.student_answers.loc[session.student_answers['student_id'] == cluster_value, 'grade'] = new_grade
+
+def remove_student_from_cluster(student_id):
+    if 'student_id' in session.student_answers.columns and 'cluster' in session.student_answers.columns:
+        session.student_answers.loc[session.student_answers['student_id'] == student_id, 'cluster'] = -1
 
 def plot_student_clusters():
     global session
@@ -62,9 +85,7 @@ def plot_student_clusters():
         idx = session.student_answers['cluster'] == cluster
         plt.scatter(coordinates[idx, 0], coordinates[idx, 1], color=colors(i), label=f'Cluster {cluster}')
 
-    plt.title('2D Scatterplot of Students by Cluster')
-    plt.xlabel('MDS1')
-    plt.ylabel('MDS2')
+    plt.title('2D Scatterplot of Answers by Cluster')
     plt.legend(title='Cluster')
     plt.grid(True)
     return plt
