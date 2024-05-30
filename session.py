@@ -28,7 +28,8 @@ def cluster(expand_contractions, remove_stopwords, stem_answers, distance_thresh
     previous_cluster_info = session.previous_cluster_info
     session.student_answers, stuff = nlp_pipeline.agglomerative_clustering(student_answers,
                                                                            session.distance_matrix,
-                                                                           distance_threshold, True,
+                                                                           distance_threshold,
+                                                                           True,
                                                                            previous_cluster_info)
 
 
