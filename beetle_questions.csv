@@ -1,0 +1,104 @@
+q_type,id,module,s_type,q_text
+Q_EXPLAIN_GENERIC,PARALLEL_SWITCH_EXPLAIN_Q3,SwitchesBulbsParallel,EVALUATE,What role does the path play in determining whether or not a switch affects a bulb?
+Q_EXPLAIN_GENERIC,VOLTAGE_DIFF_DISCUSS_1_Q,FaultFinding,QUESTION,What does a voltage reading of 0 tell you about the connection between a bulb terminal and a battery terminal?
+Q_EXPLAIN_SPECIFIC,BULB_C_VOLTAGE_EXPLAIN_WHY6,FaultFinding,EVALUATE,Explain why you got a voltage reading of 0 for terminal 6 and the positive terminal.
+Q_EXPLAIN_SPECIFIC,TERMINAL_STATE_EXPLAIN_Q,FaultFinding,QUESTION,Why do you think those terminals and the negative battery terminal are in the same state?
+Q_EXPLAIN_SPECIFIC,BULB_ONLY_EXPLAIN_WHY4,FaultFinding,EVALUATE,Explain why you got a voltage reading of 0 for terminal 1 and terminal 4.
+Q_EXPLAIN_SPECIFIC,PARALLEL_SWITCH_EXPLAIN_Q2,SwitchesBulbsParallel,EVALUATE,Why was bulb C off when switch Z was open?
+Q_EXPLAIN_SPECIFIC,BULB_ONLY_EXPLAIN_WHY6,FaultFinding,EVALUATE,Explain why you got a voltage reading of 1.5 for terminal 1 and terminal 6.
+Q_EXPLAIN_GENERIC,BURNED_BULB_LOCATE_EXPLAIN_Q,FaultFinding,QUESTION,"Why does measuring voltage help you locate a burned out bulb? Try to answer in terms of electrical states, connections and/ or a gap."
+Q_EXPLAIN_SPECIFIC,PARALLEL_SWITCH_EXPLAIN_Q1,SwitchesBulbsParallel,EVALUATE,Why was bulb A on when switch Y was open and switch Z was closed?
+Q_EXPLAIN_SPECIFIC,HYBRID_BURNED_OUT_EXPLAIN_Q3,SwitchesBulbsParallel,PREDICT,Explain your reasoning.
+Q_EXPLAIN_SPECIFIC,SWITCH_TABLE_EXPLAIN_Q1,SwitchesBulbsParallel,EVALUATE,"When switch X was closed and switch Y was open, why was bulb A on?"
+Q_EXPLAIN_SPECIFIC,BULB_C_VOLTAGE_EXPLAIN_WHY1,FaultFinding,EVALUATE,Explain why you got a voltage reading of 1.5 for terminal 1 and the positive terminal.
+Q_EXPLAIN_SPECIFIC,BULB_ONLY_EXPLAIN_WHY2,FaultFinding,EVALUATE,Explain why you got a voltage reading of 0 for terminal 1 and terminal 2.
+Q_EXPLAIN_GENERIC,SWITCH_TABLE_EXPLAIN_Q3,SwitchesBulbsParallel,EVALUATE,Under what circumstances will a switch affect a bulb?
+Q_EXPLAIN_GENERIC,SWITCH_OPEN_EXPLAIN_Q,SwitchesBulbsSeries,QUESTION,Why does an open switch impact a circuit?
+Q_EXPLAIN_SPECIFIC,SWITCH_TABLE_EXPLAIN_Q2,SwitchesBulbsParallel,EVALUATE,"When switch X was open and switch Y was closed, why were bulbs B and C on?"
+Q_EXPLAIN_SPECIFIC,BULB_C_VOLTAGE_EXPLAIN_WHY2,FaultFinding,EVALUATE,Explain why you got a voltage reading of 1.5 for terminal 2 and the positive terminal.
+Q_EXPLAIN_SPECIFIC,HYBRID_BURNED_OUT_EXPLAIN_Q1,SwitchesBulbsParallel,PREDICT,Explain your reasoning.
+Q_EXPLAIN_GENERIC,VOLTAGE_DIFF_DISCUSS_2_Q,FaultFinding,QUESTION,What does a voltage reading of 1.5 tell you about the connection between a bulb terminal and a battery terminal?
+Q_EXPLAIN_SPECIFIC,SHORT_CIRCUIT_EXPLAIN_Q_5,SwitchesBulbsSeries,QUESTION,Explain why circuit 5 is a short circuit.
+Q_EXPLAIN_GENERIC,DAMAGED_BULB_EXPLAIN_2_Q,SwitchesBulbsSeries,QUESTION,Why does a damaged bulb impact a circuit?
+Q_EXPLAIN_GENERIC,CONDITIONS_FOR_BULB_TO_LIGHT,SwitchesBulbsSeries,QUESTION,What are the conditions that are required to make a bulb light up?
+Q_EXPLAIN_SPECIFIC,SHORT_CIRCUIT_EXPLAIN_Q_4,SwitchesBulbsSeries,QUESTION,Explain why circuit 4 is not a short circuit.
+Q_EXPLAIN_SPECIFIC,SHORT_CIRCUIT_X_Q,SwitchesBulbsSeries,QUESTION,What do you think the red X means?
+Q_EXPLAIN_GENERIC,HYBRID_BURNED_OUT_WHY_Q3,SwitchesBulbsParallel,EVALUATE,Under what circumstances will a damaged/ burned out bulb affect another bulb?
+Q_EXPLAIN_SPECIFIC,HYBRID_BURNED_OUT_WHY_Q2,SwitchesBulbsParallel,EVALUATE,Why do both bulbs A and B stay on when bulb C is burned out?
+Q_EXPLAIN_SPECIFIC,SHORT_CIRCUIT_EXPLAIN_Q_2,SwitchesBulbsSeries,QUESTION,Explain why circuit 2 is not a short circuit.
+Q_EXPLAIN_SPECIFIC,VOLTAGE_GAP_EXPLAIN_WHY1,FaultFinding,EVALUATE,Explain why you got a voltage reading of 1.5 for terminal 1 and the positive terminal.
+Q_EXPLAIN_SPECIFIC,VOLTAGE_GAP_EXPLAIN_WHY3,FaultFinding,EVALUATE,Explain why you got a voltage reading of 1.5 for terminal 3 and the positive terminal.
+Q_EXPLAIN_SPECIFIC,VOLTAGE_GAP_EXPLAIN_WHY6,FaultFinding,EVALUATE,Explain why you got a voltage reading of 0 for terminal 6 and the positive terminal.
+Q_EXPLAIN_GENERIC,VOLTAGE_DEFINE_Q,FaultFinding,QUESTION,What is voltage?
+Q_EXPLAIN_SPECIFIC,OTHER_TERMINAL_STATE_EXPLAIN_Q,FaultFinding,QUESTION,Why do you think the other terminals are being held in a different electrical state than that of the negative terminal?
+Q_EXPLAIN_SPECIFIC,VOLTAGE_GAP_EXPLAIN_WHY5,FaultFinding,EVALUATE,Explain why you got a voltage reading of 0 for terminal 5 and the positive terminal.
+Q_EXPLAIN_SPECIFIC,VOLTAGE_GAP_EXPLAIN_WHY4,FaultFinding,EVALUATE,Explain why you got a voltage reading of 0 for terminal 4 and the positive terminal.
+Q_EXPLAIN_GENERIC,VOLTAGE_INCOMPLETE_CIRCUIT_2_Q,FaultFinding,QUESTION,Why?
+Q_EXPLAIN_SPECIFIC,GIVE_CIRCUIT_TYPE_PARALLEL_EXPLAIN_Q2,SwitchesBulbsParallel,QUESTION,Explain your reasoning.
+Q_EXPLAIN_SPECIFIC,GIVE_CIRCUIT_TYPE_HYBRID_EXPLAIN_Q3,SwitchesBulbsParallel,QUESTION,Explain your reasoning.
+Q_EXPLAIN_SPECIFIC,GIVE_CIRCUIT_TYPE_HYBRID_EXPLAIN_Q2,SwitchesBulbsParallel,QUESTION,Explain your reasoning.
+Q_EXPLAIN_SPECIFIC,OPT1_EXPLAIN_Q2,SwitchesBulbsParallel,QUESTION,Why not?
+Q_EXPLAIN_SPECIFIC,BURNED_BULB_PARALLEL_EXPLAIN_Q3,SwitchesBulbsParallel,PREDICT,Explain your reasoning.
+Q_EXPLAIN_GENERIC,VOLTAGE_AND_GAP_DISCUSS_Q,FaultFinding,QUESTION,"As you move the multimeter leads from one bulb terminal to the next, what does it mean when the voltage reading jumps from 0 to 1.5?"
+Q_EXPLAIN_SPECIFIC,OPT2_EXPLAIN_Q,SwitchesBulbsParallel,EVALUATE,Describe the paths in this diagram and explain how those paths account for the results.
+Q_EXPLAIN_SPECIFIC,BURNED_BULB_PARALLEL_EXPLAIN_Q2,SwitchesBulbsParallel,PREDICT,Explain your reasoning.
+Q_EXPLAIN_SPECIFIC,DAMAGED_BUILD_EXPLAIN_Q,SwitchesBulbsSeries,PREDICT,Explain your reasoning.
+Q_EXPLAIN_SPECIFIC,BURNED_BULB_PARALLEL_EXPLAIN_Q1,SwitchesBulbsParallel,PREDICT,Explain your reasoning.
+Q_EXPLAIN_SPECIFIC,BURNED_BULB_PARALLEL_WHY_Q,SwitchesBulbsParallel,EVALUATE,Why didn^t bulbs A and C go out after bulb B burned out?
+Q_EXPLAIN_SPECIFIC,GIVE_CIRCUIT_TYPE_SERIES_EXPLAIN_Q,SwitchesBulbsSeries,QUESTION,Explain your reasoning.
+Q_EXPLAIN_SPECIFIC,BULB_C_VOLTAGE_EXPLAIN_WHY4,FaultFinding,EVALUATE,Explain why you got a voltage reading of 1.5 for terminal 4 and the positive terminal.
+Q_EXPLAIN_SPECIFIC,HYBRID_BURNED_OUT_EXPLAIN_Q2,SwitchesBulbsParallel,PREDICT,Explain your reasoning.
+Q_EXPLAIN_GENERIC,VOLTAGE_ELECTRICAL_STATE_DISCUSS_Q,FaultFinding,QUESTION,What is the relationship between the voltage reading between two terminals and their electrical states?
+Q_EXPLAIN_GENERIC,DESCRIBE_GAP_LOCATE_PROCEDURE_Q,FaultFinding,QUESTION,"Finally, consider finding a burned out light bulb in a long string of lights. One approach would be to place one lead of the multimeter on a battery terminal and then move the other lead systematically, one light bulb terminal at a time. How would you know when you have found the burned out bulb?"
+Q_EXPLAIN_SPECIFIC,CLOSED_PATH_EXPLAIN,SwitchesBulbsSeries,PREDICT,Explain your reasoning.
+Q_EXPLAIN_SPECIFIC,HYBRID_BURNED_OUT_WHY_Q1,SwitchesBulbsParallel,EVALUATE,Why do both bulbs B and C go out when bulb A is burned out?
+Q_EXPLAIN_SPECIFIC,BURNED_BULB_SERIES_Q2,SwitchesBulbsSeries,QUESTION,Why did it happen?
+Q_EXPLAIN_SPECIFIC,VOLTAGE_GAP_EXPLAIN_WHY2,FaultFinding,EVALUATE,Explain why you got a voltage reading of 1.5 for terminal 2 and the positive terminal.
+Q_EXPLAIN_GENERIC,DAMAGED_BULB_SWITCH_Q,SwitchesBulbsSeries,QUESTION,How does a damaged bulb compare to an open switch?
+Q_EXPLAIN_GENERIC,PARALLEL_SWITCH_EXPLAIN_Q3,SwitchesBulbsParallel,EVALUATE,What role does the path play in determining whether or not a switch affects a bulb?
+Q_EXPLAIN_GENERIC,VOLTAGE_DIFF_DISCUSS_1_Q,FaultFinding,QUESTION,What does a voltage reading of 0 tell you about the connection between a bulb terminal and a battery terminal?
+Q_EXPLAIN_SPECIFIC,BULB_C_VOLTAGE_EXPLAIN_WHY6,FaultFinding,EVALUATE,Explain why you got a voltage reading of 0 for terminal 6 and the positive terminal.
+Q_EXPLAIN_SPECIFIC,TERMINAL_STATE_EXPLAIN_Q,FaultFinding,QUESTION,Why do you think those terminals and the negative battery terminal are in the same state?
+Q_EXPLAIN_SPECIFIC,BULB_ONLY_EXPLAIN_WHY4,FaultFinding,EVALUATE,Explain why you got a voltage reading of 0 for terminal 1 and terminal 4.
+Q_EXPLAIN_SPECIFIC,PARALLEL_SWITCH_EXPLAIN_Q2,SwitchesBulbsParallel,EVALUATE,Why was bulb C off when switch Z was open?
+Q_EXPLAIN_SPECIFIC,BULB_ONLY_EXPLAIN_WHY6,FaultFinding,EVALUATE,Explain why you got a voltage reading of 1.5 for terminal 1 and terminal 6.
+Q_EXPLAIN_GENERIC,BURNED_BULB_LOCATE_EXPLAIN_Q,FaultFinding,QUESTION,"Why does measuring voltage help you locate a burned out bulb? Try to answer in terms of electrical states, connections and/ or a gap."
+Q_EXPLAIN_SPECIFIC,PARALLEL_SWITCH_EXPLAIN_Q1,SwitchesBulbsParallel,EVALUATE,Why was bulb A on when switch Y was open and switch Z was closed?
+Q_EXPLAIN_SPECIFIC,HYBRID_BURNED_OUT_EXPLAIN_Q3,SwitchesBulbsParallel,PREDICT,Explain your reasoning.
+Q_EXPLAIN_SPECIFIC,SWITCH_TABLE_EXPLAIN_Q1,SwitchesBulbsParallel,EVALUATE,"When switch X was closed and switch Y was open, why was bulb A on?"
+Q_EXPLAIN_SPECIFIC,BULB_C_VOLTAGE_EXPLAIN_WHY1,FaultFinding,EVALUATE,Explain why you got a voltage reading of 1.5 for terminal 1 and the positive terminal.
+Q_EXPLAIN_SPECIFIC,BULB_ONLY_EXPLAIN_WHY2,FaultFinding,EVALUATE,Explain why you got a voltage reading of 0 for terminal 1 and terminal 2.
+Q_EXPLAIN_GENERIC,SWITCH_TABLE_EXPLAIN_Q3,SwitchesBulbsParallel,EVALUATE,Under what circumstances will a switch affect a bulb?
+Q_EXPLAIN_GENERIC,SWITCH_OPEN_EXPLAIN_Q,SwitchesBulbsSeries,QUESTION,Why does an open switch impact a circuit?
+Q_EXPLAIN_SPECIFIC,SWITCH_TABLE_EXPLAIN_Q2,SwitchesBulbsParallel,EVALUATE,"When switch X was open and switch Y was closed, why were bulbs B and C on?"
+Q_EXPLAIN_SPECIFIC,BULB_C_VOLTAGE_EXPLAIN_WHY2,FaultFinding,EVALUATE,Explain why you got a voltage reading of 1.5 for terminal 2 and the positive terminal.
+Q_EXPLAIN_SPECIFIC,HYBRID_BURNED_OUT_EXPLAIN_Q1,SwitchesBulbsParallel,PREDICT,Explain your reasoning.
+Q_EXPLAIN_GENERIC,VOLTAGE_DIFF_DISCUSS_2_Q,FaultFinding,QUESTION,What does a voltage reading of 1.5 tell you about the connection between a bulb terminal and a battery terminal?
+Q_EXPLAIN_SPECIFIC,SHORT_CIRCUIT_EXPLAIN_Q_5,SwitchesBulbsSeries,QUESTION,Explain why circuit 5 is a short circuit.
+Q_EXPLAIN_GENERIC,DAMAGED_BULB_EXPLAIN_2_Q,SwitchesBulbsSeries,QUESTION,Why does a damaged bulb impact a circuit?
+Q_EXPLAIN_GENERIC,CONDITIONS_FOR_BULB_TO_LIGHT,SwitchesBulbsSeries,QUESTION,What are the conditions that are required to make a bulb light up?
+Q_EXPLAIN_SPECIFIC,SHORT_CIRCUIT_EXPLAIN_Q_4,SwitchesBulbsSeries,QUESTION,Explain why circuit 4 is not a short circuit.
+Q_EXPLAIN_SPECIFIC,SHORT_CIRCUIT_X_Q,SwitchesBulbsSeries,QUESTION,What do you think the red X means?
+Q_EXPLAIN_GENERIC,HYBRID_BURNED_OUT_WHY_Q3,SwitchesBulbsParallel,EVALUATE,Under what circumstances will a damaged/ burned out bulb affect another bulb?
+Q_EXPLAIN_SPECIFIC,HYBRID_BURNED_OUT_WHY_Q2,SwitchesBulbsParallel,EVALUATE,Why do both bulbs A and B stay on when bulb C is burned out?
+Q_EXPLAIN_SPECIFIC,SHORT_CIRCUIT_EXPLAIN_Q_2,SwitchesBulbsSeries,QUESTION,Explain why circuit 2 is not a short circuit.
+Q_EXPLAIN_SPECIFIC,VOLTAGE_GAP_EXPLAIN_WHY1,FaultFinding,EVALUATE,Explain why you got a voltage reading of 1.5 for terminal 1 and the positive terminal.
+Q_EXPLAIN_SPECIFIC,VOLTAGE_GAP_EXPLAIN_WHY3,FaultFinding,EVALUATE,Explain why you got a voltage reading of 1.5 for terminal 3 and the positive terminal.
+Q_EXPLAIN_SPECIFIC,VOLTAGE_GAP_EXPLAIN_WHY6,FaultFinding,EVALUATE,Explain why you got a voltage reading of 0 for terminal 6 and the positive terminal.
+Q_EXPLAIN_GENERIC,VOLTAGE_DEFINE_Q,FaultFinding,QUESTION,What is voltage?
+Q_EXPLAIN_SPECIFIC,OTHER_TERMINAL_STATE_EXPLAIN_Q,FaultFinding,QUESTION,Why do you think the other terminals are being held in a different electrical state than that of the negative terminal?
+Q_EXPLAIN_SPECIFIC,VOLTAGE_GAP_EXPLAIN_WHY5,FaultFinding,EVALUATE,Explain why you got a voltage reading of 0 for terminal 5 and the positive terminal.
+Q_EXPLAIN_SPECIFIC,VOLTAGE_GAP_EXPLAIN_WHY4,FaultFinding,EVALUATE,Explain why you got a voltage reading of 0 for terminal 4 and the positive terminal.
+Q_EXPLAIN_GENERIC,VOLTAGE_INCOMPLETE_CIRCUIT_2_Q,FaultFinding,QUESTION,Why?
+Q_EXPLAIN_SPECIFIC,GIVE_CIRCUIT_TYPE_PARALLEL_EXPLAIN_Q2,SwitchesBulbsParallel,QUESTION,Explain your reasoning.
+Q_EXPLAIN_SPECIFIC,GIVE_CIRCUIT_TYPE_HYBRID_EXPLAIN_Q3,SwitchesBulbsParallel,QUESTION,Explain your reasoning.
+Q_EXPLAIN_SPECIFIC,GIVE_CIRCUIT_TYPE_HYBRID_EXPLAIN_Q2,SwitchesBulbsParallel,QUESTION,Explain your reasoning.
+Q_EXPLAIN_SPECIFIC,OPT1_EXPLAIN_Q2,SwitchesBulbsParallel,QUESTION,Why not?
+Q_EXPLAIN_SPECIFIC,BURNED_BULB_PARALLEL_EXPLAIN_Q3,SwitchesBulbsParallel,PREDICT,Explain your reasoning.
+Q_EXPLAIN_GENERIC,VOLTAGE_AND_GAP_DISCUSS_Q,FaultFinding,QUESTION,"As you move the multimeter leads from one bulb terminal to the next, what does it mean when the voltage reading jumps from 0 to 1.5?"
+Q_EXPLAIN_SPECIFIC,OPT2_EXPLAIN_Q,SwitchesBulbsParallel,EVALUATE,Describe the paths in this diagram and explain how those paths account for the results.
+Q_EXPLAIN_SPECIFIC,BURNED_BULB_PARALLEL_EXPLAIN_Q2,SwitchesBulbsParallel,PREDICT,Explain your reasoning.
+Q_EXPLAIN_SPECIFIC,DAMAGED_BUILD_EXPLAIN_Q,SwitchesBulbsSeries,PREDICT,Explain your reasoning.
+Q_EXPLAIN_SPECIFIC,BURNED_BULB_PARALLEL_EXPLAIN_Q1,SwitchesBulbsParallel,PREDICT,Explain your reasoning.
+Q_EXPLAIN_SPECIFIC,BURNED_BULB_PARALLEL_WHY_Q,SwitchesBulbsParallel,EVALUATE,Why didn^t bulbs A and C go out after bulb B burned out?
+Q_EXPLAIN_SPECIFIC,GIVE_CIRCUIT_TYPE_SERIES_EXPLAIN_Q,SwitchesBulbsSeries,QUESTION,Explain your reasoning.

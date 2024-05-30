@@ -1,56 +1,64 @@
+import numpy as np
 import pandas as pd
 import streamlit as st
-import plots
 import session
 
-
-
 if 'initialized' not in st.session_state:
-    session.create_session()
+    session.create_session(3)
     session.cluster(True, True, True, 4)
     st.session_state['initialized'] = True
+    st.session_state['selected_cluster_index'] = 0
     st.session_state['selected_cluster'] = -1
 
 # Get unique clusters
 clusters = session.get_session().student_answers['cluster'].unique()
 
-expand_contractions = st.sidebar.checkbox('Expand Contractions')
-filter_negations = st.sidebar.checkbox('Filter Negations')
-stemming = st.sidebar.checkbox('Stemming')
-remove_stopwords = st.sidebar.checkbox('Remove Stopwords')
-distance_threshold = st.sidebar.number_input('Distance Threshold', min_value=0, max_value=10, step=1)
+expand_contractions = st.sidebar.checkbox('Expand Contractions', help='This checkbox enables the changes from: don´t -> do not')
+filter_negations = st.sidebar.checkbox('Filter Negations', help='This checkbox ensures that no answers with and without negations are in the same cluster')
+stemming = st.sidebar.checkbox('Stemming', help='This checkbox enables stemming, which shortens words: walking -> walk')
+remove_stopwords = st.sidebar.checkbox('Remove Stopwords', help='This checkbox removes certain words as: do, and, is, if')
+distance_threshold = st.sidebar.number_input('Distance Threshold', min_value=0, max_value=10, step=1, help='This value determines the maximum distance two answers in one cluster can be apart')
 
 if 'update' not in st.session_state:
-    st.session_state['update'] = False  # Initialize state
+    st.session_state['update'] = True  # Initialize state
 
 if st.sidebar.button('Cluster'):
     session.cluster(expand_contractions, remove_stopwords, stemming, distance_threshold)
-    cluster_choice = 1
     st.session_state['update'] = True  # Update state on clustering
-
 
 col1, col2 = st.columns(2)
 
 with col1:
-    st.pyplot(session.plot_student_clusters())
-    fix_cluster = st.checkbox('View Cluster')
-    if st.button('All Answers In Cluster As Correct'):
+    st.image(session.image)
+    st.text(session.get_session().question_text)
+    st.text("\n\n")
+    st.text(session.get_session().reference_answer)
+    st.text("\n\n")
+    if st.button('All Answers In Cluster As Correct', disabled=st.session_state['selected_cluster'] == -1):
         session.set_grade_for_cluster(st.session_state['selected_cluster'], 1)
-    if st.button('All Answers In Cluster As False'):
+        st.session_state['update'] = True
+        st.session_state['selected_cluster_index'] = 0
+    if st.button('All Answers In Cluster As False', disabled=st.session_state['selected_cluster'] == -1):
         session.set_grade_for_cluster(st.session_state['selected_cluster'], 0)
+        st.session_state['update'] = True
+        st.session_state['selected_cluster_index'] = 0
     st.progress(session.get_progress(), text="Progress")
 with col2:
     if 'update' in st.session_state and st.session_state['update']:
         clusters = session.get_session().student_answers['cluster'].unique()
         st.session_state['update'] = False
 
-    cluster_choice = st.selectbox("Choose a Cluster", options=sorted(clusters))
+    cluster_choice = st.selectbox("Choose a Cluster", options=sorted(clusters),
+                                  index=st.session_state['selected_cluster_index'],
+                                  format_func=lambda x: "Unclustered" if x == -1 else f"Cluster {x}")
     show_preprocess = st.checkbox('Show Preprocessed Data')
 
     if cluster_choice is not None:
         st.session_state['selected_cluster'] = cluster_choice
+        print(np.where(clusters == cluster_choice))
         filtered_data = session.get_session().student_answers[
-            session.get_session().student_answers['cluster'] == cluster_choice]
+            (session.get_session().student_answers['cluster'] == cluster_choice) & (
+                        session.get_session().student_answers['grade'] == -1)]
         filtered_data = filtered_data.drop(['grade', 'cluster', 'time_delta'], axis=1)
 
         if show_preprocess:
@@ -58,23 +66,19 @@ with col2:
         else:
             filtered_data = filtered_data.drop(['answer'], axis=1)
 
-        # Display data and buttons
         for index, row in filtered_data.iterrows():
             if cluster_choice != -1:
-                cols = st.columns([4, 1])  # Adjust sizes if needed
+                cols = st.columns([4, 1])
                 cols[0].write(row.values[1])
-                button_key = f"btn_{index}"  # Unique key for each button
-                if cols[1].button("🗑️", key=f"{index}_{button_key}"):
+                if cols[1].button("🗑️", key=f"{index}_btn_{index}"):
                     session.remove_student_from_cluster(row.values[0])
+                    st.session_state['update'] = True
             else:
-                cols = st.columns([3, 1, 1])  # Adjust sizes if needed
+                cols = st.columns([3, 1, 1])
                 cols[0].write(row.values[1])
-                button_key = f"btn_{index}"  # Unique key for each button
-                if cols[1].button("✔️", key=f"{index}_{button_key}_1"):
+                if cols[1].button("✔️", key=f"{index}_btn_{index}_1"):
+                    session.set_grade_for_student(row.values[0], 1)
+                    st.session_state['update'] = True
+                if cols[2].button("❌", key=f"{index}_btn_{index}_2"):
                     session.set_grade_for_student(row.values[0], 0)
-                if cols[2].button("❌", key=f"{index}_{button_key}_2"):
-                    session.set_grade_for_student(row.values[0], 0)
-
-
-        if 'last_clicked' in st.session_state:
-            st.write(st.session_state['last_clicked'])
+                    st.session_state['update'] = True

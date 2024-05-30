@@ -1,16 +1,19 @@
 import numpy as np
+import pandas as pd
 from matplotlib import pyplot as plt
 from sklearn.manifold import MDS
 
 import nlp_pipeline
 import datastructure
 
+session = None
+image = None
 
-session=None
 
 def get_session():
     global session
     return session
+
 
 def cluster(expand_contractions, remove_stopwords, stem_answers, distance_threshold):
     global session
@@ -38,33 +41,43 @@ def preprocess():
     student_answers = nlp_pipeline.stem_answers(student_answers)
     session.distance_matrix = nlp_pipeline.calculate_levenshtein_distance_matrix(student_answers)
 
-def create_session():
+
+def create_session(question_number):
     global session
-    session = datastructure.create_session(15)
+    global image
+    session = datastructure.create_session(question_number)
+    image = f"circuit_images/circuit_{question_number}.jpg"
+
 
 def get_progress():
     if 'grade' in session.student_answers.columns:
-        total_count = len(session.student_answers['grade'])
-        if total_count == 0:
-            return 0  # Avoid division by zero if the column is empty
-
-        # Count non -1 values
-        non_negative_one_count = session.student_answers['grade'][session.student_answers['grade'] != -1].count()
-
-        return non_negative_one_count / total_count
+        total_count = len(session.student_answers['grade']) + len(session.student_grades)
+        complete = len(session.student_grades)
+        return complete / total_count
     else:
         return 0  # Return 0 if there is no 'grade' column
 
+
 def set_grade_for_cluster(cluster_value, new_grade):
-    if 'cluster' in session.student_answers.columns and 'grade' in session.student_answers.columns:
-        session.student_answers.loc[session.student_answers['cluster'] == cluster_value, 'grade'] = new_grade
+    global session
+    selected_rows = session.student_answers[session.student_answers['cluster'] == cluster_value]
+    session.student_answers.loc[session.student_answers['cluster'] == cluster_value, 'grade'] = new_grade
+    session.student_grades = pd.concat([session.student_grades, selected_rows], ignore_index=True)
+    session.student_answers = session.student_answers.drop(selected_rows.index).reset_index(drop=True)
+
+
 def set_grade_for_student(cluster_value, new_grade):
-    if 'student_id' in session.student_answers.columns and 'grade' in session.student_answers.columns:
-        session.student_answers.loc[session.student_answers['student_id'] == cluster_value, 'grade'] = new_grade
+    global session
+    selected_rows = session.student_answers[session.student_answers['student_id'] == cluster_value]
+    session.student_answers.loc[session.student_answers['cluster'] == cluster_value, 'grade'] = new_grade
+    session.student_grades = pd.concat([session.student_grades, selected_rows], ignore_index=True)
+    session.student_answers = session.student_answers.drop(selected_rows.index).reset_index(drop=True)
+
 
 def remove_student_from_cluster(student_id):
     if 'student_id' in session.student_answers.columns and 'cluster' in session.student_answers.columns:
         session.student_answers.loc[session.student_answers['student_id'] == student_id, 'cluster'] = -1
+
 
 def plot_student_clusters():
     global session
