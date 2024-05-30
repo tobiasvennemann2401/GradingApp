@@ -17,31 +17,6 @@ class Session:
         self.student_answers = student_answers
         self.student_grades = pd.DataFrame()
         self.distance_matrix = nlp_pipeline.calculate_levenshtein_distance_matrix(student_answers)
-        self.cluster_evaluation = nlp_pipeline.evaluate_clusters(student_answers, self.distance_matrix)
-
-    def to_json_serializable_dict(self):
-        # Assuming the rest of the session attributes are handled here
-        session_dict = {
-            "id": self.id,
-            "study_condition": self.study_condition,
-            "question_text": self.question_text,
-            "reference_answer": self.reference_answer,
-            "start_time": self.start_time.isoformat() if self.start_time else None,
-            "end_time": self.end_time.isoformat() if self.end_time else None,
-        }
-
-        # Convert student_answers DataFrame, including Timedelta conversion
-        if not self.student_answers.empty:
-            session_dict['student_answers'] = self.student_answers.copy()
-
-            # Convert 'time_delta' from Timedelta to total seconds for serialization
-            session_dict['student_answers']['time_delta'] = session_dict['student_answers']['time_delta'].apply(
-                lambda td: td.total_seconds())
-
-            # Convert DataFrame to a list of dictionaries
-            session_dict['student_answers'] = session_dict['student_answers'].to_dict(orient='records')
-
-        return session_dict
 
 
 def create_session(question_number):

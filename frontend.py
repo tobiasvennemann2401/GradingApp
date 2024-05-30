@@ -1,11 +1,12 @@
 import numpy as np
-import pandas as pd
 import streamlit as st
+
+import nlp_pipeline
 import session
 
 if 'initialized' not in st.session_state:
     session.create_session(3)
-    session.cluster(True, True, True, 4)
+    session.cluster(True, True, True, False, False, False,4)
     st.session_state['initialized'] = True
     st.session_state['selected_cluster_index'] = 0
 
@@ -17,23 +18,32 @@ clusters = session.get_session().student_answers['cluster'].unique()
 
 with st.sidebar.expander("Preprocessing"):
     expand_contractions = st.checkbox('Expand Contractions', help='This checkbox enables the changes from: don´t -> do not')
-    stemming = st.checkbox('Stemming', help='This checkbox enables stemming, which shortens words: walking -> walk')
     remove_stopwords = st.checkbox('Remove Stopwords', help='This checkbox removes certain words as: do, and, is, if')
+    stemming = st.checkbox('Stemming', help='This checkbox enables stemming, which shortens words: walking -> walk')
     st.text("\n\n")
-    st.write("This sentence is an example of a sentence but hasn't got any other function")
+    sentence = "This sentence is an example of a sentence but hasn't got any other function"
+    st.write(sentence)
     st.text("\n\n")
-    st.write("Preprocessed sentence")
+    sentence = nlp_pipeline.clean_text(sentence)
+    if expand_contractions:
+        sentence = nlp_pipeline.to_expand_contractions(sentence)
+    if remove_stopwords:
+        sentence = nlp_pipeline.to_no_stopwords(sentence)
+    if stemming:
+        sentence = nlp_pipeline.stem_text(sentence)
+    st.write(sentence)
 
 with st.sidebar.expander("Clustering"):
     filter_negations = st.checkbox('Filter Negations', help='This checkbox ensures that no answers with and without negations are in the same cluster')
     token_based_clustering = st.checkbox('Token Based Clustering', help='The edit distance is based on tokens instead of characters')
+    non_compliance = st.checkbox('Non Compliance Check', help='creates an additional cluster of non compliant answers')
     distance_threshold = st.number_input('Distance Threshold', min_value=0, max_value=10, step=1, help='This value determines the maximum distance two answers in one cluster can be apart')
 
 if 'update' not in st.session_state:
     st.session_state['update'] = True  # Initialize state
 
 if st.sidebar.button('Cluster'):
-    session.cluster(expand_contractions, remove_stopwords, stemming, distance_threshold)
+    session.cluster(expand_contractions, remove_stopwords, stemming, filter_negations, token_based_clustering, non_compliance, distance_threshold)
     st.session_state['update'] = True  # Update state on clustering
     st.session_state['selected_cluster'] = -1
 

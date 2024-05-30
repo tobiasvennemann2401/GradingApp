@@ -1,8 +1,4 @@
-import numpy as np
 import pandas as pd
-from matplotlib import pyplot as plt
-from sklearn.manifold import MDS
-
 import nlp_pipeline
 import datastructure
 
@@ -15,15 +11,16 @@ def get_session():
     return session
 
 
-def cluster(expand_contractions, remove_stopwords, stem_answers, distance_threshold):
+def cluster(expand_contractions, remove_stopwords, stem_answers, filter_negations, token_based_clustering, non_compliance, distance_threshold):
     global session
+    session.student_answers = nlp_pipeline.reset_preprocessing(session.student_answers)
+    student_answers = nlp_pipeline.clean_text_in_df(session.student_answers)
     if expand_contractions:
-        session.student_answers = nlp_pipeline.expand_contractions(session.student_answers)
+        session.student_answers = nlp_pipeline.expand_contractions_in_df(session.student_answers)
     if remove_stopwords:
-        session.student_answers = nlp_pipeline.remove_stopwords(session.student_answers)
-    student_answers = nlp_pipeline.preprocess(session.student_answers)
+        session.student_answers = nlp_pipeline.remove_stopwords_from_df(session.student_answers)
     if stem_answers:
-        session.student_answers = nlp_pipeline.stem_answers(session.student_answers)
+        session.student_answers = nlp_pipeline.stem_answers_in_df(session.student_answers)
     session.distance_matrix = nlp_pipeline.calculate_levenshtein_distance_matrix(session.student_answers)
     previous_cluster_info = session.previous_cluster_info
     session.student_answers, stuff = nlp_pipeline.agglomerative_clustering(student_answers,
@@ -31,16 +28,6 @@ def cluster(expand_contractions, remove_stopwords, stem_answers, distance_thresh
                                                                            distance_threshold,
                                                                            True,
                                                                            previous_cluster_info)
-
-
-def preprocess():
-    global session
-    student_answers = session.student_answers
-    student_answers = nlp_pipeline.expand_contractions(student_answers)
-    student_answers = nlp_pipeline.remove_stopwords(student_answers)
-    student_answers = nlp_pipeline.preprocess(student_answers)
-    student_answers = nlp_pipeline.stem_answers(student_answers)
-    session.distance_matrix = nlp_pipeline.calculate_levenshtein_distance_matrix(student_answers)
 
 
 def create_session(question_number):
@@ -78,28 +65,3 @@ def set_grade_for_student(cluster_value, new_grade):
 def remove_student_from_cluster(student_id):
     if 'student_id' in session.student_answers.columns and 'cluster' in session.student_answers.columns:
         session.student_answers.loc[session.student_answers['student_id'] == student_id, 'cluster'] = -1
-
-
-def plot_student_clusters():
-    global session
-    # Convert the distance dictionary to a square distance matrix
-    students = session.student_answers['student_id'].tolist()
-    distance_matrix = np.array([[session.distance_matrix[s1][s2] for s2 in students] for s1 in students])
-
-    # Apply MDS to reduce dimensions to 2D
-    mds = MDS(n_components=2, dissimilarity='precomputed', random_state=42)
-    coordinates = mds.fit_transform(distance_matrix)
-
-    # Create a scatter plot colored by cluster
-    plt.figure(figsize=(10, 8))
-    clusters = session.student_answers['cluster'].unique()
-    colors = plt.cm.get_cmap('tab10', len(clusters))  # Colormap with different colors for each cluster
-
-    for i, cluster in enumerate(clusters):
-        idx = session.student_answers['cluster'] == cluster
-        plt.scatter(coordinates[idx, 0], coordinates[idx, 1], color=colors(i), label=f'Cluster {cluster}')
-
-    plt.title('2D Scatterplot of Answers by Cluster')
-    plt.legend(title='Cluster')
-    plt.grid(True)
-    return plt
