@@ -48,7 +48,7 @@ def create_session(question_number):
     df = pd.read_csv('beetle_questions.csv')
     print(prompts[question_number])
     question_text = df.loc[df['id'] == prompts[question_number], 'q_text'].values[0]
-    reference_answer = "BECAUSE!"
+    reference_answer = "That there is a short circuit"
     session = Session(question_text=question_text, reference_answer=reference_answer, student_answers=get_SRA_numeric_df_for_question(question_number))
     return session
 
