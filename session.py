@@ -21,13 +21,15 @@ def cluster(expand_contractions, remove_stopwords, stem_answers, filter_negation
         session.student_answers = nlp_pipeline.remove_stopwords_from_df(session.student_answers)
     if stem_answers:
         session.student_answers = nlp_pipeline.stem_answers_in_df(session.student_answers)
-    session.distance_matrix = nlp_pipeline.calculate_levenshtein_distance_matrix(session.student_answers)
-    previous_cluster_info = session.previous_cluster_info
-    session.student_answers, stuff = nlp_pipeline.agglomerative_clustering(student_answers,
-                                                                           session.distance_matrix,
-                                                                           distance_threshold,
-                                                                           True,
-                                                                           previous_cluster_info)
+    if token_based_clustering:
+        session.distance_matrix = nlp_pipeline.calculate_token_distance_matrix(session.student_answers)
+    else:
+        session.distance_matrix = nlp_pipeline.calculate_levenshtein_distance_matrix(session.student_answers)
+    session.student_answers = nlp_pipeline.extended_clustering_options(student_answers,
+                                                                          session.distance_matrix,
+                                                                          distance_threshold,
+                                                                          filter_negations,
+                                                                          non_compliance)
 
 
 def create_session(question_number):
@@ -65,3 +67,7 @@ def set_grade_for_student(cluster_value, new_grade):
 def remove_student_from_cluster(student_id):
     if 'student_id' in session.student_answers.columns and 'cluster' in session.student_answers.columns:
         session.student_answers.loc[session.student_answers['student_id'] == student_id, 'cluster'] = -1
+
+def get_top_10_words():
+    global session
+    return nlp_pipeline.get_top_10_bag_of_words(session.student_answers)

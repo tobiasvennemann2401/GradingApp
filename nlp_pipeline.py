@@ -185,37 +185,45 @@ def calculate_token_distance_matrix(df):
 
 
 def extended_clustering_options(df, distance_matrix, distance_threshold, filter_negations=False,
-                                previous_clusters_info=None):
-    if filter_negations:
-        with_negations = df.loc[df['answer'].str.contains('not|no', case=False, na=False)]
-        without_negations = df.loc[~df['answer'].str.contains('not|no', case=False, na=False)]
-        with_negations, stuff = agglomerative_clustering(with_negations, distance_matrix, distance_threshold, True,
-                                                         previous_clusters_info)
-        without_negations, stuff = agglomerative_clustering(without_negations, distance_matrix, distance_threshold,
-                                                            True, previous_clusters_info)
+                                non_compliance_check=False):
+    def merge_clustered_dataframes(*dfs):
+        noise_cluster_id = -1
+        max_cluster_id = 0
 
-        def merge_clustered_dataframes(df_with, df_without):
-            # Handling the noise cluster by ensuring it remains -1 in both dataframes
-            noise_cluster_id = -1
+        # Adjust cluster IDs for each dataframe to avoid conflicts
+        for df in dfs:
+            df['cluster'] = df['cluster'].apply(
+                lambda x: x + max_cluster_id + 1 if x != noise_cluster_id else x)
+            max_cluster_id = df['cluster'].max()
 
-            # Getting the maximum cluster ID from the 'with_negations' dataframe
-            max_cluster_id_with = df_with['cluster'].max()
+        # Concatenate all dataframes
+        result_df = pd.concat(dfs, ignore_index=True)
+        return result_df
 
-            # Adjust cluster IDs in the 'without_negations' dataframe
-            # Any cluster that isn't the noise cluster gets the offset added to its ID
-            df_without['cluster'] = df_without['cluster'].apply(
-                lambda x: x + max_cluster_id_with + 1 if x != noise_cluster_id else x)
-
-            # Concatenating the two dataframes
-            result_df = pd.concat([df_with, df_without], ignore_index=True)
-
-            return result_df
-
-        # Assuming you already have with_negations and without_negations dataframes from the clustering function
-        return merge_clustered_dataframes(with_negations, without_negations)
+    if non_compliance_check:
+        top_10_words = get_top_10_bag_of_words(df)
+        non_compliant_df = df[~df['answer'].str.contains('|'.join(top_10_words), case=False, na=False)]
+        compliant_df = df[df['answer'].str.contains('|'.join(top_10_words), case=False, na=False)]
+        non_compliant_df['cluster'] = -2
     else:
-        result, stuff = agglomerative_clustering(df, distance_matrix, distance_threshold, True, previous_clusters_info)
-        return result
+        compliant_df = df
+        non_compliant_df = pd.DataFrame(columns=df.columns)
+
+    if filter_negations:
+        with_negations = compliant_df.loc[compliant_df['answer'].str.contains('not|no', case=False, na=False)]
+        without_negations = compliant_df.loc[~compliant_df['answer'].str.contains('not|no', case=False, na=False)]
+
+        with_negations, _ = agglomerative_clustering(with_negations, distance_matrix, distance_threshold, True, None)
+        without_negations, _ = agglomerative_clustering(without_negations, distance_matrix, distance_threshold, True,
+                                                        None)
+
+        result_df = merge_clustered_dataframes(with_negations, without_negations, non_compliant_df)
+    else:
+        result_df, _ = agglomerative_clustering(compliant_df, distance_matrix, distance_threshold, True, None)
+        if not non_compliant_df.empty:
+            result_df = merge_clustered_dataframes(result_df, non_compliant_df)
+
+    return result_df
 
 
 def agglomerative_clustering(df, distance_matrix, distance_threshold, compact_clusters=False,

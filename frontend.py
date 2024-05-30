@@ -6,7 +6,7 @@ import session
 
 if 'initialized' not in st.session_state:
     session.create_session(3)
-    session.cluster(True, True, True, False, False, False,4)
+    #session.cluster(True, True, True, False, False, False,4)
     st.session_state['initialized'] = True
     st.session_state['selected_cluster_index'] = 0
 
@@ -33,10 +33,13 @@ with st.sidebar.expander("Preprocessing"):
         sentence = nlp_pipeline.stem_text(sentence)
     st.write(sentence)
 
+with st.sidebar.expander("Non Compliance Check"):
+    non_compliance = st.checkbox('Non Compliance Check', help='creates an additional cluster of non compliant answers')
+    st.table(session.get_top_10_words())
+
 with st.sidebar.expander("Clustering"):
     filter_negations = st.checkbox('Filter Negations', help='This checkbox ensures that no answers with and without negations are in the same cluster')
     token_based_clustering = st.checkbox('Token Based Clustering', help='The edit distance is based on tokens instead of characters')
-    non_compliance = st.checkbox('Non Compliance Check', help='creates an additional cluster of non compliant answers')
     distance_threshold = st.number_input('Distance Threshold', min_value=0, max_value=10, step=1, help='This value determines the maximum distance two answers in one cluster can be apart')
 
 if 'update' not in st.session_state:
@@ -74,11 +77,10 @@ with col2:
     cluster_choice = st.selectbox("Choose a Cluster", options=sorted(clusters),
                                   index=st.session_state['selected_cluster_index'],
                                   key='selected_cluster',
-                                  format_func=lambda x: "Unclustered" if x == -1 else f"Cluster {x}")
+                                  format_func=lambda x: "Unclustered" if x == -1 else "Non Compliance" if x == -2 else f"Cluster {x}")
     show_preprocess = st.checkbox('Show Preprocessed Data')
 
     if cluster_choice is not None:
-        print(np.where(clusters == cluster_choice))
         filtered_data = session.get_session().student_answers[
             (session.get_session().student_answers['cluster'] == cluster_choice) & (
                         session.get_session().student_answers['grade'] == -1)]
