@@ -16,6 +16,11 @@ class Session:
         # as pandas dataframe
         self.student_answers = student_answers
         self.student_grades = pd.DataFrame()
+        self.button_log = pd.DataFrame({
+            "Button": pd.Series(dtype='str'),
+            "Parameter": pd.Series(dtype='str'),
+            "Timestamp": pd.Series(dtype='datetime64[ns]')
+        })
         self.distance_matrix = nlp_pipeline.calculate_levenshtein_distance_matrix(student_answers)
 
 
@@ -24,7 +29,8 @@ def create_session(question_number):
     print(prompts[question_number])
     question_text = df.loc[df['id'] == prompts[question_number], 'q_text'].values[0]
     reference_answer = "That there is a short circuit"
-    session = Session(question_text=question_text, reference_answer=reference_answer, student_answers=get_SRA_numeric_df_for_question(question_number))
+    session = Session(question_text=question_text, reference_answer=reference_answer,
+                      student_answers=get_SRA_numeric_df_for_question(question_number))
     return session
 
 

@@ -1,3 +1,5 @@
+from datetime import datetime
+
 import pandas as pd
 import nlp_pipeline
 import datastructure
@@ -11,10 +13,10 @@ def get_session():
     return session
 
 
-def cluster(expand_contractions, remove_stopwords, prepro_method, filter_negations, token_based_clustering, non_compliance, distance_threshold):
+def preprocess(expand_contractions, remove_stopwords, prepro_method):
     global session
     session.student_answers = nlp_pipeline.reset_preprocessing(session.student_answers)
-    student_answers = nlp_pipeline.clean_text_in_df(session.student_answers)
+    session.student_answers = nlp_pipeline.clean_text_in_df(session.student_answers)
     if expand_contractions:
         session.student_answers = nlp_pipeline.expand_contractions_in_df(session.student_answers)
     if remove_stopwords:
@@ -23,15 +25,19 @@ def cluster(expand_contractions, remove_stopwords, prepro_method, filter_negatio
         session.student_answers = nlp_pipeline.lemmatize_answers_in_df(session.student_answers)
     if prepro_method == "Stemming":
         session.student_answers = nlp_pipeline.stem_answers_in_df(session.student_answers)
+
+
+def cluster(filter_negations, token_based_clustering, non_compliance, distance_threshold):
+    global session
     if token_based_clustering:
         session.distance_matrix = nlp_pipeline.calculate_token_distance_matrix(session.student_answers)
     else:
         session.distance_matrix = nlp_pipeline.calculate_levenshtein_distance_matrix(session.student_answers)
-    session.student_answers = nlp_pipeline.extended_clustering_options(student_answers,
-                                                                          session.distance_matrix,
-                                                                          distance_threshold,
-                                                                          filter_negations,
-                                                                          non_compliance)
+    session.student_answers = nlp_pipeline.extended_clustering_options(session.student_answers,
+                                                                       session.distance_matrix,
+                                                                       distance_threshold,
+                                                                       filter_negations,
+                                                                       non_compliance)
 
 
 def create_session(question_number):
@@ -70,6 +76,25 @@ def remove_student_from_cluster(student_id):
     if 'student_id' in session.student_answers.columns and 'cluster' in session.student_answers.columns:
         session.student_answers.loc[session.student_answers['student_id'] == student_id, 'cluster'] = -1
 
+
 def get_top_10_words():
     global session
-    return nlp_pipeline.get_top_10_bag_of_words(session.student_answers)
+    if len(session.student_answers) != 0:
+        return nlp_pipeline.get_top_10_bag_of_words(session.student_answers)
+    else:
+        return []
+
+
+def log_button(button, parameter=""):
+    global session
+    session.button_log.loc[len(session.button_log.index)] = [button, parameter, datetime.now()]
+
+
+def get_cluster_header(cluster):
+    global session
+    clusterdf = session.student_answers[session.student_answers['cluster'] == cluster]
+    top_ten = nlp_pipeline.get_top_10_bag_of_words(clusterdf)
+    first_two_entries = top_ten[:2]
+    key_words = " ".join(first_two_entries)
+    size = len(clusterdf)
+    return f"{key_words}: Size ({size})"
