@@ -148,7 +148,7 @@ else:
                     st.session_state['update'] = True
                     session.log_button("revoke_grade", row.values[0])
                     st.rerun()
-        if st.sidebar.button('Graded Answers'):
+        if st.button('Graded Answers'):
             show_graded_answers()
     with col2:
         if 'update' in st.session_state and st.session_state['update']:
