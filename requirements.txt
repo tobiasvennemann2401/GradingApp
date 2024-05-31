@@ -4,3 +4,4 @@ pandas
 python-Levenshtein
 nltk
 scikit-learn
+fuzzy
