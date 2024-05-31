@@ -106,3 +106,13 @@ def revoke_grade_of_student(student_id):
     selected_rows = session.student_grades[session.student_grades['student_id'] == student_id]
     session.student_answers = pd.concat([session.student_answers, selected_rows], ignore_index=True)
     session.student_grades = session.student_grades.drop(selected_rows.index).reset_index(drop=True)
+
+
+def get_biggest_cluster_id():
+    cluster_counts = session.student_answers["cluster"].value_counts()
+    if len(cluster_counts) > 1:
+        cluster_counts_no_minus_one = cluster_counts[cluster_counts.index != -1]
+        if not cluster_counts_no_minus_one.empty:
+            return cluster_counts_no_minus_one.idxmax()
+
+    return -1
