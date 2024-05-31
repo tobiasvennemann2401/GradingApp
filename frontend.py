@@ -232,7 +232,7 @@ else:
         st.download_button(
             "Press to Download Grades CSV",
             grade_csv,
-            "grades.csv",
+            f"grades_{session.get_session().id}.csv",
             "text/csv",
             key='download-grade-csv'
         )
@@ -240,7 +240,7 @@ else:
         st.download_button(
             "Press to Download Log",
             log_csv,
-            "button_log.csv",
+            f"button_log_{session.get_session().id}.csv",
             "text/csv",
             key='download-log-csv'
         )
