@@ -16,6 +16,8 @@ if 'selected_cluster' not in st.session_state:
 # Get unique clusters
 clusters = session.get_session().student_answers['cluster'].unique()
 
+st.sidebar.header('Clustering Options')
+
 with st.sidebar.expander("Preprocessing"):
     expand_contractions = st.checkbox('Expand Contractions', help='This checkbox enables the changes from: don´t -> do not')
     remove_stopwords = st.checkbox('Remove Stopwords', help='This checkbox removes certain words as: do, and, is, if')
@@ -66,11 +68,13 @@ col1, col2 = st.columns(2)
 
 with col1:
     st.image(session.image)
-    st.text("Question:")
-    st.write(session.get_session().question_text)
+    with st.container(border=20):
+        st.text("Question:")
+        st.write(session.get_session().question_text)
     st.text("\n\n")
-    st.text("Reference Answer:")
-    st.write(session.get_session().reference_answer)
+    with st.container(border=20):
+        st.text("Reference Answer:")
+        st.write(session.get_session().reference_answer)
     st.text("\n\n")
 
     st.progress(session.get_progress(), text=f"Progress: {round(session.get_progress()*100, 2)}%")
