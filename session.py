@@ -40,11 +40,12 @@ def cluster(filter_negations, token_based_clustering, non_compliance, distance_t
                                                                        non_compliance)
 
 
-def create_session(question_number):
+def create_session(participant_id, question):
     global session
     global image
-    session = datastructure.create_session(question_number)
-    image = f"circuit_images/circuit_{question_number}.jpg"
+    session = datastructure.create_session(participant_id, question)
+    #image = f"circuit_images/circuit_{question_number}.jpg"
+    image = f"circuit_images/circuit_3.jpg"
 
 
 def get_progress():
@@ -58,16 +59,16 @@ def get_progress():
 
 def set_grade_for_cluster(cluster_value, new_grade):
     global session
-    selected_rows = session.student_answers[session.student_answers['cluster'] == cluster_value]
     session.student_answers.loc[session.student_answers['cluster'] == cluster_value, 'grade'] = new_grade
+    selected_rows = session.student_answers[session.student_answers['cluster'] == cluster_value]
     session.student_grades = pd.concat([session.student_grades, selected_rows], ignore_index=True)
     session.student_answers = session.student_answers.drop(selected_rows.index).reset_index(drop=True)
 
 
-def set_grade_for_student(cluster_value, new_grade):
+def set_grade_for_student(student_id, new_grade):
     global session
-    selected_rows = session.student_answers[session.student_answers['student_id'] == cluster_value]
-    session.student_answers.loc[session.student_answers['cluster'] == cluster_value, 'grade'] = new_grade
+    session.student_answers.loc[session.student_answers['student_id'] == student_id, 'grade'] = new_grade
+    selected_rows = session.student_answers[session.student_answers['student_id'] == student_id]
     session.student_grades = pd.concat([session.student_grades, selected_rows], ignore_index=True)
     session.student_answers = session.student_answers.drop(selected_rows.index).reset_index(drop=True)
 
@@ -98,3 +99,10 @@ def get_cluster_header(cluster):
     key_words = " ".join(first_two_entries)
     size = len(clusterdf)
     return f"{key_words}: Size ({size})"
+
+def revoke_grade_of_student(student_id):
+    global session
+    session.student_grades.loc[session.student_grades['cluster'] == student_id, 'grade'] = -1
+    selected_rows = session.student_grades[session.student_grades['student_id'] == student_id]
+    session.student_answers = pd.concat([session.student_answers, selected_rows], ignore_index=True)
+    session.student_grades = session.student_grades.drop(selected_rows.index).reset_index(drop=True)

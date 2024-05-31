@@ -5,8 +5,8 @@ import nlp_pipeline
 
 
 class Session:
-    def __init__(self, question_text, reference_answer, student_answers):
-        self.id = str(uuid.uuid4())
+    def __init__(self, participant_id, question_text, reference_answer, student_answers):
+        self.id = participant_id
         self.study_condition = 1
         self.question_text = question_text
         self.reference_answer = reference_answer
@@ -24,13 +24,12 @@ class Session:
         self.distance_matrix = nlp_pipeline.calculate_levenshtein_distance_matrix(student_answers)
 
 
-def create_session(question_number):
+def create_session(participant_id, question):
     df = pd.read_csv('beetle_questions.csv')
-    print(prompts[question_number])
-    question_text = df.loc[df['id'] == prompts[question_number], 'q_text'].values[0]
+    question_text = df.loc[df['id'] == question, 'q_text'].values[0]
     reference_answer = "That there is a short circuit"
-    session = Session(question_text=question_text, reference_answer=reference_answer,
-                      student_answers=get_SRA_numeric_df_for_question(question_number))
+    session = Session(participant_id=participant_id, question_text=question_text, reference_answer=reference_answer,
+                      student_answers=get_SRA_numeric_df_for_question(question))
     return session
 
 
@@ -96,7 +95,7 @@ prompts = [
 
 def get_SRA_numeric_df_for_question(question):
     # setup dataframe
-    df = pd.read_csv(f'SRA_numeric/SRA_numeric_allAnswers_prompt{prompts[question]}.tsv', sep="\t")
+    df = pd.read_csv(f'SRA_numeric/SRA_numeric_allAnswers_prompt{question}.tsv', sep="\t")
     df = df.reset_index(drop=True)
     df['student_id'] = range(1, len(df) + 1)
     df['grade'] = -1
