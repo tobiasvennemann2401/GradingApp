@@ -3,6 +3,7 @@ import re
 
 import pandas as pd
 import Levenshtein
+from nltk import WordNetLemmatizer
 from sklearn.cluster import AgglomerativeClustering
 import numpy as np
 from collections import Counter
@@ -10,7 +11,7 @@ import fuzzy
 import nltk
 from nltk.stem import PorterStemmer
 from nltk.metrics import edit_distance
-from nltk.corpus import stopwords
+from nltk.corpus import stopwords, wordnet
 from nltk.tokenize import word_tokenize
 from sklearn.feature_extraction.text import CountVectorizer
 from collections import Counter
@@ -19,9 +20,12 @@ from itertools import combinations
 # Download the stopwords from NLTK
 nltk.download('punkt')
 nltk.download('stopwords')
+nltk.download('wordnet')
+nltk.download('averaged_perceptron_tagger')
 
 # Initialize the Porter stemmer
 stemmer = PorterStemmer()
+lemmatizer = WordNetLemmatizer()
 
 # Get the list of stopwords
 stop_words = set(stopwords.words('english')) - {'no', 'not'}
@@ -127,6 +131,30 @@ def clean_text(value):
         # Return the original value if an error occurs
         return value
 
+# Function to convert NLTK POS tags to WordNet POS tags
+def get_wordnet_pos(tag):
+    if tag.startswith('J'):
+        return wordnet.ADJ
+    elif tag.startswith('V'):
+        return wordnet.VERB
+    elif tag.startswith('N'):
+        return wordnet.NOUN
+    elif tag.startswith('R'):
+        return wordnet.ADV
+    else:
+        return wordnet.NOUN
+
+# Define the lemmatization function
+def lemmatize_text(text):
+    # Tokenize the text to words
+    words = word_tokenize(text)
+    # Get POS tags for the words
+    pos_tags = nltk.pos_tag(words)
+    # Apply lemmatization to each word with its POS tag
+    lemmatized_words = [lemmatizer.lemmatize(word, get_wordnet_pos(tag)) for word, tag in pos_tags]
+    # Join the lemmatized words back into a single string
+    return ' '.join(lemmatized_words)
+
 
 def expand_contractions_in_df(df):
     df['answer'] = df['answer'].apply(to_expand_contractions)
@@ -150,6 +178,12 @@ def stem_answers_in_df(df):
 def clean_text_in_df(df):
     # Apply the function to the 'answer' column
     df['answer'] = df['answer'].apply(clean_text)
+    return df
+
+def lemmatize_answers_in_df(df):
+    # Apply the stemming function to each answer
+    df['answer'] = df['answer'].apply(lemmatize_text)
+
     return df
 
 

@@ -19,26 +19,33 @@ clusters = session.get_session().student_answers['cluster'].unique()
 with st.sidebar.expander("Preprocessing"):
     expand_contractions = st.checkbox('Expand Contractions', help='This checkbox enables the changes from: don´t -> do not')
     remove_stopwords = st.checkbox('Remove Stopwords', help='This checkbox removes certain words as: do, and, is, if')
-    stemming = st.checkbox('Stemming', help='This checkbox enables stemming, which shortens words: walking -> walk')
+    preproc_method = st.radio(
+        "Word Normalization Method",
+        ["Nothing", "Lemmatization", "Stemming"],
+        captions=["Words arent changed", "Words are transformed into there dictionary form", "Words are cut after the word stem"])
     st.text("\n\n")
-    sentence = "This sentence is an example of a sentence but hasn't got any other function"
     st.text("Example Sentence:")
-    st.write(sentence)
-    st.text("\n\n")
-    sentence = nlp_pipeline.clean_text(sentence)
-    if expand_contractions:
-        sentence = nlp_pipeline.to_expand_contractions(sentence)
-    if remove_stopwords:
-        sentence = nlp_pipeline.to_no_stopwords(sentence)
-    if stemming:
-        sentence = nlp_pipeline.stem_text(sentence)
-    st.text("After Preprocessing")
-    st.write(sentence)
+    with st.container(border=20):
+        sentence = "This sentence is an example of a sentence but hasn't got any other function"
+        st.write(sentence)
+        st.text("\n\n")
+        sentence = nlp_pipeline.clean_text(sentence)
+        if expand_contractions:
+            sentence = nlp_pipeline.to_expand_contractions(sentence)
+        if remove_stopwords:
+            sentence = nlp_pipeline.to_no_stopwords(sentence)
+        if preproc_method == "Stemming":
+            sentence = nlp_pipeline.stem_text(sentence)
+        if preproc_method == "Lemmatization":
+            sentence = nlp_pipeline.lemmatize_text(sentence)
+        st.text("After Preprocessing")
+        st.write(sentence)
 
 with st.sidebar.expander("Non Compliance Check"):
-    non_compliance = st.checkbox('Non Compliance Check', help='creates an additional cluster of non compliant answers')
+    non_compliance = st.checkbox('Create Non Compliance Cluster')
+    st.write("Answers that do not contain any of the top 10 most used words are considered non compliant and put in a separate cluster.")
+    st.text("Top 10 words")
     st.table(session.get_top_10_words())
-
 with st.sidebar.expander("Clustering"):
     distance_calculation_method = st.radio(
         "Distance Calculation Method",
@@ -51,7 +58,7 @@ if 'update' not in st.session_state:
     st.session_state['update'] = True  # Initialize state
 
 if st.sidebar.button('Cluster'):
-    session.cluster(expand_contractions, remove_stopwords, stemming, filter_negations, distance_calculation_method == "Token Based", non_compliance, distance_threshold)
+    session.cluster(expand_contractions, remove_stopwords, preproc_method, filter_negations, distance_calculation_method == "Token Based", non_compliance, distance_threshold)
     st.session_state['update'] = True  # Update state on clustering
     st.session_state['selected_cluster'] = -1
 
@@ -66,7 +73,7 @@ with col1:
     st.write(session.get_session().reference_answer)
     st.text("\n\n")
 
-    st.progress(session.get_progress(), text="Progress")
+    st.progress(session.get_progress(), text=f"Progress: {round(session.get_progress()*100, 2)}%")
 with col2:
     if 'update' in st.session_state and st.session_state['update']:
         clusters = session.get_session().student_answers['cluster'].unique()
@@ -76,7 +83,7 @@ with col2:
                                   index=st.session_state['selected_cluster_index'],
                                   key='selected_cluster',
                                   format_func=lambda x: "Unclustered" if x == -1 else "Non Compliance" if x == -2 else f"Cluster {x}")
-    show_preprocess = st.checkbox('Show Preprocessed Data')
+    show_preprocess = st.checkbox('Show Preprocessing Result')
 
     if cluster_choice is not None:
         filtered_data = session.get_session().student_answers[
@@ -93,7 +100,7 @@ with col2:
             if cluster_choice != -1:
                 cols = st.columns([4, 1])
                 cols[0].write(row.values[1])
-                if cols[1].button("🗑️", key=f"{index}_btn_{index}"):
+                if cols[1].button("🗑️", key=f"{index}_btn_{index}", help="Remove item from cluster"):
                     session.remove_student_from_cluster(row.values[0])
                     st.session_state['update'] = True
                     st.experimental_rerun()

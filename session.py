@@ -11,7 +11,7 @@ def get_session():
     return session
 
 
-def cluster(expand_contractions, remove_stopwords, stem_answers, filter_negations, token_based_clustering, non_compliance, distance_threshold):
+def cluster(expand_contractions, remove_stopwords, prepro_method, filter_negations, token_based_clustering, non_compliance, distance_threshold):
     global session
     session.student_answers = nlp_pipeline.reset_preprocessing(session.student_answers)
     student_answers = nlp_pipeline.clean_text_in_df(session.student_answers)
@@ -19,7 +19,9 @@ def cluster(expand_contractions, remove_stopwords, stem_answers, filter_negation
         session.student_answers = nlp_pipeline.expand_contractions_in_df(session.student_answers)
     if remove_stopwords:
         session.student_answers = nlp_pipeline.remove_stopwords_from_df(session.student_answers)
-    if stem_answers:
+    if prepro_method == "Lemmatization":
+        session.student_answers = nlp_pipeline.lemmatize_answers_in_df(session.student_answers)
+    if prepro_method == "Stemming":
         session.student_answers = nlp_pipeline.stem_answers_in_df(session.student_answers)
     if token_based_clustering:
         session.distance_matrix = nlp_pipeline.calculate_token_distance_matrix(session.student_answers)
