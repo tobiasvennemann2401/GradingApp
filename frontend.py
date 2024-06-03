@@ -13,11 +13,11 @@ def start_dialog():
     prompt_choice = st.selectbox("Prompt", options=datastructure.prompts)
     if st.button('Start'):
         session.create_session(participant_id, prompt_choice)
+        session.cluster(filter_negations=False, distance_threshold=5, non_compliance=False, token_based_clustering=False)
         st.rerun()
 
 
 if 'initialized' not in st.session_state:
-    # session.cluster(True, True, True, False, False, False,4)
     st.session_state['initialized'] = True
     st.session_state['update'] = True
     st.session_state['expand_contractions'] = False
@@ -113,7 +113,34 @@ else:
         st.session_state['last_choice'] = st.session_state.cluster_choice
         session.log_button("cluster")
 
+
+
+
+
+
+
+    @st.experimental_dialog("Show Graded Answers")
+    def show_graded_answers():
+        graded_answers = session.get_session().student_grades.drop(['cluster', 'time_delta', 'answer'], axis=1)
+
+        for index, row in graded_answers.iterrows():
+            dialog_cols = st.columns([4, 1, 1])
+            dialog_cols[0].write(row.values[2])
+            dialog_cols[1].write(row.values[1])
+            if dialog_cols[2].button("🗑️", key=f"{index}_btn_{index}", help="Revoke Grade"):
+                session.revoke_grade_of_student(row.values[0])
+                st.session_state['update'] = True
+                session.log_button("revoke_grade", row.values[0])
+                st.rerun()
+
     # MainPage
+    top_col1, top_col2 = st.columns([3, 1])
+    with top_col1:
+        st.progress(session.get_progress(), text=f"Progress: {round(session.get_progress() * 100, 2)}%")
+    with top_col2:
+        if st.button('Graded Answers', disabled=not (session.get_progress() > 0)):
+            show_graded_answers()
+
     col1, col2 = st.columns(2)
 
     with col1:
@@ -127,26 +154,7 @@ else:
             st.write(session.get_session().reference_answer)
         st.text("\n\n")
 
-        st.progress(session.get_progress(), text=f"Progress: {round(session.get_progress() * 100, 2)}%")
 
-
-        @st.experimental_dialog("Show Graded Answers")
-        def show_graded_answers():
-            graded_answers = session.get_session().student_grades.drop(['cluster', 'time_delta', 'answer'], axis=1)
-
-            for index, row in graded_answers.iterrows():
-                dialog_cols = st.columns([4, 1, 1])
-                dialog_cols[0].write(row.values[2])
-                dialog_cols[1].write(row.values[1])
-                if dialog_cols[2].button("🗑️", key=f"{index}_btn_{index}", help="Revoke Grade"):
-                    session.revoke_grade_of_student(row.values[0])
-                    st.session_state['update'] = True
-                    session.log_button("revoke_grade", row.values[0])
-                    st.rerun()
-
-        if session.get_progress() > 0:
-            if st.button('Graded Answers'):
-                show_graded_answers()
     if session.get_progress() < 1:
         with col2:
             if 'update' in st.session_state and st.session_state['update']:
