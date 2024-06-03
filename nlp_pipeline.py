@@ -32,6 +32,8 @@ stop_words = set(stopwords.words('english')) - {'no', 'not'}
 
 pd.options.mode.chained_assignment = None
 
+next_id = 0
+
 # Define a dictionary of contractions
 contraction_mapping = {
     "isn't": "is not",
@@ -220,15 +222,24 @@ def calculate_token_distance_matrix(df):
 
 def extended_clustering_options(df, distance_matrix, distance_threshold, filter_negations=False,
                                 non_compliance_check=False):
-    def merge_clustered_dataframes(*dfs):
-        noise_cluster_id = -1
-        max_cluster_id = 0
+    global next_id
 
-        # Adjust cluster IDs for each dataframe to avoid conflicts
-        for df in dfs:
-            df['cluster'] = df['cluster'].apply(
-                lambda x: x + max_cluster_id + 1 if x != noise_cluster_id else x)
-            max_cluster_id = df['cluster'].max()
+    def generate_next_id():
+        global next_id
+        current_id = next_id
+        next_id += 1
+        return current_id
+
+    def assign_unique_ids(df):
+        cluster_map = {}
+        df['cluster'] = df['cluster'].apply(
+            lambda x: cluster_map.setdefault(x, generate_next_id()) if x not in [-1, -2] else x
+        )
+        return df
+
+    def merge_clustered_dataframes(*dfs):
+        # Adjust cluster IDs for each dataframe to ensure unique IDs
+        dfs = [assign_unique_ids(df) for df in dfs]
 
         # Concatenate all dataframes
         result_df = pd.concat(dfs, ignore_index=True)
@@ -256,6 +267,8 @@ def extended_clustering_options(df, distance_matrix, distance_threshold, filter_
         result_df, _ = agglomerative_clustering(compliant_df, distance_matrix, distance_threshold, True, None)
         if not non_compliant_df.empty:
             result_df = merge_clustered_dataframes(result_df, non_compliant_df)
+        else:
+            result_df = merge_clustered_dataframes(result_df)
 
     return result_df
 

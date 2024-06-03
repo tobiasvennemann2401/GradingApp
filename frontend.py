@@ -19,7 +19,7 @@ def start_dialog():
 if 'initialized' not in st.session_state:
     # session.cluster(True, True, True, False, False, False,4)
     st.session_state['initialized'] = True
-    st.session_state['selected_cluster_index'] = 0
+    st.session_state['update'] = True
     st.session_state['expand_contractions'] = False
     st.session_state['remove_stopwords'] = False
     st.session_state['preproc_method'] = "Nothing"
@@ -29,16 +29,12 @@ if 'initialized' not in st.session_state:
     st.session_state['filter_negations'] = False
     st.session_state['cluster_choice'] = -1
     st.session_state['show_preprocess'] = False
+    st.session_state['clusters'] = [-1]
+    st.session_state['last_choice'] = -1
     start_dialog()
 else:
-    if 'selected_cluster' not in st.session_state:
-        st.session_state['selected_cluster'] = -1
-
-    # Get unique clusters
-    clusters = session.get_session().student_answers['cluster'].unique()
 
     st.sidebar.header('Clustering Options')
-
 
     # Sidebar
     with st.sidebar.expander("Preprocessing"):
@@ -47,7 +43,8 @@ else:
         if expand_contractions != st.session_state['expand_contractions']:
             st.session_state['expand_contractions'] = expand_contractions
             session.log_button("expand_contractions", expand_contractions)
-        remove_stopwords = st.checkbox('Remove Stopwords', help='This checkbox removes certain words as: do, and, is, if')
+        remove_stopwords = st.checkbox('Remove Stopwords',
+                                       help='This checkbox removes certain words as: do, and, is, if')
         if remove_stopwords != st.session_state['remove_stopwords']:
             st.session_state['remove_stopwords'] = remove_stopwords
             session.log_button("remove_stopwords", remove_stopwords)
@@ -97,7 +94,7 @@ else:
         if distance_calculation_method != st.session_state['distance_calculation_method']:
             st.session_state['distance_calculation_method'] = distance_calculation_method
             session.log_button("distance_calculation_method", distance_calculation_method)
-        distance_threshold = st.number_input('Distance Threshold', min_value=0, max_value=10, step=1,
+        distance_threshold = st.number_input('Distance Threshold', min_value=0, max_value=10, step=1, value=5,
                                              help='This value determines the maximum distance two answers in one cluster can be apart')
         if distance_threshold != st.session_state['distance_threshold']:
             st.session_state['distance_threshold'] = distance_threshold
@@ -108,15 +105,13 @@ else:
             st.session_state['filter_negations'] = filter_negations
             session.log_button("filter_negations", filter_negations)
 
-    if 'update' not in st.session_state:
-        st.session_state['update'] = True  # Initialize state
-
     if st.sidebar.button('Cluster'):
-        session.cluster(filter_negations, distance_calculation_method == "Token Based", non_compliance, distance_threshold)
-        st.session_state['update'] = True  # Update state on clustering
-        st.session_state['selected_cluster'] = -1
+        session.cluster(filter_negations, distance_calculation_method == "Token Based", non_compliance,
+                        distance_threshold)
+        st.session_state['clusters'] = session.sort_clusters()
+        st.session_state.cluster_choice = st.session_state['clusters'][0]
+        st.session_state['last_choice'] = st.session_state.cluster_choice
         session.log_button("cluster")
-
 
     # MainPage
     col1, col2 = st.columns(2)
@@ -141,84 +136,85 @@ else:
 
             for index, row in graded_answers.iterrows():
                 dialog_cols = st.columns([4, 1, 1])
-                dialog_cols[0].write(row.values[1])
                 dialog_cols[0].write(row.values[2])
-                if dialog_cols[1].button("🗑️", key=f"{index}_btn_{index}", help="Revoke Grade"):
+                dialog_cols[1].write(row.values[1])
+                if dialog_cols[2].button("🗑️", key=f"{index}_btn_{index}", help="Revoke Grade"):
                     session.revoke_grade_of_student(row.values[0])
                     st.session_state['update'] = True
                     session.log_button("revoke_grade", row.values[0])
                     st.rerun()
-        if st.button('Graded Answers'):
-            show_graded_answers()
-    with col2:
-        if 'update' in st.session_state and st.session_state['update']:
-            clusters = session.get_session().student_answers['cluster'].unique()
-            st.session_state['update'] = False
 
-        cluster_choice = st.selectbox("Choose a Cluster", options=sorted(clusters),
-                                      index=st.session_state['selected_cluster_index'],
-                                      key='selected_cluster',
-                                      format_func=lambda
-                                          x: "Unclustered" if x == -1 else "Non Compliance" if x == -2 else session.get_cluster_header(
-                                          x))
-        if cluster_choice != st.session_state['cluster_choice']:
-            st.session_state['cluster_choice'] = cluster_choice
-            session.log_button("cluster_choice", cluster_choice)
+        if session.get_progress() > 0:
+            if st.button('Graded Answers'):
+                show_graded_answers()
+    if session.get_progress() < 1:
+        with col2:
+            if 'update' in st.session_state and st.session_state['update']:
+                st.session_state['clusters'] = session.sort_clusters()
+                st.session_state['update'] = False
 
-        show_preprocess = st.checkbox('Show Preprocessing Result')
-        if show_preprocess != st.session_state['show_preprocess']:
-            st.session_state['show_preprocess'] = show_preprocess
-            session.log_button("show_preprocess", show_preprocess)
+            if st.session_state.cluster_choice not in st.session_state['clusters']:
+                st.session_state.cluster_choice = st.session_state['clusters'][0]
 
-        if cluster_choice is not None:
-            filtered_data = session.get_session().student_answers[
-                (session.get_session().student_answers['cluster'] == cluster_choice) & (
-                        session.get_session().student_answers['grade'] == -1)]
-            filtered_data = filtered_data.drop(['grade', 'cluster', 'time_delta'], axis=1)
+            st.session_state.cluster_choice = st.selectbox("Choose a Cluster", options=st.session_state['clusters'],
+                                                           index=st.session_state['clusters'].index(st.session_state.cluster_choice),
+                                                           format_func=lambda
+                                                               x: "Unclustered" if x == -1 else "Non Compliance" if x == -2 else session.get_cluster_header(
+                                                               x))
+            if st.session_state.cluster_choice != st.session_state['last_choice']:
+                st.session_state['last_choice'] = st.session_state.cluster_choice
+                session.log_button("cluster_choice", st.session_state.cluster_choice)
 
-            if show_preprocess:
-                filtered_data = filtered_data.drop(['answer_display'], axis=1)
-            else:
-                filtered_data = filtered_data.drop(['answer'], axis=1)
+            show_preprocess = st.checkbox('Show Preprocessing Result')
+            if show_preprocess != st.session_state['show_preprocess']:
+                st.session_state['show_preprocess'] = show_preprocess
+                session.log_button("show_preprocess", show_preprocess)
 
-            for index, row in filtered_data.iterrows():
-                if cluster_choice != -1:
-                    cols = st.columns([4, 1])
-                    cols[0].write(row.values[1])
-                    if cols[1].button("🗑️", key=f"{index}_btn_{index}", help="Remove item from cluster"):
-                        session.remove_student_from_cluster(row.values[0])
-                        st.session_state['update'] = True
-                        session.log_button("remove_from_cluster", f"{cluster_choice}_{row.values[0]}")
-                        st.rerun()
+            if st.session_state.cluster_choice is not None:
+                filtered_data = session.get_session().student_answers[
+                    (session.get_session().student_answers['cluster'] == st.session_state.cluster_choice) & (
+                            session.get_session().student_answers['grade'] == -1)]
+                filtered_data = filtered_data.drop(['grade', 'cluster', 'time_delta'], axis=1)
+
+                if show_preprocess:
+                    filtered_data = filtered_data.drop(['answer_display'], axis=1)
                 else:
-                    cols = st.columns([3, 1, 1])
-                    cols[0].write(row.values[1])
-                    if cols[1].button("✔️", key=f"{index}_btn_{index}_1"):
-                        session.set_grade_for_student(row.values[0], 1)
+                    filtered_data = filtered_data.drop(['answer'], axis=1)
+
+                for index, row in filtered_data.iterrows():
+                    if st.session_state.cluster_choice != -1:
+                        cols = st.columns([4, 1])
+                        cols[0].write(row.values[1])
+                        if cols[1].button("🗑️", key=f"{index}_btn_{index}", help="Remove item from cluster"):
+                            session.remove_student_from_cluster(row.values[0])
+                            st.session_state['update'] = True
+                            session.log_button("remove_from_cluster", f"{st.session_state.cluster_choice}_{row.values[0]}")
+                            st.rerun()
+                    else:
+                        cols = st.columns([3, 1, 1])
+                        cols[0].write(row.values[1])
+                        if cols[1].button("✔️", key=f"{index}_btn_{index}_1"):
+                            session.set_grade_for_student(row.values[0], 1)
+                            st.session_state['update'] = True
+                            session.log_button("grade_single_correct", row.values[0])
+                            st.rerun()
+                        if cols[2].button("❌", key=f"{index}_btn_{index}_2"):
+                            session.set_grade_for_student(row.values[0], 0)
+                            st.session_state['update'] = True
+                            session.log_button("grade_single_false", row.values[0])
+                            st.rerun()
+                if st.session_state.cluster_choice != -1:
+                    bot_cols = st.columns([1, 1])
+                    if bot_cols[0].button('Complete Cluster ✔️'):
+                        session.set_grade_for_cluster(st.session_state.cluster_choice, 1)
                         st.session_state['update'] = True
-                        session.log_button("grade_single_correct", row.values[0])
+                        session.log_button("grade_cluster_correct", st.session_state.cluster_choice)
                         st.rerun()
-                    if cols[2].button("❌", key=f"{index}_btn_{index}_2"):
-                        session.set_grade_for_student(row.values[0], 0)
+                    if bot_cols[1].button('Complete Cluster ❌'):
+                        session.set_grade_for_cluster(st.session_state.cluster_choice, 0)
                         st.session_state['update'] = True
-                        session.log_button("grade_single_false", row.values[0])
+                        session.log_button("grade_cluster_false", st.session_state.cluster_choice)
                         st.rerun()
-            if cluster_choice != -1:
-                bot_cols = st.columns([1, 1])
-                if bot_cols[0].button('Complete Cluster ✔️', disabled=st.session_state['selected_cluster'] == -1,
-                                      key=f"{index}_btun_{index}"):
-                    session.set_grade_for_cluster(st.session_state['selected_cluster'], 1)
-                    st.session_state['update'] = True
-                    st.session_state['selected_cluster_index'] = 0
-                    session.log_button("grade_cluster_correct", st.session_state['selected_cluster'])
-                    st.rerun()
-                if bot_cols[1].button('Complete Cluster ❌', disabled=st.session_state['selected_cluster'] == -1,
-                                      key=f"{index}_btun_2_{index}"):
-                    session.set_grade_for_cluster(st.session_state['selected_cluster'], 0)
-                    st.session_state['update'] = True
-                    st.session_state['selected_cluster_index'] = 0
-                    session.log_button("grade_cluster_false", st.session_state['selected_cluster'])
-                    st.rerun()
 
 
     def convert_df(df):

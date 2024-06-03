@@ -94,11 +94,14 @@ def log_button(button, parameter=""):
 def get_cluster_header(cluster):
     global session
     clusterdf = session.student_answers[session.student_answers['cluster'] == cluster]
-    top_ten = nlp_pipeline.get_top_10_bag_of_words(clusterdf)
-    first_two_entries = top_ten[:2]
-    key_words = " ".join(first_two_entries)
-    size = len(clusterdf)
-    return f"{key_words}: Size ({size})"
+    try:
+        top_ten = nlp_pipeline.get_top_10_bag_of_words(clusterdf)
+        first_two_entries = top_ten[:2]
+        key_words = " ".join(first_two_entries)
+        size = len(clusterdf)
+        return f"{key_words}: Size ({size})"
+    except Exception as e:
+        return f"Error: {e}"
 
 def revoke_grade_of_student(student_id):
     global session
@@ -108,11 +111,11 @@ def revoke_grade_of_student(student_id):
     session.student_grades = session.student_grades.drop(selected_rows.index).reset_index(drop=True)
 
 
-def get_biggest_cluster_id():
-    cluster_counts = session.student_answers["cluster"].value_counts()
-    if len(cluster_counts) > 1:
-        cluster_counts_no_minus_one = cluster_counts[cluster_counts.index != -1]
-        if not cluster_counts_no_minus_one.empty:
-            return cluster_counts_no_minus_one.idxmax()
-
-    return -1
+def sort_clusters():
+    global session
+    cluster_counts = session.student_answers['cluster'].value_counts()
+    special_clusters = [-2, -1]
+    existing_special_clusters = [cluster for cluster in special_clusters if cluster in cluster_counts]
+    sorted_clusters = cluster_counts.drop(existing_special_clusters).sort_values(ascending=False)
+    sorted_clusters = pd.concat([sorted_clusters, cluster_counts[existing_special_clusters]])
+    return sorted_clusters.index.tolist()
