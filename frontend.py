@@ -125,7 +125,7 @@ else:
         for index, row in graded_answers.iterrows():
             dialog_cols = st.columns([4, 1, 1])
             dialog_cols[0].write(row.values[2])
-            dialog_cols[1].write(row.values[1])
+            dialog_cols[1].write("❌" if row.values[1] == 0 else "✔️")
             if dialog_cols[2].button("🗑️", key=f"{index}_btn_{index}", help="Revoke Grade"):
                 session.revoke_grade_of_student(row.values[0])
                 st.session_state['update'] = True
@@ -208,7 +208,7 @@ else:
                         st.session_state['update'] = True
                         session.log_button("grade_cluster_correct", st.session_state.cluster_choice)
                         st.rerun()
-                    if bot_cols[1].button('Grade Complete Cluster as False ❌'):
+                    if bot_cols[1].button('Grade Complete Cluster as Incorrect ❌'):
                         session.set_grade_for_cluster(st.session_state.cluster_choice, 0)
                         st.session_state['update'] = True
                         session.log_button("grade_cluster_false", st.session_state.cluster_choice)
