@@ -13,7 +13,6 @@ def start_dialog():
     prompt_choice = st.selectbox("Prompt", options=datastructure.prompts)
     if st.button('Start'):
         session.create_session(participant_id, prompt_choice)
-        session.cluster(filter_negations=False, distance_threshold=5, non_compliance=False, token_based_clustering=False)
         st.rerun()
 
 
@@ -27,9 +26,9 @@ if 'initialized' not in st.session_state:
     st.session_state['distance_calculation_method'] = "Character Based"
     st.session_state['distance_threshold'] = 0
     st.session_state['filter_negations'] = False
-    st.session_state['cluster_choice'] = -1
     st.session_state['show_preprocess'] = False
     st.session_state['clusters'] = [-1]
+    st.session_state.cluster_choice = -1
     st.session_state['last_choice'] = -1
     start_dialog()
 else:
@@ -190,27 +189,18 @@ else:
                     filtered_data = filtered_data.drop(['answer'], axis=1)
 
                 for index, row in filtered_data.iterrows():
-                    if st.session_state.cluster_choice != -1:
-                        cols = st.columns([4, 1])
-                        cols[0].write(row.values[1])
-                        if cols[1].button("🗑️", key=f"{index}_btn_{index}", help="Remove item from cluster"):
-                            session.remove_student_from_cluster(row.values[0])
-                            st.session_state['update'] = True
-                            session.log_button("remove_from_cluster", f"{st.session_state.cluster_choice}_{row.values[0]}")
-                            st.rerun()
-                    else:
-                        cols = st.columns([3, 1, 1])
-                        cols[0].write(row.values[1])
-                        if cols[1].button("✔️", key=f"{index}_btn_{index}_1"):
-                            session.set_grade_for_student(row.values[0], 1)
-                            st.session_state['update'] = True
-                            session.log_button("grade_single_correct", row.values[0])
-                            st.rerun()
-                        if cols[2].button("❌", key=f"{index}_btn_{index}_2"):
-                            session.set_grade_for_student(row.values[0], 0)
-                            st.session_state['update'] = True
-                            session.log_button("grade_single_false", row.values[0])
-                            st.rerun()
+                    cols = st.columns([3, 1, 1])
+                    cols[0].write(row.values[1])
+                    if cols[1].button("✔️", key=f"{index}_btn_{index}_1"):
+                        session.set_grade_for_student(row.values[0], 1)
+                        st.session_state['update'] = True
+                        session.log_button("grade_single_correct", row.values[0])
+                        st.rerun()
+                    if cols[2].button("❌", key=f"{index}_btn_{index}_2"):
+                        session.set_grade_for_student(row.values[0], 0)
+                        st.session_state['update'] = True
+                        session.log_button("grade_single_false", row.values[0])
+                        st.rerun()
                 if st.session_state.cluster_choice != -1:
                     bot_cols = st.columns([1, 1])
                     if bot_cols[0].button('Complete Cluster ✔️'):
