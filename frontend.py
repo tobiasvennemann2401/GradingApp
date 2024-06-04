@@ -203,12 +203,12 @@ else:
                         st.rerun()
                 if st.session_state.cluster_choice != -1:
                     bot_cols = st.columns([1, 1])
-                    if bot_cols[0].button('Complete Cluster ✔️'):
+                    if bot_cols[0].button('Grade Complete Cluster as Correct ✔️'):
                         session.set_grade_for_cluster(st.session_state.cluster_choice, 1)
                         st.session_state['update'] = True
                         session.log_button("grade_cluster_correct", st.session_state.cluster_choice)
                         st.rerun()
-                    if bot_cols[1].button('Complete Cluster ❌'):
+                    if bot_cols[1].button('Grade Complete Cluster as False ❌'):
                         session.set_grade_for_cluster(st.session_state.cluster_choice, 0)
                         st.session_state['update'] = True
                         session.log_button("grade_cluster_false", st.session_state.cluster_choice)
