@@ -160,7 +160,7 @@ else:
             st.write(session.get_session().question_text)
         st.text("\n\n")
         with st.container(border=20):
-            st.text("Reference Answers:")
+            st.text("Examples for Correct Answer:")
             for answer in session.get_session().reference_answer:
                 st.write(f"• {answer}")
         st.text("\n\n")
