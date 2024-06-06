@@ -120,9 +120,17 @@ else:
 
     @st.experimental_dialog("Show Graded Answers")
     def show_graded_answers():
-        graded_answers = session.get_session().student_grades.drop(['cluster', 'time_delta', 'answer'], axis=1)
-
-        for index, row in graded_answers.iterrows():
+        graded_answers = session.get_session().student_grades.drop(['cluster'], axis=1)
+        show_preproc = st.checkbox('Show Preprocessing Result', key="show_preproc_dialog")
+        if show_preproc:
+            graded_answers = graded_answers.drop(['answer_display'], axis=1)
+        else:
+            graded_answers = graded_answers.drop(['answer'], axis=1)
+        header_cols = st.columns([4, 1, 1])
+        header_cols[0].write("Answer")
+        header_cols[1].write("Grade")
+        header_cols[2].write("Revoke Grade")
+        for index, row in graded_answers.iloc[::-1].iterrows():
             dialog_cols = st.columns([4, 1, 1])
             dialog_cols[0].write(row.values[2])
             dialog_cols[1].write("❌" if row.values[1] == 0 else "✔️")
@@ -143,7 +151,10 @@ else:
     col1, col2 = st.columns(2)
 
     with col1:
-        st.image(session.image)
+        try:
+            st.image(session.image)
+        except:
+            print("Ich habe heute leider kein Foto für dich")
         with st.container(border=20):
             st.text("Question:")
             st.write(session.get_session().question_text)
@@ -172,7 +183,7 @@ else:
                 st.session_state['last_choice'] = st.session_state.cluster_choice
                 session.log_button("cluster_choice", st.session_state.cluster_choice)
 
-            show_preprocess = st.checkbox('Show Preprocessing Result')
+            show_preprocess = st.checkbox('Show Preprocessing Result', key="show_preproc")
             if show_preprocess != st.session_state['show_preprocess']:
                 st.session_state['show_preprocess'] = show_preprocess
                 session.log_button("show_preprocess", show_preprocess)
@@ -181,7 +192,7 @@ else:
                 filtered_data = session.get_session().student_answers[
                     (session.get_session().student_answers['cluster'] == st.session_state.cluster_choice) & (
                             session.get_session().student_answers['grade'] == -1)]
-                filtered_data = filtered_data.drop(['grade', 'cluster', 'time_delta'], axis=1)
+                filtered_data = filtered_data.drop(['grade', 'cluster'], axis=1)
 
                 if show_preprocess:
                     filtered_data = filtered_data.drop(['answer_display'], axis=1)
@@ -192,11 +203,13 @@ else:
                     cols = st.columns([3, 1, 1])
                     cols[0].write(row.values[1])
                     if cols[1].button("✔️", key=f"{index}_btn_{index}_1"):
+                        session.remove_student_from_cluster(row.values[0])
                         session.set_grade_for_student(row.values[0], 1)
                         st.session_state['update'] = True
                         session.log_button("grade_single_correct", row.values[0])
                         st.rerun()
                     if cols[2].button("❌", key=f"{index}_btn_{index}_2"):
+                        session.remove_student_from_cluster(row.values[0])
                         session.set_grade_for_student(row.values[0], 0)
                         st.session_state['update'] = True
                         session.log_button("grade_single_false", row.values[0])

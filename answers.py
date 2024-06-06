@@ -7,7 +7,7 @@ answers = {
     "SHORT_CIRCUIT_EXPLAIN_Q_4": ["Circuit 4 has no closed paths", "The battery in 4 is not in a closed path", "There is no closed path", "the battery is in an open path"],
     "SHORT_CIRCUIT_EXPLAIN_Q_5": ["the battery is contained in a path in which there is no bulb", "The battery is contained in a path which does not contain any other components", "The bulb is not in the closed path containing the battery", "the battery is contained in a closed path in which there is no bulb", "The battery is contained in a closed path which does not contain any other components"],
     "SHORT_CIRCUIT_X": ["the battery is damaged", "there is a short circuit"],
-    "SWITCH_OPEN_EXPLAIN": ["the open switch creates a gap", "a gap", "there is a gap in a circuit", "the path is not closed", "there is an incomplete circuit", "there is an open path"],
+    "SWITCH_OPEN_EXPLAIN_Q": ["the open switch creates a gap", "a gap", "there is a gap in a circuit", "the path is not closed", "there is an incomplete circuit", "there is an open path"],
     "SWITCH_TABLE_EXPLAIN_Q1": ["Bulb A was still contained in the same closed path with the battery.", "Bulb A is still contained in a closed path with the battery and switch X.", "there is no path containing both switch Y and bulb A", "Switch Y and bulb A are not in the same closed path"],
     "SWITCH_TABLE_EXPLAIN_Q2": ["Bulb B and Bulb C were still contained in the same closed path with the battery.", "no path containing both the switch X and either bulb B or bulb C", "There is a path with B and C that does not include X"],
     "SWITCH_TABLE_EXPLAIN_Q3": ["When the switch and the bulb are contained in the same path"]

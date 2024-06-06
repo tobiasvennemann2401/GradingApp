@@ -29,7 +29,7 @@ class Session:
 def create_session(participant_id, question):
     df = pd.read_csv('beetle_questions.csv')
     question_text = df.loc[df['id'] == question, 'q_text'].values[0]
-    reference_answer = answers.answers[question]
+    reference_answer = answers.answers[question][0]
     session = Session(participant_id=participant_id, question_text=question_text, reference_answer=reference_answer,
                       student_answers=get_SRA_numeric_df_for_question(question))
     return session
@@ -60,7 +60,6 @@ def get_SRA_numeric_df_for_question(question):
     df['cluster'] = -1
     df['answer'] = df['AnswerText']
     df['answer_display'] = df['answer']
-    df['time_delta'] = pd.Timedelta(seconds=0)
     df = df.drop('AnswerId', axis=1)
     df = df.drop('AnswerText', axis=1)
     df = df.drop('PromptId', axis=1)

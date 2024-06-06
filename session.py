@@ -15,16 +15,28 @@ def get_session():
 
 def preprocess(expand_contractions, remove_stopwords, prepro_method):
     global session
-    session.student_answers = nlp_pipeline.reset_preprocessing(session.student_answers)
-    session.student_answers = nlp_pipeline.clean_text_in_df(session.student_answers)
-    if expand_contractions:
-        session.student_answers = nlp_pipeline.expand_contractions_in_df(session.student_answers)
-    if remove_stopwords:
-        session.student_answers = nlp_pipeline.remove_stopwords_from_df(session.student_answers)
-    if prepro_method == "Lemmatization":
-        session.student_answers = nlp_pipeline.lemmatize_answers_in_df(session.student_answers)
-    if prepro_method == "Stemming":
-        session.student_answers = nlp_pipeline.stem_answers_in_df(session.student_answers)
+    if len(session.student_answers) != 0:
+        session.student_answers = nlp_pipeline.reset_preprocessing(session.student_answers)
+        session.student_answers = nlp_pipeline.clean_text_in_df(session.student_answers)
+        if expand_contractions:
+            session.student_answers = nlp_pipeline.expand_contractions_in_df(session.student_answers)
+        if remove_stopwords:
+            session.student_answers = nlp_pipeline.remove_stopwords_from_df(session.student_answers)
+        if prepro_method == "Lemmatization":
+            session.student_answers = nlp_pipeline.lemmatize_answers_in_df(session.student_answers)
+        if prepro_method == "Stemming":
+            session.student_answers = nlp_pipeline.stem_answers_in_df(session.student_answers)
+    if len(session.student_grades) != 0:
+        session.student_grades = nlp_pipeline.reset_preprocessing(session.student_grades)
+        session.student_grades = nlp_pipeline.clean_text_in_df(session.student_grades)
+        if expand_contractions:
+            session.student_grades = nlp_pipeline.expand_contractions_in_df(session.student_grades)
+        if remove_stopwords:
+            session.student_grades = nlp_pipeline.remove_stopwords_from_df(session.student_grades)
+        if prepro_method == "Lemmatization":
+            session.student_grades = nlp_pipeline.lemmatize_answers_in_df(session.student_grades)
+        if prepro_method == "Stemming":
+            session.student_grades = nlp_pipeline.stem_answers_in_df(session.student_grades)
 
 
 def cluster(filter_negations, token_based_clustering, non_compliance, distance_threshold):
@@ -44,8 +56,7 @@ def create_session(participant_id, question):
     global session
     global image
     session = datastructure.create_session(participant_id, question)
-    #image = f"circuit_images/circuit_{question_number}.jpg"
-    image = f"circuit_images/circuit_3.jpg"
+    image = f"circuit_images/{question}.jpg"
 
 
 def get_progress():
