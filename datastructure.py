@@ -1,6 +1,8 @@
 import csv
 import uuid
 import pandas as pd
+
+import answers
 import nlp_pipeline
 
 
@@ -27,7 +29,7 @@ class Session:
 def create_session(participant_id, question):
     df = pd.read_csv('beetle_questions.csv')
     question_text = df.loc[df['id'] == question, 'q_text'].values[0]
-    reference_answer = "That there is a short circuit"
+    reference_answer = answers.answers[question]
     session = Session(participant_id=participant_id, question_text=question_text, reference_answer=reference_answer,
                       student_answers=get_SRA_numeric_df_for_question(question))
     return session
