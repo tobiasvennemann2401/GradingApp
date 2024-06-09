@@ -96,7 +96,7 @@ else:
             if distance_calculation_method != st.session_state['distance_calculation_method']:
                 st.session_state['distance_calculation_method'] = distance_calculation_method
                 session.log_button("distance_calculation_method", distance_calculation_method)
-            distance_threshold = st.number_input('Distance Threshold', min_value=0, max_value=10, step=1, value=5,
+            distance_threshold = st.number_input('Distance Threshold', min_value=0, max_value=10, step=1, value=5 if distance_calculation_method == "Character Based" else 2,
                                                  help='This value determines the maximum distance two answers in one cluster can be apart')
             if distance_threshold != st.session_state['distance_threshold']:
                 st.session_state['distance_threshold'] = distance_threshold
