@@ -116,7 +116,8 @@ def get_cluster_header(cluster):
 
 def revoke_grade_of_student(student_id):
     global session
-    session.student_grades.loc[session.student_grades['cluster'] == student_id, 'grade'] = -1
+    session.student_grades.loc[session.student_grades['student_id'] == student_id, 'grade'] = -1
+    session.student_grades.loc[session.student_grades['student_id'] == student_id, 'cluster'] = -1
     selected_rows = session.student_grades[session.student_grades['student_id'] == student_id]
     session.student_answers = pd.concat([session.student_answers, selected_rows], ignore_index=True)
     session.student_grades = session.student_grades.drop(selected_rows.index).reset_index(drop=True)

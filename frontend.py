@@ -197,7 +197,7 @@ else:
                 filtered_data = session.get_session().student_answers[
                     (session.get_session().student_answers['cluster'] == st.session_state.cluster_choice) & (
                             session.get_session().student_answers['grade'] == -1)]
-                filtered_data = filtered_data.drop(['grade', 'cluster'], axis=1)
+                filtered_data = filtered_data.drop(['grade', 'cluster'], axis=1).iloc[::-1]
 
                 if st.session_state['show_preprocess']:
                     filtered_data = filtered_data.drop(['answer_display'], axis=1)
