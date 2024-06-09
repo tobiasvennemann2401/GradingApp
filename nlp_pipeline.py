@@ -276,6 +276,9 @@ def extended_clustering_options(df, distance_matrix, distance_threshold, filter_
 def agglomerative_clustering(df, distance_matrix, distance_threshold, compact_clusters=False,
                              previous_clusters_info=None):
     students = df['student_id'].tolist()
+    if len(students) == 1:
+        df['cluster'] = [-1]
+        return df, None
     distances = np.array([[distance_matrix[s1][s2] for s2 in students] for s1 in students])
 
     clustering = AgglomerativeClustering(linkage='complete', distance_threshold=distance_threshold, n_clusters=None,
